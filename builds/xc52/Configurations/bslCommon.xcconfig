@@ -1,0 +1,14 @@
+//
+//  bslCommon.xcconfig
+//
+//  Created by Rom Walton on 12/17/13.
+//  Copyright (c) 2013 BOINC Sentinels Team. All rights reserved.
+//
+
+#include "../Configurations/Paths.xcconfig"
+
+BSLCOMMONROOT = $(BSLROOT)/bslcommon
+
+BSLCOMMON_USER_HEADER_SEARCH_PATHS = $(BSLCOMMONROOT)/include
+
+BSLCOMMONLIBS = -lbslcommon

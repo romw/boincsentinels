@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB35B1611860CB4000B3C798 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB35B1601860CB4000B3C798 /* Cocoa.framework */; };
+		EB35B1A41860E58300B3C798 /* libbslxml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB35B1A31860E58300B3C798 /* libbslxml.a */; };
+		EB35B1A61860E58D00B3C798 /* libbslcommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB35B1A51860E58D00B3C798 /* libbslcommon.a */; };
+		EB35B2121860F57C00B3C798 /* ClientPage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B1B81860F57C00B3C798 /* ClientPage.cpp */; };
+		EB35B2131860F57C00B3C798 /* ConfigManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B1BA1860F57C00B3C798 /* ConfigManager.cpp */; };
+		EB35B2141860F57C00B3C798 /* DlgActiveTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B1BC1860F57C00B3C798 /* DlgActiveTask.cpp */; };
+		EB35B2151860F57C00B3C798 /* DlgActiveTransfer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B1BE1860F57C00B3C798 /* DlgActiveTransfer.cpp */; };
+		EB35B2161860F57C00B3C798 /* DlgConnection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B1C01860F57C00B3C798 /* DlgConnection.cpp */; };
+		EB35B2171860F57C00B3C798 /* DlgControls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B1C21860F57C00B3C798 /* DlgControls.cpp */; };
+		EB35B2181860F57C00B3C798 /* DlgEventLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B1C41860F57C00B3C798 /* DlgEventLog.cpp */; };
+		EB35B2191860F57C00B3C798 /* DlgNotification.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B1C61860F57C00B3C798 /* DlgNotification.cpp */; };
+		EB35B21A1860F57C00B3C798 /* DlgNotifications.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B1C81860F57C00B3C798 /* DlgNotifications.cpp */; };
+		EB35B21B1860F57C00B3C798 /* Interface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B1CB1860F57C00B3C798 /* Interface.cpp */; };
+		EB35B21C1860F57C00B3C798 /* LogManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B1CD1860F57C00B3C798 /* LogManager.cpp */; };
+		EB35B21E1860F57C00B3C798 /* NotificationManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B1D01860F57C00B3C798 /* NotificationManager.cpp */; };
+		EB35B23C1860F57C00B3C798 /* SkinManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B1F01860F57C00B3C798 /* SkinManager.cpp */; };
+		EB35B23D1860F57C00B3C798 /* StatusPage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B1F21860F57C00B3C798 /* StatusPage.cpp */; };
+		EB35B23E1860F57C00B3C798 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B1F41860F57C00B3C798 /* Utils.cpp */; };
+		EB35B23F1860F57C00B3C798 /* Valkyrie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B1F61860F57C00B3C798 /* Valkyrie.cpp */; };
+		EB35B2411860F57C00B3C798 /* WidgetActiveTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B1FA1860F57C00B3C798 /* WidgetActiveTask.cpp */; };
+		EB35B2421860F57C00B3C798 /* WidgetActiveTasks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B1FC1860F57C00B3C798 /* WidgetActiveTasks.cpp */; };
+		EB35B2431860F57C00B3C798 /* WidgetActiveTransfer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B1FE1860F57C00B3C798 /* WidgetActiveTransfer.cpp */; };
+		EB35B2441860F57C00B3C798 /* WidgetActiveTransfers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B2001860F57C00B3C798 /* WidgetActiveTransfers.cpp */; };
+		EB35B2451860F57C00B3C798 /* WidgetBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B2021860F57C00B3C798 /* WidgetBase.cpp */; };
+		EB35B2461860F57C00B3C798 /* WidgetControls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B2041860F57C00B3C798 /* WidgetControls.cpp */; };
+		EB35B2471860F57C00B3C798 /* WidgetEventLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B2061860F57C00B3C798 /* WidgetEventLog.cpp */; };
+		EB35B2481860F57C00B3C798 /* WidgetNews.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B2081860F57C00B3C798 /* WidgetNews.cpp */; };
+		EB35B2491860F57C00B3C798 /* WidgetProject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B20A1860F57C00B3C798 /* WidgetProject.cpp */; };
+		EB35B24A1860F57C00B3C798 /* WidgetProjects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B20C1860F57C00B3C798 /* WidgetProjects.cpp */; };
+		EB35B24B1860F57C00B3C798 /* WidgetStatus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B20E1860F57C00B3C798 /* WidgetStatus.cpp */; };
+		EB35B24C1860F57C00B3C798 /* WidgetUsage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB35B2101860F57C00B3C798 /* WidgetUsage.cpp */; };
+		EB756F091864BC1B0047DB02 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDC81861F3B700CA1B18 /* libstdc++.dylib */; };
+		EBA1DDC31861F38300CA1B18 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDC21861F38300CA1B18 /* Carbon.framework */; };
+		EBA1DDC51861F38D00CA1B18 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDC41861F38D00CA1B18 /* AudioToolbox.framework */; };
+		EBA1DDC71861F3A000CA1B18 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDC61861F3A000CA1B18 /* libc++.dylib */; };
+		EBA1DDCB1861F3E400CA1B18 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDCA1861F3E400CA1B18 /* IOKit.framework */; };
+		EBA1DDCD1861F3F700CA1B18 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDCC1861F3F700CA1B18 /* WebKit.framework */; };
+		EBA1DDE31861F41700CA1B18 /* libwx_baseu_net-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDCE1861F41700CA1B18 /* libwx_baseu_net-3.0.a */; };
+		EBA1DDE41861F41700CA1B18 /* libwx_baseu_xml-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDCF1861F41700CA1B18 /* libwx_baseu_xml-3.0.a */; };
+		EBA1DDE51861F41700CA1B18 /* libwx_baseu-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDD01861F41700CA1B18 /* libwx_baseu-3.0.a */; };
+		EBA1DDE61861F41700CA1B18 /* libwx_osx_cocoau_adv-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDD11861F41700CA1B18 /* libwx_osx_cocoau_adv-3.0.a */; };
+		EBA1DDE71861F41700CA1B18 /* libwx_osx_cocoau_aui-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDD21861F41700CA1B18 /* libwx_osx_cocoau_aui-3.0.a */; };
+		EBA1DDE81861F41700CA1B18 /* libwx_osx_cocoau_core-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDD31861F41700CA1B18 /* libwx_osx_cocoau_core-3.0.a */; };
+		EBA1DDE91861F41700CA1B18 /* libwx_osx_cocoau_gl-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDD41861F41700CA1B18 /* libwx_osx_cocoau_gl-3.0.a */; };
+		EBA1DDEA1861F41700CA1B18 /* libwx_osx_cocoau_html-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDD51861F41700CA1B18 /* libwx_osx_cocoau_html-3.0.a */; };
+		EBA1DDEB1861F41700CA1B18 /* libwx_osx_cocoau_media-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDD61861F41700CA1B18 /* libwx_osx_cocoau_media-3.0.a */; };
+		EBA1DDEC1861F41700CA1B18 /* libwx_osx_cocoau_propgrid-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDD71861F41700CA1B18 /* libwx_osx_cocoau_propgrid-3.0.a */; };
+		EBA1DDED1861F41700CA1B18 /* libwx_osx_cocoau_qa-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDD81861F41700CA1B18 /* libwx_osx_cocoau_qa-3.0.a */; };
+		EBA1DDEE1861F41700CA1B18 /* libwx_osx_cocoau_ribbon-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDD91861F41700CA1B18 /* libwx_osx_cocoau_ribbon-3.0.a */; };
+		EBA1DDEF1861F41700CA1B18 /* libwx_osx_cocoau_richtext-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDDA1861F41700CA1B18 /* libwx_osx_cocoau_richtext-3.0.a */; };
+		EBA1DDF01861F41700CA1B18 /* libwx_osx_cocoau_stc-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDDB1861F41700CA1B18 /* libwx_osx_cocoau_stc-3.0.a */; };
+		EBA1DDF11861F41700CA1B18 /* libwx_osx_cocoau_webview-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDDC1861F41700CA1B18 /* libwx_osx_cocoau_webview-3.0.a */; };
+		EBA1DDF21861F41700CA1B18 /* libwx_osx_cocoau_xrc-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDDD1861F41700CA1B18 /* libwx_osx_cocoau_xrc-3.0.a */; };
+		EBA1DDF31861F41700CA1B18 /* libwxjpeg-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDDE1861F41700CA1B18 /* libwxjpeg-3.0.a */; };
+		EBA1DDF41861F41700CA1B18 /* libwxpng-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDDF1861F41700CA1B18 /* libwxpng-3.0.a */; };
+		EBA1DDF51861F41700CA1B18 /* libwxregexu-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDE01861F41700CA1B18 /* libwxregexu-3.0.a */; };
+		EBA1DDF61861F41700CA1B18 /* libwxscintilla-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDE11861F41700CA1B18 /* libwxscintilla-3.0.a */; };
+		EBA1DDF71861F41700CA1B18 /* libwxtiff-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDE21861F41700CA1B18 /* libwxtiff-3.0.a */; };
+		EBA1DDF91861F44400CA1B18 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDF81861F44400CA1B18 /* libz.dylib */; };
+		EBA1DDFB1861F45700CA1B18 /* libpthread.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDFA1861F45700CA1B18 /* libpthread.dylib */; };
+		EBA1DDFD1861F46500CA1B18 /* libexpat.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDFC1861F46400CA1B18 /* libexpat.dylib */; };
+		EBA1DDFF1861F47F00CA1B18 /* liblzma.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DDFE1861F47F00CA1B18 /* liblzma.dylib */; };
+		EBA1DE011861F48900CA1B18 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DE001861F48900CA1B18 /* libiconv.dylib */; };
+		EBA1DE0318636CEA00CA1B18 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DE0218636CEA00CA1B18 /* OpenGL.framework */; };
+		EBA1DE0518638DBB00CA1B18 /* libbslclient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1DE0418638DBB00CA1B18 /* libbslclient.a */; };
+		EBA1DE0A1863C88100CA1B18 /* boincsentinels.icns in Resources */ = {isa = PBXBuildFile; fileRef = EBA1DE091863C88100CA1B18 /* boincsentinels.icns */; };
+		EBCC6F4C19CBBAD800FB37DB /* alert.icns in Resources */ = {isa = PBXBuildFile; fileRef = EBCC6F3519CBBAD800FB37DB /* alert.icns */; };
+		EBCC6F4D19CBBAD800FB37DB /* boincsentinels.icns in Resources */ = {isa = PBXBuildFile; fileRef = EBCC6F3619CBBAD800FB37DB /* boincsentinels.icns */; };
+		EBCC6F4E19CBBAD800FB37DB /* chevroncollapsed.icns in Resources */ = {isa = PBXBuildFile; fileRef = EBCC6F3719CBBAD800FB37DB /* chevroncollapsed.icns */; };
+		EBCC6F4F19CBBAD800FB37DB /* chevronexpanded.icns in Resources */ = {isa = PBXBuildFile; fileRef = EBCC6F3819CBBAD800FB37DB /* chevronexpanded.icns */; };
+		EBCC6F5019CBBAD800FB37DB /* computer.icns in Resources */ = {isa = PBXBuildFile; fileRef = EBCC6F3919CBBAD800FB37DB /* computer.icns */; };
+		EBCC6F5119CBBAD800FB37DB /* computer_add.icns in Resources */ = {isa = PBXBuildFile; fileRef = EBCC6F3A19CBBAD800FB37DB /* computer_add.icns */; };
+		EBCC6F5219CBBAD800FB37DB /* computer_authentication_failure.icns in Resources */ = {isa = PBXBuildFile; fileRef = EBCC6F3B19CBBAD800FB37DB /* computer_authentication_failure.icns */; };
+		EBCC6F5319CBBAD800FB37DB /* computer_connected.icns in Resources */ = {isa = PBXBuildFile; fileRef = EBCC6F3C19CBBAD800FB37DB /* computer_connected.icns */; };
+		EBCC6F5419CBBAD800FB37DB /* computer_connecting.icns in Resources */ = {isa = PBXBuildFile; fileRef = EBCC6F3D19CBBAD800FB37DB /* computer_connecting.icns */; };
+		EBCC6F5519CBBAD800FB37DB /* computer_connection_failure.icns in Resources */ = {isa = PBXBuildFile; fileRef = EBCC6F3E19CBBAD800FB37DB /* computer_connection_failure.icns */; };
+		EBCC6F5619CBBAD800FB37DB /* computer_disconnected.icns in Resources */ = {isa = PBXBuildFile; fileRef = EBCC6F3F19CBBAD800FB37DB /* computer_disconnected.icns */; };
+		EBCC6F5719CBBAD800FB37DB /* copy.icns in Resources */ = {isa = PBXBuildFile; fileRef = EBCC6F4019CBBAD800FB37DB /* copy.icns */; };
+		EBCC6F5819CBBAD800FB37DB /* notification.icns in Resources */ = {isa = PBXBuildFile; fileRef = EBCC6F4119CBBAD800FB37DB /* notification.icns */; };
+		EBCC6F5919CBBAD800FB37DB /* pause.icns in Resources */ = {isa = PBXBuildFile; fileRef = EBCC6F4219CBBAD800FB37DB /* pause.icns */; };
+		EBCC6F5A19CBBAD800FB37DB /* play.icns in Resources */ = {isa = PBXBuildFile; fileRef = EBCC6F4319CBBAD800FB37DB /* play.icns */; };
+		EBCC6F5B19CBBAD800FB37DB /* project_add.icns in Resources */ = {isa = PBXBuildFile; fileRef = EBCC6F4419CBBAD800FB37DB /* project_add.icns */; };
+		EBCC6F5C19CBBAD800FB37DB /* project_remove.icns in Resources */ = {isa = PBXBuildFile; fileRef = EBCC6F4519CBBAD800FB37DB /* project_remove.icns */; };
+		EBCC6F5D19CBBAD800FB37DB /* refresh.icns in Resources */ = {isa = PBXBuildFile; fileRef = EBCC6F4619CBBAD800FB37DB /* refresh.icns */; };
+		EBCC6F5E19CBBAD800FB37DB /* search.icns in Resources */ = {isa = PBXBuildFile; fileRef = EBCC6F4719CBBAD800FB37DB /* search.icns */; };
+		EBCC6F5F19CBBAD800FB37DB /* showgraphics.icns in Resources */ = {isa = PBXBuildFile; fileRef = EBCC6F4819CBBAD800FB37DB /* showgraphics.icns */; };
+		EBCC6F6019CBBAD800FB37DB /* showvmconsole.icns in Resources */ = {isa = PBXBuildFile; fileRef = EBCC6F4919CBBAD800FB37DB /* showvmconsole.icns */; };
+		EBCC6F6119CBBAD800FB37DB /* showwebgraphics.icns in Resources */ = {isa = PBXBuildFile; fileRef = EBCC6F4A19CBBAD800FB37DB /* showwebgraphics.icns */; };
+		EBCC6F6219CBBAD800FB37DB /* stop.icns in Resources */ = {isa = PBXBuildFile; fileRef = EBCC6F4B19CBBAD800FB37DB /* stop.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB35B15D1860CB4000B3C798 /* Valkyrie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Valkyrie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB35B1601860CB4000B3C798 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EB35B1631860CB4000B3C798 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EB35B1641860CB4000B3C798 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EB35B1651860CB4000B3C798 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB35B1A31860E58300B3C798 /* libbslxml.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbslxml.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/boincsentinels-dddslgeobpzaxlcrrjfittjiqyvb/Build/Products/Debug/libbslxml.a"; sourceTree = "<group>"; };
+		EB35B1A51860E58D00B3C798 /* libbslcommon.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbslcommon.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/boincsentinels-dddslgeobpzaxlcrrjfittjiqyvb/Build/Products/Debug/libbslcommon.a"; sourceTree = "<group>"; };
+		EB35B1A71860E59800B3C798 /* libbslclient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbslclient.a; path = ../bslclient/build/Debug/libbslclient.a; sourceTree = "<group>"; };
+		EB35B1B81860F57C00B3C798 /* ClientPage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientPage.cpp; path = ../../../valkyrie/ClientPage.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B1B91860F57C00B3C798 /* ClientPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientPage.h; path = ../../../valkyrie/ClientPage.h; sourceTree = SOURCE_ROOT; };
+		EB35B1BA1860F57C00B3C798 /* ConfigManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConfigManager.cpp; path = ../../../valkyrie/ConfigManager.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B1BB1860F57C00B3C798 /* ConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfigManager.h; path = ../../../valkyrie/ConfigManager.h; sourceTree = SOURCE_ROOT; };
+		EB35B1BC1860F57C00B3C798 /* DlgActiveTask.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DlgActiveTask.cpp; path = ../../../valkyrie/DlgActiveTask.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B1BD1860F57C00B3C798 /* DlgActiveTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DlgActiveTask.h; path = ../../../valkyrie/DlgActiveTask.h; sourceTree = SOURCE_ROOT; };
+		EB35B1BE1860F57C00B3C798 /* DlgActiveTransfer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DlgActiveTransfer.cpp; path = ../../../valkyrie/DlgActiveTransfer.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B1BF1860F57C00B3C798 /* DlgActiveTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DlgActiveTransfer.h; path = ../../../valkyrie/DlgActiveTransfer.h; sourceTree = SOURCE_ROOT; };
+		EB35B1C01860F57C00B3C798 /* DlgConnection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DlgConnection.cpp; path = ../../../valkyrie/DlgConnection.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B1C11860F57C00B3C798 /* DlgConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DlgConnection.h; path = ../../../valkyrie/DlgConnection.h; sourceTree = SOURCE_ROOT; };
+		EB35B1C21860F57C00B3C798 /* DlgControls.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DlgControls.cpp; path = ../../../valkyrie/DlgControls.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B1C31860F57C00B3C798 /* DlgControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DlgControls.h; path = ../../../valkyrie/DlgControls.h; sourceTree = SOURCE_ROOT; };
+		EB35B1C41860F57C00B3C798 /* DlgEventLog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DlgEventLog.cpp; path = ../../../valkyrie/DlgEventLog.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B1C51860F57C00B3C798 /* DlgEventLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DlgEventLog.h; path = ../../../valkyrie/DlgEventLog.h; sourceTree = SOURCE_ROOT; };
+		EB35B1C61860F57C00B3C798 /* DlgNotification.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DlgNotification.cpp; path = ../../../valkyrie/DlgNotification.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B1C71860F57C00B3C798 /* DlgNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DlgNotification.h; path = ../../../valkyrie/DlgNotification.h; sourceTree = SOURCE_ROOT; };
+		EB35B1C81860F57C00B3C798 /* DlgNotifications.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DlgNotifications.cpp; path = ../../../valkyrie/DlgNotifications.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B1C91860F57C00B3C798 /* DlgNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DlgNotifications.h; path = ../../../valkyrie/DlgNotifications.h; sourceTree = SOURCE_ROOT; };
+		EB35B1CA1860F57C00B3C798 /* Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Events.h; path = ../../../valkyrie/Events.h; sourceTree = SOURCE_ROOT; };
+		EB35B1CB1860F57C00B3C798 /* Interface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Interface.cpp; path = ../../../valkyrie/Interface.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B1CC1860F57C00B3C798 /* Interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Interface.h; path = ../../../valkyrie/Interface.h; sourceTree = SOURCE_ROOT; };
+		EB35B1CD1860F57C00B3C798 /* LogManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LogManager.cpp; path = ../../../valkyrie/LogManager.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B1CE1860F57C00B3C798 /* LogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogManager.h; path = ../../../valkyrie/LogManager.h; sourceTree = SOURCE_ROOT; };
+		EB35B1D01860F57C00B3C798 /* NotificationManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NotificationManager.cpp; path = ../../../valkyrie/NotificationManager.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B1D11860F57C00B3C798 /* NotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationManager.h; path = ../../../valkyrie/NotificationManager.h; sourceTree = SOURCE_ROOT; };
+		EB35B1F01860F57C00B3C798 /* SkinManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SkinManager.cpp; path = ../../../valkyrie/SkinManager.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B1F11860F57C00B3C798 /* SkinManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SkinManager.h; path = ../../../valkyrie/SkinManager.h; sourceTree = SOURCE_ROOT; };
+		EB35B1F21860F57C00B3C798 /* StatusPage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StatusPage.cpp; path = ../../../valkyrie/StatusPage.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B1F31860F57C00B3C798 /* StatusPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatusPage.h; path = ../../../valkyrie/StatusPage.h; sourceTree = SOURCE_ROOT; };
+		EB35B1F41860F57C00B3C798 /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Utils.cpp; path = ../../../valkyrie/Utils.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B1F51860F57C00B3C798 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utils.h; path = ../../../valkyrie/Utils.h; sourceTree = SOURCE_ROOT; };
+		EB35B1F61860F57C00B3C798 /* Valkyrie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Valkyrie.cpp; path = ../../../valkyrie/Valkyrie.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B1F71860F57C00B3C798 /* Valkyrie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Valkyrie.h; path = ../../../valkyrie/Valkyrie.h; sourceTree = SOURCE_ROOT; };
+		EB35B1FA1860F57C00B3C798 /* WidgetActiveTask.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WidgetActiveTask.cpp; path = ../../../valkyrie/WidgetActiveTask.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B1FB1860F57C00B3C798 /* WidgetActiveTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WidgetActiveTask.h; path = ../../../valkyrie/WidgetActiveTask.h; sourceTree = SOURCE_ROOT; };
+		EB35B1FC1860F57C00B3C798 /* WidgetActiveTasks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WidgetActiveTasks.cpp; path = ../../../valkyrie/WidgetActiveTasks.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B1FD1860F57C00B3C798 /* WidgetActiveTasks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WidgetActiveTasks.h; path = ../../../valkyrie/WidgetActiveTasks.h; sourceTree = SOURCE_ROOT; };
+		EB35B1FE1860F57C00B3C798 /* WidgetActiveTransfer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WidgetActiveTransfer.cpp; path = ../../../valkyrie/WidgetActiveTransfer.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B1FF1860F57C00B3C798 /* WidgetActiveTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WidgetActiveTransfer.h; path = ../../../valkyrie/WidgetActiveTransfer.h; sourceTree = SOURCE_ROOT; };
+		EB35B2001860F57C00B3C798 /* WidgetActiveTransfers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WidgetActiveTransfers.cpp; path = ../../../valkyrie/WidgetActiveTransfers.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B2011860F57C00B3C798 /* WidgetActiveTransfers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WidgetActiveTransfers.h; path = ../../../valkyrie/WidgetActiveTransfers.h; sourceTree = SOURCE_ROOT; };
+		EB35B2021860F57C00B3C798 /* WidgetBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WidgetBase.cpp; path = ../../../valkyrie/WidgetBase.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B2031860F57C00B3C798 /* WidgetBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WidgetBase.h; path = ../../../valkyrie/WidgetBase.h; sourceTree = SOURCE_ROOT; };
+		EB35B2041860F57C00B3C798 /* WidgetControls.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WidgetControls.cpp; path = ../../../valkyrie/WidgetControls.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B2051860F57C00B3C798 /* WidgetControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WidgetControls.h; path = ../../../valkyrie/WidgetControls.h; sourceTree = SOURCE_ROOT; };
+		EB35B2061860F57C00B3C798 /* WidgetEventLog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WidgetEventLog.cpp; path = ../../../valkyrie/WidgetEventLog.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B2071860F57C00B3C798 /* WidgetEventLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WidgetEventLog.h; path = ../../../valkyrie/WidgetEventLog.h; sourceTree = SOURCE_ROOT; };
+		EB35B2081860F57C00B3C798 /* WidgetNews.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WidgetNews.cpp; path = ../../../valkyrie/WidgetNews.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B2091860F57C00B3C798 /* WidgetNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WidgetNews.h; path = ../../../valkyrie/WidgetNews.h; sourceTree = SOURCE_ROOT; };
+		EB35B20A1860F57C00B3C798 /* WidgetProject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WidgetProject.cpp; path = ../../../valkyrie/WidgetProject.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B20B1860F57C00B3C798 /* WidgetProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WidgetProject.h; path = ../../../valkyrie/WidgetProject.h; sourceTree = SOURCE_ROOT; };
+		EB35B20C1860F57C00B3C798 /* WidgetProjects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WidgetProjects.cpp; path = ../../../valkyrie/WidgetProjects.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B20D1860F57C00B3C798 /* WidgetProjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WidgetProjects.h; path = ../../../valkyrie/WidgetProjects.h; sourceTree = SOURCE_ROOT; };
+		EB35B20E1860F57C00B3C798 /* WidgetStatus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WidgetStatus.cpp; path = ../../../valkyrie/WidgetStatus.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B20F1860F57C00B3C798 /* WidgetStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WidgetStatus.h; path = ../../../valkyrie/WidgetStatus.h; sourceTree = SOURCE_ROOT; };
+		EB35B2101860F57C00B3C798 /* WidgetUsage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WidgetUsage.cpp; path = ../../../valkyrie/WidgetUsage.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B2111860F57C00B3C798 /* WidgetUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WidgetUsage.h; path = ../../../valkyrie/WidgetUsage.h; sourceTree = SOURCE_ROOT; };
+		EB35B2501860F6C700B3C798 /* BOINCSentinels.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = BOINCSentinels.xcconfig; path = ../Configurations/BOINCSentinels.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B2511860F6C700B3C798 /* bslClient.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = bslClient.xcconfig; path = ../Configurations/bslClient.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B2521860F6C700B3C798 /* bslCommon.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = bslCommon.xcconfig; path = ../Configurations/bslCommon.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B2531860F6C700B3C798 /* bslXML.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = bslXML.xcconfig; path = ../Configurations/bslXML.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B2561860F6C700B3C798 /* MacOSX.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = MacOSX.xcconfig; path = ../Configurations/MacOSX.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B2571860F6C700B3C798 /* Paths.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Paths.xcconfig; path = ../Configurations/Paths.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B2621860F6FE00B3C798 /* AppDebug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = AppDebug.xcconfig; path = ../Configurations/AppDebug.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B2641860F72800B3C798 /* AppRelease.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = AppRelease.xcconfig; path = ../Configurations/AppRelease.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B2661860F79200B3C798 /* ValkyrieDebug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = ValkyrieDebug.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B2681860F7BF00B3C798 /* ValkyrieRelease.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = ValkyrieRelease.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B26A1860F8D800B3C798 /* Valkyrie-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Valkyrie-Info.plist"; sourceTree = "<group>"; };
+		EBA1DDC21861F38300CA1B18 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		EBA1DDC41861F38D00CA1B18 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EBA1DDC61861F3A000CA1B18 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		EBA1DDC81861F3B700CA1B18 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		EBA1DDCA1861F3E400CA1B18 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		EBA1DDCC1861F3F700CA1B18 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		EBA1DDCE1861F41700CA1B18 /* libwx_baseu_net-3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_baseu_net-3.0.a"; path = "../../../../wxWidgets-3.0.0-Release/lib/libwx_baseu_net-3.0.a"; sourceTree = "<group>"; };
+		EBA1DDCF1861F41700CA1B18 /* libwx_baseu_xml-3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_baseu_xml-3.0.a"; path = "../../../../wxWidgets-3.0.0-Release/lib/libwx_baseu_xml-3.0.a"; sourceTree = "<group>"; };
+		EBA1DDD01861F41700CA1B18 /* libwx_baseu-3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_baseu-3.0.a"; path = "../../../../wxWidgets-3.0.0-Release/lib/libwx_baseu-3.0.a"; sourceTree = "<group>"; };
+		EBA1DDD11861F41700CA1B18 /* libwx_osx_cocoau_adv-3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_osx_cocoau_adv-3.0.a"; path = "../../../../wxWidgets-3.0.0-Release/lib/libwx_osx_cocoau_adv-3.0.a"; sourceTree = "<group>"; };
+		EBA1DDD21861F41700CA1B18 /* libwx_osx_cocoau_aui-3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_osx_cocoau_aui-3.0.a"; path = "../../../../wxWidgets-3.0.0-Release/lib/libwx_osx_cocoau_aui-3.0.a"; sourceTree = "<group>"; };
+		EBA1DDD31861F41700CA1B18 /* libwx_osx_cocoau_core-3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_osx_cocoau_core-3.0.a"; path = "../../../../wxWidgets-3.0.0-Release/lib/libwx_osx_cocoau_core-3.0.a"; sourceTree = "<group>"; };
+		EBA1DDD41861F41700CA1B18 /* libwx_osx_cocoau_gl-3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_osx_cocoau_gl-3.0.a"; path = "../../../../wxWidgets-3.0.0-Release/lib/libwx_osx_cocoau_gl-3.0.a"; sourceTree = "<group>"; };
+		EBA1DDD51861F41700CA1B18 /* libwx_osx_cocoau_html-3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_osx_cocoau_html-3.0.a"; path = "../../../../wxWidgets-3.0.0-Release/lib/libwx_osx_cocoau_html-3.0.a"; sourceTree = "<group>"; };
+		EBA1DDD61861F41700CA1B18 /* libwx_osx_cocoau_media-3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_osx_cocoau_media-3.0.a"; path = "../../../../wxWidgets-3.0.0-Release/lib/libwx_osx_cocoau_media-3.0.a"; sourceTree = "<group>"; };
+		EBA1DDD71861F41700CA1B18 /* libwx_osx_cocoau_propgrid-3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_osx_cocoau_propgrid-3.0.a"; path = "../../../../wxWidgets-3.0.0-Release/lib/libwx_osx_cocoau_propgrid-3.0.a"; sourceTree = "<group>"; };
+		EBA1DDD81861F41700CA1B18 /* libwx_osx_cocoau_qa-3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_osx_cocoau_qa-3.0.a"; path = "../../../../wxWidgets-3.0.0-Release/lib/libwx_osx_cocoau_qa-3.0.a"; sourceTree = "<group>"; };
+		EBA1DDD91861F41700CA1B18 /* libwx_osx_cocoau_ribbon-3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_osx_cocoau_ribbon-3.0.a"; path = "../../../../wxWidgets-3.0.0-Release/lib/libwx_osx_cocoau_ribbon-3.0.a"; sourceTree = "<group>"; };
+		EBA1DDDA1861F41700CA1B18 /* libwx_osx_cocoau_richtext-3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_osx_cocoau_richtext-3.0.a"; path = "../../../../wxWidgets-3.0.0-Release/lib/libwx_osx_cocoau_richtext-3.0.a"; sourceTree = "<group>"; };
+		EBA1DDDB1861F41700CA1B18 /* libwx_osx_cocoau_stc-3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_osx_cocoau_stc-3.0.a"; path = "../../../../wxWidgets-3.0.0-Release/lib/libwx_osx_cocoau_stc-3.0.a"; sourceTree = "<group>"; };
+		EBA1DDDC1861F41700CA1B18 /* libwx_osx_cocoau_webview-3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_osx_cocoau_webview-3.0.a"; path = "../../../../wxWidgets-3.0.0-Release/lib/libwx_osx_cocoau_webview-3.0.a"; sourceTree = "<group>"; };
+		EBA1DDDD1861F41700CA1B18 /* libwx_osx_cocoau_xrc-3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_osx_cocoau_xrc-3.0.a"; path = "../../../../wxWidgets-3.0.0-Release/lib/libwx_osx_cocoau_xrc-3.0.a"; sourceTree = "<group>"; };
+		EBA1DDDE1861F41700CA1B18 /* libwxjpeg-3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwxjpeg-3.0.a"; path = "../../../../wxWidgets-3.0.0-Release/lib/libwxjpeg-3.0.a"; sourceTree = "<group>"; };
+		EBA1DDDF1861F41700CA1B18 /* libwxpng-3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwxpng-3.0.a"; path = "../../../../wxWidgets-3.0.0-Release/lib/libwxpng-3.0.a"; sourceTree = "<group>"; };
+		EBA1DDE01861F41700CA1B18 /* libwxregexu-3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwxregexu-3.0.a"; path = "../../../../wxWidgets-3.0.0-Release/lib/libwxregexu-3.0.a"; sourceTree = "<group>"; };
+		EBA1DDE11861F41700CA1B18 /* libwxscintilla-3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwxscintilla-3.0.a"; path = "../../../../wxWidgets-3.0.0-Release/lib/libwxscintilla-3.0.a"; sourceTree = "<group>"; };
+		EBA1DDE21861F41700CA1B18 /* libwxtiff-3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwxtiff-3.0.a"; path = "../../../../wxWidgets-3.0.0-Release/lib/libwxtiff-3.0.a"; sourceTree = "<group>"; };
+		EBA1DDF81861F44400CA1B18 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		EBA1DDFA1861F45700CA1B18 /* libpthread.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpthread.dylib; path = usr/lib/libpthread.dylib; sourceTree = SDKROOT; };
+		EBA1DDFC1861F46400CA1B18 /* libexpat.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libexpat.dylib; path = usr/lib/libexpat.dylib; sourceTree = SDKROOT; };
+		EBA1DDFE1861F47F00CA1B18 /* liblzma.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblzma.dylib; path = usr/lib/liblzma.dylib; sourceTree = SDKROOT; };
+		EBA1DE001861F48900CA1B18 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		EBA1DE0218636CEA00CA1B18 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		EBA1DE0418638DBB00CA1B18 /* libbslclient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbslclient.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/boincsentinels-dddslgeobpzaxlcrrjfittjiqyvb/Build/Products/Debug/libbslclient.a"; sourceTree = "<group>"; };
+		EBA1DE091863C88100CA1B18 /* boincsentinels.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = boincsentinels.icns; sourceTree = "<group>"; };
+		EBA1DE101863FAC400CA1B18 /* wxWidgets30Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = wxWidgets30Debug.xcconfig; path = ../Configurations/wxWidgets30Debug.xcconfig; sourceTree = "<group>"; };
+		EBA1DE111863FAC400CA1B18 /* wxWidgets30Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = wxWidgets30Release.xcconfig; path = ../Configurations/wxWidgets30Release.xcconfig; sourceTree = "<group>"; };
+		EBCC6F3519CBBAD800FB37DB /* alert.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = alert.icns; sourceTree = "<group>"; };
+		EBCC6F3619CBBAD800FB37DB /* boincsentinels.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = boincsentinels.icns; sourceTree = "<group>"; };
+		EBCC6F3719CBBAD800FB37DB /* chevroncollapsed.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = chevroncollapsed.icns; sourceTree = "<group>"; };
+		EBCC6F3819CBBAD800FB37DB /* chevronexpanded.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = chevronexpanded.icns; sourceTree = "<group>"; };
+		EBCC6F3919CBBAD800FB37DB /* computer.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = computer.icns; sourceTree = "<group>"; };
+		EBCC6F3A19CBBAD800FB37DB /* computer_add.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = computer_add.icns; sourceTree = "<group>"; };
+		EBCC6F3B19CBBAD800FB37DB /* computer_authentication_failure.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = computer_authentication_failure.icns; sourceTree = "<group>"; };
+		EBCC6F3C19CBBAD800FB37DB /* computer_connected.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = computer_connected.icns; sourceTree = "<group>"; };
+		EBCC6F3D19CBBAD800FB37DB /* computer_connecting.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = computer_connecting.icns; sourceTree = "<group>"; };
+		EBCC6F3E19CBBAD800FB37DB /* computer_connection_failure.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = computer_connection_failure.icns; sourceTree = "<group>"; };
+		EBCC6F3F19CBBAD800FB37DB /* computer_disconnected.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = computer_disconnected.icns; sourceTree = "<group>"; };
+		EBCC6F4019CBBAD800FB37DB /* copy.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = copy.icns; sourceTree = "<group>"; };
+		EBCC6F4119CBBAD800FB37DB /* notification.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = notification.icns; sourceTree = "<group>"; };
+		EBCC6F4219CBBAD800FB37DB /* pause.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = pause.icns; sourceTree = "<group>"; };
+		EBCC6F4319CBBAD800FB37DB /* play.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = play.icns; sourceTree = "<group>"; };
+		EBCC6F4419CBBAD800FB37DB /* project_add.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = project_add.icns; sourceTree = "<group>"; };
+		EBCC6F4519CBBAD800FB37DB /* project_remove.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = project_remove.icns; sourceTree = "<group>"; };
+		EBCC6F4619CBBAD800FB37DB /* refresh.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = refresh.icns; sourceTree = "<group>"; };
+		EBCC6F4719CBBAD800FB37DB /* search.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = search.icns; sourceTree = "<group>"; };
+		EBCC6F4819CBBAD800FB37DB /* showgraphics.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = showgraphics.icns; sourceTree = "<group>"; };
+		EBCC6F4919CBBAD800FB37DB /* showvmconsole.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = showvmconsole.icns; sourceTree = "<group>"; };
+		EBCC6F4A19CBBAD800FB37DB /* showwebgraphics.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = showwebgraphics.icns; sourceTree = "<group>"; };
+		EBCC6F4B19CBBAD800FB37DB /* stop.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = stop.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB35B15A1860CB4000B3C798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA1DDFF1861F47F00CA1B18 /* liblzma.dylib in Frameworks */,
+				EBA1DDFB1861F45700CA1B18 /* libpthread.dylib in Frameworks */,
+				EBA1DE011861F48900CA1B18 /* libiconv.dylib in Frameworks */,
+				EBA1DDFD1861F46500CA1B18 /* libexpat.dylib in Frameworks */,
+				EBA1DDF91861F44400CA1B18 /* libz.dylib in Frameworks */,
+				EBA1DDC71861F3A000CA1B18 /* libc++.dylib in Frameworks */,
+				EB756F091864BC1B0047DB02 /* libstdc++.dylib in Frameworks */,
+				EBA1DDC31861F38300CA1B18 /* Carbon.framework in Frameworks */,
+				EB35B1611860CB4000B3C798 /* Cocoa.framework in Frameworks */,
+				EBA1DDCB1861F3E400CA1B18 /* IOKit.framework in Frameworks */,
+				EBA1DDCD1861F3F700CA1B18 /* WebKit.framework in Frameworks */,
+				EBA1DDC51861F38D00CA1B18 /* AudioToolbox.framework in Frameworks */,
+				EBA1DE0318636CEA00CA1B18 /* OpenGL.framework in Frameworks */,
+				EBA1DDE31861F41700CA1B18 /* libwx_baseu_net-3.0.a in Frameworks */,
+				EBA1DDE41861F41700CA1B18 /* libwx_baseu_xml-3.0.a in Frameworks */,
+				EBA1DDE51861F41700CA1B18 /* libwx_baseu-3.0.a in Frameworks */,
+				EBA1DDE61861F41700CA1B18 /* libwx_osx_cocoau_adv-3.0.a in Frameworks */,
+				EBA1DDE71861F41700CA1B18 /* libwx_osx_cocoau_aui-3.0.a in Frameworks */,
+				EBA1DDE81861F41700CA1B18 /* libwx_osx_cocoau_core-3.0.a in Frameworks */,
+				EBA1DDE91861F41700CA1B18 /* libwx_osx_cocoau_gl-3.0.a in Frameworks */,
+				EBA1DDEA1861F41700CA1B18 /* libwx_osx_cocoau_html-3.0.a in Frameworks */,
+				EBA1DDEB1861F41700CA1B18 /* libwx_osx_cocoau_media-3.0.a in Frameworks */,
+				EBA1DDEC1861F41700CA1B18 /* libwx_osx_cocoau_propgrid-3.0.a in Frameworks */,
+				EBA1DDED1861F41700CA1B18 /* libwx_osx_cocoau_qa-3.0.a in Frameworks */,
+				EBA1DDEE1861F41700CA1B18 /* libwx_osx_cocoau_ribbon-3.0.a in Frameworks */,
+				EBA1DDEF1861F41700CA1B18 /* libwx_osx_cocoau_richtext-3.0.a in Frameworks */,
+				EBA1DDF01861F41700CA1B18 /* libwx_osx_cocoau_stc-3.0.a in Frameworks */,
+				EBA1DDF11861F41700CA1B18 /* libwx_osx_cocoau_webview-3.0.a in Frameworks */,
+				EBA1DDF21861F41700CA1B18 /* libwx_osx_cocoau_xrc-3.0.a in Frameworks */,
+				EBA1DDF31861F41700CA1B18 /* libwxjpeg-3.0.a in Frameworks */,
+				EBA1DDF41861F41700CA1B18 /* libwxpng-3.0.a in Frameworks */,
+				EBA1DDF51861F41700CA1B18 /* libwxregexu-3.0.a in Frameworks */,
+				EBA1DDF61861F41700CA1B18 /* libwxscintilla-3.0.a in Frameworks */,
+				EBA1DDF71861F41700CA1B18 /* libwxtiff-3.0.a in Frameworks */,
+				EBA1DE0518638DBB00CA1B18 /* libbslclient.a in Frameworks */,
+				EB35B1A61860E58D00B3C798 /* libbslcommon.a in Frameworks */,
+				EB35B1A41860E58300B3C798 /* libbslxml.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB35B1541860CB4000B3C798 = {
+			isa = PBXGroup;
+			children = (
+				EBA1DE091863C88100CA1B18 /* boincsentinels.icns */,
+				EB35B24D1860F60B00B3C798 /* Configurations */,
+				EB35B15F1860CB4000B3C798 /* Frameworks */,
+				EB35B15E1860CB4000B3C798 /* Products */,
+				EBCC6F3419CBBAD800FB37DB /* Resources */,
+				EB35B1B71860F57C00B3C798 /* Sources */,
+			);
+			sourceTree = "<group>";
+		};
+		EB35B15E1860CB4000B3C798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB35B15D1860CB4000B3C798 /* Valkyrie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB35B15F1860CB4000B3C798 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBA1DE0418638DBB00CA1B18 /* libbslclient.a */,
+				EBA1DE0218636CEA00CA1B18 /* OpenGL.framework */,
+				EBA1DE001861F48900CA1B18 /* libiconv.dylib */,
+				EBA1DDFE1861F47F00CA1B18 /* liblzma.dylib */,
+				EBA1DDFC1861F46400CA1B18 /* libexpat.dylib */,
+				EBA1DDFA1861F45700CA1B18 /* libpthread.dylib */,
+				EBA1DDF81861F44400CA1B18 /* libz.dylib */,
+				EBA1DDCE1861F41700CA1B18 /* libwx_baseu_net-3.0.a */,
+				EBA1DDCF1861F41700CA1B18 /* libwx_baseu_xml-3.0.a */,
+				EBA1DDD01861F41700CA1B18 /* libwx_baseu-3.0.a */,
+				EBA1DDD11861F41700CA1B18 /* libwx_osx_cocoau_adv-3.0.a */,
+				EBA1DDD21861F41700CA1B18 /* libwx_osx_cocoau_aui-3.0.a */,
+				EBA1DDD31861F41700CA1B18 /* libwx_osx_cocoau_core-3.0.a */,
+				EBA1DDD41861F41700CA1B18 /* libwx_osx_cocoau_gl-3.0.a */,
+				EBA1DDD51861F41700CA1B18 /* libwx_osx_cocoau_html-3.0.a */,
+				EBA1DDD61861F41700CA1B18 /* libwx_osx_cocoau_media-3.0.a */,
+				EBA1DDD71861F41700CA1B18 /* libwx_osx_cocoau_propgrid-3.0.a */,
+				EBA1DDD81861F41700CA1B18 /* libwx_osx_cocoau_qa-3.0.a */,
+				EBA1DDD91861F41700CA1B18 /* libwx_osx_cocoau_ribbon-3.0.a */,
+				EBA1DDDA1861F41700CA1B18 /* libwx_osx_cocoau_richtext-3.0.a */,
+				EBA1DDDB1861F41700CA1B18 /* libwx_osx_cocoau_stc-3.0.a */,
+				EBA1DDDC1861F41700CA1B18 /* libwx_osx_cocoau_webview-3.0.a */,
+				EBA1DDDD1861F41700CA1B18 /* libwx_osx_cocoau_xrc-3.0.a */,
+				EBA1DDDE1861F41700CA1B18 /* libwxjpeg-3.0.a */,
+				EBA1DDDF1861F41700CA1B18 /* libwxpng-3.0.a */,
+				EBA1DDE01861F41700CA1B18 /* libwxregexu-3.0.a */,
+				EBA1DDE11861F41700CA1B18 /* libwxscintilla-3.0.a */,
+				EBA1DDE21861F41700CA1B18 /* libwxtiff-3.0.a */,
+				EBA1DDCC1861F3F700CA1B18 /* WebKit.framework */,
+				EBA1DDCA1861F3E400CA1B18 /* IOKit.framework */,
+				EBA1DDC81861F3B700CA1B18 /* libstdc++.dylib */,
+				EBA1DDC61861F3A000CA1B18 /* libc++.dylib */,
+				EBA1DDC41861F38D00CA1B18 /* AudioToolbox.framework */,
+				EBA1DDC21861F38300CA1B18 /* Carbon.framework */,
+				EB35B1A71860E59800B3C798 /* libbslclient.a */,
+				EB35B1A51860E58D00B3C798 /* libbslcommon.a */,
+				EB35B1A31860E58300B3C798 /* libbslxml.a */,
+				EB35B1601860CB4000B3C798 /* Cocoa.framework */,
+				EB35B1621860CB4000B3C798 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB35B1621860CB4000B3C798 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB35B1631860CB4000B3C798 /* AppKit.framework */,
+				EB35B1641860CB4000B3C798 /* CoreData.framework */,
+				EB35B1651860CB4000B3C798 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EB35B1B71860F57C00B3C798 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EB35B1B81860F57C00B3C798 /* ClientPage.cpp */,
+				EB35B1B91860F57C00B3C798 /* ClientPage.h */,
+				EB35B1BA1860F57C00B3C798 /* ConfigManager.cpp */,
+				EB35B1BB1860F57C00B3C798 /* ConfigManager.h */,
+				EB35B1BC1860F57C00B3C798 /* DlgActiveTask.cpp */,
+				EB35B1BD1860F57C00B3C798 /* DlgActiveTask.h */,
+				EB35B1BE1860F57C00B3C798 /* DlgActiveTransfer.cpp */,
+				EB35B1BF1860F57C00B3C798 /* DlgActiveTransfer.h */,
+				EB35B1C01860F57C00B3C798 /* DlgConnection.cpp */,
+				EB35B1C11860F57C00B3C798 /* DlgConnection.h */,
+				EB35B1C21860F57C00B3C798 /* DlgControls.cpp */,
+				EB35B1C31860F57C00B3C798 /* DlgControls.h */,
+				EB35B1C41860F57C00B3C798 /* DlgEventLog.cpp */,
+				EB35B1C51860F57C00B3C798 /* DlgEventLog.h */,
+				EB35B1C61860F57C00B3C798 /* DlgNotification.cpp */,
+				EB35B1C71860F57C00B3C798 /* DlgNotification.h */,
+				EB35B1C81860F57C00B3C798 /* DlgNotifications.cpp */,
+				EB35B1C91860F57C00B3C798 /* DlgNotifications.h */,
+				EB35B1CA1860F57C00B3C798 /* Events.h */,
+				EB35B1CB1860F57C00B3C798 /* Interface.cpp */,
+				EB35B1CC1860F57C00B3C798 /* Interface.h */,
+				EB35B1CD1860F57C00B3C798 /* LogManager.cpp */,
+				EB35B1CE1860F57C00B3C798 /* LogManager.h */,
+				EB35B1D01860F57C00B3C798 /* NotificationManager.cpp */,
+				EB35B1D11860F57C00B3C798 /* NotificationManager.h */,
+				EB35B1F01860F57C00B3C798 /* SkinManager.cpp */,
+				EB35B1F11860F57C00B3C798 /* SkinManager.h */,
+				EB35B1F21860F57C00B3C798 /* StatusPage.cpp */,
+				EB35B1F31860F57C00B3C798 /* StatusPage.h */,
+				EB35B1F41860F57C00B3C798 /* Utils.cpp */,
+				EB35B1F51860F57C00B3C798 /* Utils.h */,
+				EB35B1F61860F57C00B3C798 /* Valkyrie.cpp */,
+				EB35B1F71860F57C00B3C798 /* Valkyrie.h */,
+				EB35B1FA1860F57C00B3C798 /* WidgetActiveTask.cpp */,
+				EB35B1FB1860F57C00B3C798 /* WidgetActiveTask.h */,
+				EB35B1FC1860F57C00B3C798 /* WidgetActiveTasks.cpp */,
+				EB35B1FD1860F57C00B3C798 /* WidgetActiveTasks.h */,
+				EB35B1FE1860F57C00B3C798 /* WidgetActiveTransfer.cpp */,
+				EB35B1FF1860F57C00B3C798 /* WidgetActiveTransfer.h */,
+				EB35B2001860F57C00B3C798 /* WidgetActiveTransfers.cpp */,
+				EB35B2011860F57C00B3C798 /* WidgetActiveTransfers.h */,
+				EB35B2021860F57C00B3C798 /* WidgetBase.cpp */,
+				EB35B2031860F57C00B3C798 /* WidgetBase.h */,
+				EB35B2041860F57C00B3C798 /* WidgetControls.cpp */,
+				EB35B2051860F57C00B3C798 /* WidgetControls.h */,
+				EB35B2061860F57C00B3C798 /* WidgetEventLog.cpp */,
+				EB35B2071860F57C00B3C798 /* WidgetEventLog.h */,
+				EB35B2081860F57C00B3C798 /* WidgetNews.cpp */,
+				EB35B2091860F57C00B3C798 /* WidgetNews.h */,
+				EB35B20A1860F57C00B3C798 /* WidgetProject.cpp */,
+				EB35B20B1860F57C00B3C798 /* WidgetProject.h */,
+				EB35B20C1860F57C00B3C798 /* WidgetProjects.cpp */,
+				EB35B20D1860F57C00B3C798 /* WidgetProjects.h */,
+				EB35B20E1860F57C00B3C798 /* WidgetStatus.cpp */,
+				EB35B20F1860F57C00B3C798 /* WidgetStatus.h */,
+				EB35B2101860F57C00B3C798 /* WidgetUsage.cpp */,
+				EB35B2111860F57C00B3C798 /* WidgetUsage.h */,
+				EB35B26A1860F8D800B3C798 /* Valkyrie-Info.plist */,
+			);
+			name = Sources;
+			path = ../../../valkyrie;
+			sourceTree = SOURCE_ROOT;
+		};
+		EB35B24D1860F60B00B3C798 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				EB35B24F1860F62800B3C798 /* Project */,
+				EB35B24E1860F61D00B3C798 /* Shreds */,
+			);
+			name = Configurations;
+			sourceTree = SOURCE_ROOT;
+		};
+		EB35B24E1860F61D00B3C798 /* Shreds */ = {
+			isa = PBXGroup;
+			children = (
+				EB35B2621860F6FE00B3C798 /* AppDebug.xcconfig */,
+				EB35B2641860F72800B3C798 /* AppRelease.xcconfig */,
+				EB35B2501860F6C700B3C798 /* BOINCSentinels.xcconfig */,
+				EB35B2511860F6C700B3C798 /* bslClient.xcconfig */,
+				EB35B2521860F6C700B3C798 /* bslCommon.xcconfig */,
+				EB35B2531860F6C700B3C798 /* bslXML.xcconfig */,
+				EB35B2561860F6C700B3C798 /* MacOSX.xcconfig */,
+				EB35B2571860F6C700B3C798 /* Paths.xcconfig */,
+				EBA1DE101863FAC400CA1B18 /* wxWidgets30Debug.xcconfig */,
+				EBA1DE111863FAC400CA1B18 /* wxWidgets30Release.xcconfig */,
+			);
+			name = Shreds;
+			sourceTree = "<group>";
+		};
+		EB35B24F1860F62800B3C798 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				EB35B2661860F79200B3C798 /* ValkyrieDebug.xcconfig */,
+				EB35B2681860F7BF00B3C798 /* ValkyrieRelease.xcconfig */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		EBCC6F3419CBBAD800FB37DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EBCC6F3519CBBAD800FB37DB /* alert.icns */,
+				EBCC6F3619CBBAD800FB37DB /* boincsentinels.icns */,
+				EBCC6F3719CBBAD800FB37DB /* chevroncollapsed.icns */,
+				EBCC6F3819CBBAD800FB37DB /* chevronexpanded.icns */,
+				EBCC6F3919CBBAD800FB37DB /* computer.icns */,
+				EBCC6F3A19CBBAD800FB37DB /* computer_add.icns */,
+				EBCC6F3B19CBBAD800FB37DB /* computer_authentication_failure.icns */,
+				EBCC6F3C19CBBAD800FB37DB /* computer_connected.icns */,
+				EBCC6F3D19CBBAD800FB37DB /* computer_connecting.icns */,
+				EBCC6F3E19CBBAD800FB37DB /* computer_connection_failure.icns */,
+				EBCC6F3F19CBBAD800FB37DB /* computer_disconnected.icns */,
+				EBCC6F4019CBBAD800FB37DB /* copy.icns */,
+				EBCC6F4119CBBAD800FB37DB /* notification.icns */,
+				EBCC6F4219CBBAD800FB37DB /* pause.icns */,
+				EBCC6F4319CBBAD800FB37DB /* play.icns */,
+				EBCC6F4419CBBAD800FB37DB /* project_add.icns */,
+				EBCC6F4519CBBAD800FB37DB /* project_remove.icns */,
+				EBCC6F4619CBBAD800FB37DB /* refresh.icns */,
+				EBCC6F4719CBBAD800FB37DB /* search.icns */,
+				EBCC6F4819CBBAD800FB37DB /* showgraphics.icns */,
+				EBCC6F4919CBBAD800FB37DB /* showvmconsole.icns */,
+				EBCC6F4A19CBBAD800FB37DB /* showwebgraphics.icns */,
+				EBCC6F4B19CBBAD800FB37DB /* stop.icns */,
+			);
+			name = Resources;
+			path = ../../../valkyrie/res/osx;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB35B15C1860CB4000B3C798 /* Valkyrie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB35B18E1860CB4000B3C798 /* Build configuration list for PBXNativeTarget "Valkyrie" */;
+			buildPhases = (
+				EB35B1591860CB4000B3C798 /* Sources */,
+				EB35B15A1860CB4000B3C798 /* Frameworks */,
+				EB35B15B1860CB4000B3C798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Valkyrie;
+			productName = Valkyrie;
+			productReference = EB35B15D1860CB4000B3C798 /* Valkyrie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB35B1551860CB4000B3C798 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "BOINC Sentinels Team";
+			};
+			buildConfigurationList = EB35B1581860CB4000B3C798 /* Build configuration list for PBXProject "Valkyrie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB35B1541860CB4000B3C798;
+			productRefGroup = EB35B15E1860CB4000B3C798 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB35B15C1860CB4000B3C798 /* Valkyrie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB35B15B1860CB4000B3C798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBCC6F5319CBBAD800FB37DB /* computer_connected.icns in Resources */,
+				EBCC6F4F19CBBAD800FB37DB /* chevronexpanded.icns in Resources */,
+				EBCC6F6119CBBAD800FB37DB /* showwebgraphics.icns in Resources */,
+				EBCC6F5019CBBAD800FB37DB /* computer.icns in Resources */,
+				EBCC6F5819CBBAD800FB37DB /* notification.icns in Resources */,
+				EBA1DE0A1863C88100CA1B18 /* boincsentinels.icns in Resources */,
+				EBCC6F5F19CBBAD800FB37DB /* showgraphics.icns in Resources */,
+				EBCC6F5C19CBBAD800FB37DB /* project_remove.icns in Resources */,
+				EBCC6F5919CBBAD800FB37DB /* pause.icns in Resources */,
+				EBCC6F6019CBBAD800FB37DB /* showvmconsole.icns in Resources */,
+				EBCC6F5219CBBAD800FB37DB /* computer_authentication_failure.icns in Resources */,
+				EBCC6F5419CBBAD800FB37DB /* computer_connecting.icns in Resources */,
+				EBCC6F4C19CBBAD800FB37DB /* alert.icns in Resources */,
+				EBCC6F5619CBBAD800FB37DB /* computer_disconnected.icns in Resources */,
+				EBCC6F6219CBBAD800FB37DB /* stop.icns in Resources */,
+				EBCC6F5519CBBAD800FB37DB /* computer_connection_failure.icns in Resources */,
+				EBCC6F5B19CBBAD800FB37DB /* project_add.icns in Resources */,
+				EBCC6F5D19CBBAD800FB37DB /* refresh.icns in Resources */,
+				EBCC6F5E19CBBAD800FB37DB /* search.icns in Resources */,
+				EBCC6F4D19CBBAD800FB37DB /* boincsentinels.icns in Resources */,
+				EBCC6F4E19CBBAD800FB37DB /* chevroncollapsed.icns in Resources */,
+				EBCC6F5119CBBAD800FB37DB /* computer_add.icns in Resources */,
+				EBCC6F5A19CBBAD800FB37DB /* play.icns in Resources */,
+				EBCC6F5719CBBAD800FB37DB /* copy.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB35B1591860CB4000B3C798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB35B2161860F57C00B3C798 /* DlgConnection.cpp in Sources */,
+				EB35B2171860F57C00B3C798 /* DlgControls.cpp in Sources */,
+				EB35B21E1860F57C00B3C798 /* NotificationManager.cpp in Sources */,
+				EB35B21A1860F57C00B3C798 /* DlgNotifications.cpp in Sources */,
+				EB35B23F1860F57C00B3C798 /* Valkyrie.cpp in Sources */,
+				EB35B2451860F57C00B3C798 /* WidgetBase.cpp in Sources */,
+				EB35B2411860F57C00B3C798 /* WidgetActiveTask.cpp in Sources */,
+				EB35B21B1860F57C00B3C798 /* Interface.cpp in Sources */,
+				EB35B2191860F57C00B3C798 /* DlgNotification.cpp in Sources */,
+				EB35B2421860F57C00B3C798 /* WidgetActiveTasks.cpp in Sources */,
+				EB35B23D1860F57C00B3C798 /* StatusPage.cpp in Sources */,
+				EB35B2441860F57C00B3C798 /* WidgetActiveTransfers.cpp in Sources */,
+				EB35B21C1860F57C00B3C798 /* LogManager.cpp in Sources */,
+				EB35B2121860F57C00B3C798 /* ClientPage.cpp in Sources */,
+				EB35B2181860F57C00B3C798 /* DlgEventLog.cpp in Sources */,
+				EB35B2431860F57C00B3C798 /* WidgetActiveTransfer.cpp in Sources */,
+				EB35B2481860F57C00B3C798 /* WidgetNews.cpp in Sources */,
+				EB35B2141860F57C00B3C798 /* DlgActiveTask.cpp in Sources */,
+				EB35B2151860F57C00B3C798 /* DlgActiveTransfer.cpp in Sources */,
+				EB35B2491860F57C00B3C798 /* WidgetProject.cpp in Sources */,
+				EB35B23C1860F57C00B3C798 /* SkinManager.cpp in Sources */,
+				EB35B24C1860F57C00B3C798 /* WidgetUsage.cpp in Sources */,
+				EB35B24B1860F57C00B3C798 /* WidgetStatus.cpp in Sources */,
+				EB35B24A1860F57C00B3C798 /* WidgetProjects.cpp in Sources */,
+				EB35B23E1860F57C00B3C798 /* Utils.cpp in Sources */,
+				EB35B2471860F57C00B3C798 /* WidgetEventLog.cpp in Sources */,
+				EB35B2131860F57C00B3C798 /* ConfigManager.cpp in Sources */,
+				EB35B2461860F57C00B3C798 /* WidgetControls.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EB35B18C1860CB4000B3C798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EB35B18D1860CB4000B3C798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EB35B18F1860CB4000B3C798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB35B2661860F79200B3C798 /* ValkyrieDebug.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "compiler-default";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/../../../valkyrie/Valkyrie-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/boincsentinels-dddslgeobpzaxlcrrjfittjiqyvb/Build/Products/Debug",
+					"/Users/romw/Documents/src/wxWidgets-3.0.0-Debug/lib",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB35B1901860CB4000B3C798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB35B2681860F7BF00B3C798 /* ValkyrieRelease.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "compiler-default";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/../../../valkyrie/Valkyrie-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/boincsentinels-dddslgeobpzaxlcrrjfittjiqyvb/Build/Products/Release",
+					"/Users/romw/Documents/src/wxWidgets-3.0.0-Release/lib",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/boincsentinels-dddslgeobpzaxlcrrjfittjiqyvb/Build/Products/Debug",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB35B1581860CB4000B3C798 /* Build configuration list for PBXProject "Valkyrie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB35B18C1860CB4000B3C798 /* Debug */,
+				EB35B18D1860CB4000B3C798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB35B18E1860CB4000B3C798 /* Build configuration list for PBXNativeTarget "Valkyrie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB35B18F1860CB4000B3C798 /* Debug */,
+				EB35B1901860CB4000B3C798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB35B1551860CB4000B3C798 /* Project object */;
+}

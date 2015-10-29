@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB18D3741BB088E000911CFE /* bslEventBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB18D3731BB088E000911CFE /* bslEventBase.cpp */; };
+		EB18D3811BB0890B00911CFE /* bslAppEvents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB18D3751BB0890B00911CFE /* bslAppEvents.cpp */; };
+		EB18D3821BB0890B00911CFE /* bslAppVersionEvents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB18D3761BB0890B00911CFE /* bslAppVersionEvents.cpp */; };
+		EB18D3831BB0890B00911CFE /* bslHostEvents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB18D3771BB0890B00911CFE /* bslHostEvents.cpp */; };
+		EB18D3841BB0890B00911CFE /* bslHostStatusEvents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB18D3781BB0890B00911CFE /* bslHostStatusEvents.cpp */; };
+		EB18D3851BB0890B00911CFE /* bslMessageEvents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB18D3791BB0890B00911CFE /* bslMessageEvents.cpp */; };
+		EB18D3861BB0890B00911CFE /* bslNotificationEvents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB18D37A1BB0890B00911CFE /* bslNotificationEvents.cpp */; };
+		EB18D3871BB0890B00911CFE /* bslProjectEvents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB18D37B1BB0890B00911CFE /* bslProjectEvents.cpp */; };
+		EB18D3881BB0890B00911CFE /* bslProjectListItemEvents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB18D37C1BB0890B00911CFE /* bslProjectListItemEvents.cpp */; };
+		EB18D3891BB0890B00911CFE /* bslProjectStatisticEvents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB18D37D1BB0890B00911CFE /* bslProjectStatisticEvents.cpp */; };
+		EB18D38A1BB0890B00911CFE /* bslTaskEvents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB18D37E1BB0890B00911CFE /* bslTaskEvents.cpp */; };
+		EB18D38B1BB0890B00911CFE /* bslTaskInstanceEvents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB18D37F1BB0890B00911CFE /* bslTaskInstanceEvents.cpp */; };
+		EB18D38C1BB0890B00911CFE /* bslTransferEvents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB18D3801BB0890B00911CFE /* bslTransferEvents.cpp */; };
+		EB27DD74185F93F7003849B8 /* bslApp.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD01185F93F7003849B8 /* bslApp.h */; };
+		EB27DD75185F93F7003849B8 /* bslAppEventData.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD02185F93F7003849B8 /* bslAppEventData.h */; };
+		EB27DD76185F93F7003849B8 /* bslAppVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD03185F93F7003849B8 /* bslAppVersion.h */; };
+		EB27DD77185F93F7003849B8 /* bslAppVersionEventData.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD04185F93F7003849B8 /* bslAppVersionEventData.h */; };
+		EB27DD78185F93F7003849B8 /* bslCommonTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD05185F93F7003849B8 /* bslCommonTypes.h */; };
+		EB27DD79185F93F7003849B8 /* bslCustomEventData.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD06185F93F7003849B8 /* bslCustomEventData.h */; };
+		EB27DD7A185F93F7003849B8 /* bslErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD07185F93F7003849B8 /* bslErrors.h */; };
+		EB27DD7B185F93F7003849B8 /* bslHandles.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD08185F93F7003849B8 /* bslHandles.h */; };
+		EB27DD7C185F93F7003849B8 /* bslHost.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD09185F93F7003849B8 /* bslHost.h */; };
+		EB27DD7D185F93F7003849B8 /* bslHostCoprocAMD.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD0A185F93F7003849B8 /* bslHostCoprocAMD.h */; };
+		EB27DD7E185F93F7003849B8 /* bslHostCoprocNvidia.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD0B185F93F7003849B8 /* bslHostCoprocNvidia.h */; };
+		EB27DD7F185F93F7003849B8 /* bslHostCoprocOpenCL.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD0C185F93F7003849B8 /* bslHostCoprocOpenCL.h */; };
+		EB27DD80185F93F7003849B8 /* bslHostEventData.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD0D185F93F7003849B8 /* bslHostEventData.h */; };
+		EB27DD81185F93F7003849B8 /* bslHostStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD0E185F93F7003849B8 /* bslHostStatus.h */; };
+		EB27DD82185F93F7003849B8 /* bslHostStatusEventData.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD0F185F93F7003849B8 /* bslHostStatusEventData.h */; };
+		EB27DD83185F93F7003849B8 /* bslMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD10185F93F7003849B8 /* bslMessage.h */; };
+		EB27DD84185F93F7003849B8 /* bslMessageEventData.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD11185F93F7003849B8 /* bslMessageEventData.h */; };
+		EB27DD85185F93F7003849B8 /* bslNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD12185F93F7003849B8 /* bslNotification.h */; };
+		EB27DD86185F93F7003849B8 /* bslNotificationEventData.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD13185F93F7003849B8 /* bslNotificationEventData.h */; };
+		EB27DD87185F93F7003849B8 /* bslProject.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD14185F93F7003849B8 /* bslProject.h */; };
+		EB27DD88185F93F7003849B8 /* bslProjectEventData.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD15185F93F7003849B8 /* bslProjectEventData.h */; };
+		EB27DD89185F93F7003849B8 /* bslProjectLink.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD16185F93F7003849B8 /* bslProjectLink.h */; };
+		EB27DD8A185F93F7003849B8 /* bslProjectListItem.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD17185F93F7003849B8 /* bslProjectListItem.h */; };
+		EB27DD8B185F93F7003849B8 /* bslProjectListItemEventData.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD18185F93F7003849B8 /* bslProjectListItemEventData.h */; };
+		EB27DD8C185F93F7003849B8 /* bslProjectStatistic.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD19185F93F7003849B8 /* bslProjectStatistic.h */; };
+		EB27DD8D185F93F7003849B8 /* bslProjectStatisticEventData.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD1A185F93F7003849B8 /* bslProjectStatisticEventData.h */; };
+		EB27DD8E185F93F7003849B8 /* bslTask.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD1B185F93F7003849B8 /* bslTask.h */; };
+		EB27DD8F185F93F7003849B8 /* bslTaskEventData.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD1C185F93F7003849B8 /* bslTaskEventData.h */; };
+		EB27DD90185F93F7003849B8 /* bslTaskInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD1D185F93F7003849B8 /* bslTaskInstance.h */; };
+		EB27DD91185F93F7003849B8 /* bslTaskInstanceEventData.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD1E185F93F7003849B8 /* bslTaskInstanceEventData.h */; };
+		EB27DD92185F93F7003849B8 /* bslTransfer.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD1F185F93F7003849B8 /* bslTransfer.h */; };
+		EB27DD93185F93F7003849B8 /* bslTransferEventData.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DD20185F93F7003849B8 /* bslTransferEventData.h */; };
+		EB27DD94185F93F7003849B8 /* bslApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DD23185F93F7003849B8 /* bslApp.cpp */; };
+		EB27DD96185F93F7003849B8 /* bslAppVersion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DD25185F93F7003849B8 /* bslAppVersion.cpp */; };
+		EB27DD99185F93F7003849B8 /* bslHost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DD28185F93F7003849B8 /* bslHost.cpp */; };
+		EB27DD9A185F93F7003849B8 /* bslHostCoprocAMD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DD29185F93F7003849B8 /* bslHostCoprocAMD.cpp */; };
+		EB27DD9B185F93F7003849B8 /* bslHostCoprocNvidia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DD2A185F93F7003849B8 /* bslHostCoprocNvidia.cpp */; };
+		EB27DD9C185F93F7003849B8 /* bslHostCoprocOpenCL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DD2B185F93F7003849B8 /* bslHostCoprocOpenCL.cpp */; };
+		EB27DD9E185F93F7003849B8 /* bslHostStatus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DD2D185F93F7003849B8 /* bslHostStatus.cpp */; };
+		EB27DDA0185F93F7003849B8 /* bslMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DD2F185F93F7003849B8 /* bslMessage.cpp */; };
+		EB27DDA2185F93F7003849B8 /* bslNotification.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DD31185F93F7003849B8 /* bslNotification.cpp */; };
+		EB27DDA4185F93F7003849B8 /* bslProject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DD33185F93F7003849B8 /* bslProject.cpp */; };
+		EB27DDA6185F93F7003849B8 /* bslProjectLink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DD35185F93F7003849B8 /* bslProjectLink.cpp */; };
+		EB27DDA7185F93F7003849B8 /* bslProjectListItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DD36185F93F7003849B8 /* bslProjectListItem.cpp */; };
+		EB27DDA9185F93F7003849B8 /* bslProjectStatistic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DD38185F93F7003849B8 /* bslProjectStatistic.cpp */; };
+		EB27DDAB185F93F7003849B8 /* bslTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DD3A185F93F7003849B8 /* bslTask.cpp */; };
+		EB27DDAD185F93F7003849B8 /* bslTaskInstance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DD3C185F93F7003849B8 /* bslTaskInstance.cpp */; };
+		EB27DDAF185F93F7003849B8 /* bslTransfer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DD3E185F93F7003849B8 /* bslTransfer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB18D3731BB088E000911CFE /* bslEventBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bslEventBase.cpp; sourceTree = "<group>"; };
+		EB18D3751BB0890B00911CFE /* bslAppEvents.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bslAppEvents.cpp; sourceTree = "<group>"; };
+		EB18D3761BB0890B00911CFE /* bslAppVersionEvents.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bslAppVersionEvents.cpp; sourceTree = "<group>"; };
+		EB18D3771BB0890B00911CFE /* bslHostEvents.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bslHostEvents.cpp; sourceTree = "<group>"; };
+		EB18D3781BB0890B00911CFE /* bslHostStatusEvents.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bslHostStatusEvents.cpp; sourceTree = "<group>"; };
+		EB18D3791BB0890B00911CFE /* bslMessageEvents.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bslMessageEvents.cpp; sourceTree = "<group>"; };
+		EB18D37A1BB0890B00911CFE /* bslNotificationEvents.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bslNotificationEvents.cpp; sourceTree = "<group>"; };
+		EB18D37B1BB0890B00911CFE /* bslProjectEvents.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bslProjectEvents.cpp; sourceTree = "<group>"; };
+		EB18D37C1BB0890B00911CFE /* bslProjectListItemEvents.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bslProjectListItemEvents.cpp; sourceTree = "<group>"; };
+		EB18D37D1BB0890B00911CFE /* bslProjectStatisticEvents.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bslProjectStatisticEvents.cpp; sourceTree = "<group>"; };
+		EB18D37E1BB0890B00911CFE /* bslTaskEvents.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bslTaskEvents.cpp; sourceTree = "<group>"; };
+		EB18D37F1BB0890B00911CFE /* bslTaskInstanceEvents.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bslTaskInstanceEvents.cpp; sourceTree = "<group>"; };
+		EB18D3801BB0890B00911CFE /* bslTransferEvents.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bslTransferEvents.cpp; sourceTree = "<group>"; };
+		EB27DC95185BA05B003849B8 /* libbslcommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libbslcommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB27DD01185F93F7003849B8 /* bslApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslApp.h; path = ../../../bslcommon/include/bslcommon/bslApp.h; sourceTree = SOURCE_ROOT; };
+		EB27DD02185F93F7003849B8 /* bslAppEventData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslAppEventData.h; path = ../../../bslcommon/include/bslcommon/bslAppEventData.h; sourceTree = SOURCE_ROOT; };
+		EB27DD03185F93F7003849B8 /* bslAppVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslAppVersion.h; path = ../../../bslcommon/include/bslcommon/bslAppVersion.h; sourceTree = SOURCE_ROOT; };
+		EB27DD04185F93F7003849B8 /* bslAppVersionEventData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslAppVersionEventData.h; path = ../../../bslcommon/include/bslcommon/bslAppVersionEventData.h; sourceTree = SOURCE_ROOT; };
+		EB27DD05185F93F7003849B8 /* bslCommonTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslCommonTypes.h; path = ../../../bslcommon/include/bslcommon/bslCommonTypes.h; sourceTree = SOURCE_ROOT; };
+		EB27DD06185F93F7003849B8 /* bslCustomEventData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslCustomEventData.h; path = ../../../bslcommon/include/bslcommon/bslCustomEventData.h; sourceTree = SOURCE_ROOT; };
+		EB27DD07185F93F7003849B8 /* bslErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslErrors.h; path = ../../../bslcommon/include/bslcommon/bslErrors.h; sourceTree = SOURCE_ROOT; };
+		EB27DD08185F93F7003849B8 /* bslHandles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslHandles.h; path = ../../../bslcommon/include/bslcommon/bslHandles.h; sourceTree = SOURCE_ROOT; };
+		EB27DD09185F93F7003849B8 /* bslHost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslHost.h; path = ../../../bslcommon/include/bslcommon/bslHost.h; sourceTree = SOURCE_ROOT; };
+		EB27DD0A185F93F7003849B8 /* bslHostCoprocAMD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslHostCoprocAMD.h; path = ../../../bslcommon/include/bslcommon/bslHostCoprocAMD.h; sourceTree = SOURCE_ROOT; };
+		EB27DD0B185F93F7003849B8 /* bslHostCoprocNvidia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslHostCoprocNvidia.h; path = ../../../bslcommon/include/bslcommon/bslHostCoprocNvidia.h; sourceTree = SOURCE_ROOT; };
+		EB27DD0C185F93F7003849B8 /* bslHostCoprocOpenCL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslHostCoprocOpenCL.h; path = ../../../bslcommon/include/bslcommon/bslHostCoprocOpenCL.h; sourceTree = SOURCE_ROOT; };
+		EB27DD0D185F93F7003849B8 /* bslHostEventData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslHostEventData.h; path = ../../../bslcommon/include/bslcommon/bslHostEventData.h; sourceTree = SOURCE_ROOT; };
+		EB27DD0E185F93F7003849B8 /* bslHostStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslHostStatus.h; path = ../../../bslcommon/include/bslcommon/bslHostStatus.h; sourceTree = SOURCE_ROOT; };
+		EB27DD0F185F93F7003849B8 /* bslHostStatusEventData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslHostStatusEventData.h; path = ../../../bslcommon/include/bslcommon/bslHostStatusEventData.h; sourceTree = SOURCE_ROOT; };
+		EB27DD10185F93F7003849B8 /* bslMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslMessage.h; path = ../../../bslcommon/include/bslcommon/bslMessage.h; sourceTree = SOURCE_ROOT; };
+		EB27DD11185F93F7003849B8 /* bslMessageEventData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslMessageEventData.h; path = ../../../bslcommon/include/bslcommon/bslMessageEventData.h; sourceTree = SOURCE_ROOT; };
+		EB27DD12185F93F7003849B8 /* bslNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslNotification.h; path = ../../../bslcommon/include/bslcommon/bslNotification.h; sourceTree = SOURCE_ROOT; };
+		EB27DD13185F93F7003849B8 /* bslNotificationEventData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslNotificationEventData.h; path = ../../../bslcommon/include/bslcommon/bslNotificationEventData.h; sourceTree = SOURCE_ROOT; };
+		EB27DD14185F93F7003849B8 /* bslProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslProject.h; path = ../../../bslcommon/include/bslcommon/bslProject.h; sourceTree = SOURCE_ROOT; };
+		EB27DD15185F93F7003849B8 /* bslProjectEventData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslProjectEventData.h; path = ../../../bslcommon/include/bslcommon/bslProjectEventData.h; sourceTree = SOURCE_ROOT; };
+		EB27DD16185F93F7003849B8 /* bslProjectLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslProjectLink.h; path = ../../../bslcommon/include/bslcommon/bslProjectLink.h; sourceTree = SOURCE_ROOT; };
+		EB27DD17185F93F7003849B8 /* bslProjectListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslProjectListItem.h; path = ../../../bslcommon/include/bslcommon/bslProjectListItem.h; sourceTree = SOURCE_ROOT; };
+		EB27DD18185F93F7003849B8 /* bslProjectListItemEventData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslProjectListItemEventData.h; path = ../../../bslcommon/include/bslcommon/bslProjectListItemEventData.h; sourceTree = SOURCE_ROOT; };
+		EB27DD19185F93F7003849B8 /* bslProjectStatistic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslProjectStatistic.h; path = ../../../bslcommon/include/bslcommon/bslProjectStatistic.h; sourceTree = SOURCE_ROOT; };
+		EB27DD1A185F93F7003849B8 /* bslProjectStatisticEventData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslProjectStatisticEventData.h; path = ../../../bslcommon/include/bslcommon/bslProjectStatisticEventData.h; sourceTree = SOURCE_ROOT; };
+		EB27DD1B185F93F7003849B8 /* bslTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslTask.h; path = ../../../bslcommon/include/bslcommon/bslTask.h; sourceTree = SOURCE_ROOT; };
+		EB27DD1C185F93F7003849B8 /* bslTaskEventData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslTaskEventData.h; path = ../../../bslcommon/include/bslcommon/bslTaskEventData.h; sourceTree = SOURCE_ROOT; };
+		EB27DD1D185F93F7003849B8 /* bslTaskInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslTaskInstance.h; path = ../../../bslcommon/include/bslcommon/bslTaskInstance.h; sourceTree = SOURCE_ROOT; };
+		EB27DD1E185F93F7003849B8 /* bslTaskInstanceEventData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslTaskInstanceEventData.h; path = ../../../bslcommon/include/bslcommon/bslTaskInstanceEventData.h; sourceTree = SOURCE_ROOT; };
+		EB27DD1F185F93F7003849B8 /* bslTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslTransfer.h; path = ../../../bslcommon/include/bslcommon/bslTransfer.h; sourceTree = SOURCE_ROOT; };
+		EB27DD20185F93F7003849B8 /* bslTransferEventData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslTransferEventData.h; path = ../../../bslcommon/include/bslcommon/bslTransferEventData.h; sourceTree = SOURCE_ROOT; };
+		EB27DD23185F93F7003849B8 /* bslApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bslApp.cpp; path = ../../../bslcommon/src/bslApp.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DD25185F93F7003849B8 /* bslAppVersion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bslAppVersion.cpp; path = ../../../bslcommon/src/bslAppVersion.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DD28185F93F7003849B8 /* bslHost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bslHost.cpp; path = ../../../bslcommon/src/bslHost.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DD29185F93F7003849B8 /* bslHostCoprocAMD.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bslHostCoprocAMD.cpp; path = ../../../bslcommon/src/bslHostCoprocAMD.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DD2A185F93F7003849B8 /* bslHostCoprocNvidia.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bslHostCoprocNvidia.cpp; path = ../../../bslcommon/src/bslHostCoprocNvidia.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DD2B185F93F7003849B8 /* bslHostCoprocOpenCL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bslHostCoprocOpenCL.cpp; path = ../../../bslcommon/src/bslHostCoprocOpenCL.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DD2D185F93F7003849B8 /* bslHostStatus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bslHostStatus.cpp; path = ../../../bslcommon/src/bslHostStatus.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DD2F185F93F7003849B8 /* bslMessage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bslMessage.cpp; path = ../../../bslcommon/src/bslMessage.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DD31185F93F7003849B8 /* bslNotification.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bslNotification.cpp; path = ../../../bslcommon/src/bslNotification.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DD33185F93F7003849B8 /* bslProject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bslProject.cpp; path = ../../../bslcommon/src/bslProject.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DD35185F93F7003849B8 /* bslProjectLink.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bslProjectLink.cpp; path = ../../../bslcommon/src/bslProjectLink.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DD36185F93F7003849B8 /* bslProjectListItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bslProjectListItem.cpp; path = ../../../bslcommon/src/bslProjectListItem.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DD38185F93F7003849B8 /* bslProjectStatistic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bslProjectStatistic.cpp; path = ../../../bslcommon/src/bslProjectStatistic.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DD3A185F93F7003849B8 /* bslTask.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bslTask.cpp; path = ../../../bslcommon/src/bslTask.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DD3C185F93F7003849B8 /* bslTaskInstance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bslTaskInstance.cpp; path = ../../../bslcommon/src/bslTaskInstance.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DD3E185F93F7003849B8 /* bslTransfer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bslTransfer.cpp; path = ../../../bslcommon/src/bslTransfer.cpp; sourceTree = SOURCE_ROOT; };
+		EB35B1981860DA5C00B3C798 /* BOINCSentinels.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = BOINCSentinels.xcconfig; path = ../Configurations/BOINCSentinels.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B19A1860DA5C00B3C798 /* LibDebug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = LibDebug.xcconfig; path = ../Configurations/LibDebug.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B19B1860DA5C00B3C798 /* LibRelease.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = LibRelease.xcconfig; path = ../Configurations/LibRelease.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B19C1860DA5C00B3C798 /* MacOSX.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = MacOSX.xcconfig; path = ../Configurations/MacOSX.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B19D1860DA5C00B3C798 /* Paths.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Paths.xcconfig; path = ../Configurations/Paths.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B19F1860DC2800B3C798 /* bslXML.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = bslXML.xcconfig; path = ../Configurations/bslXML.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B1A01860DD6B00B3C798 /* bslCommon.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = bslCommon.xcconfig; path = ../Configurations/bslCommon.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B1A11860DDFD00B3C798 /* bslCommonDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = bslCommonDebug.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B1A21860DE1C00B3C798 /* bslCommonRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = bslCommonRelease.xcconfig; sourceTree = SOURCE_ROOT; };
+		EBA1DE0C1863F9FE00CA1B18 /* wxWidgets30Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = wxWidgets30Debug.xcconfig; path = ../Configurations/wxWidgets30Debug.xcconfig; sourceTree = "<group>"; };
+		EBA1DE0D1863F9FE00CA1B18 /* wxWidgets30Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = wxWidgets30Release.xcconfig; path = ../Configurations/wxWidgets30Release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB27DC92185BA05B003849B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB27DC8C185BA05B003849B8 = {
+			isa = PBXGroup;
+			children = (
+				EB35B1951860D9A700B3C798 /* Configurations */,
+				EB27DCF8185F93F7003849B8 /* Sources */,
+				EB27DC96185BA05B003849B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB27DC96185BA05B003849B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB27DC95185BA05B003849B8 /* libbslcommon.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB27DCF8185F93F7003849B8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EB27DCFF185F93F7003849B8 /* include */,
+				EB27DD22185F93F7003849B8 /* src */,
+			);
+			name = Sources;
+			path = ../../../bslcommon;
+			sourceTree = "<group>";
+		};
+		EB27DCFF185F93F7003849B8 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				EB27DD00185F93F7003849B8 /* bslcommon */,
+			);
+			name = include;
+			path = ../../../bslcommon/include;
+			sourceTree = SOURCE_ROOT;
+		};
+		EB27DD00185F93F7003849B8 /* bslcommon */ = {
+			isa = PBXGroup;
+			children = (
+				EB27DD01185F93F7003849B8 /* bslApp.h */,
+				EB27DD02185F93F7003849B8 /* bslAppEventData.h */,
+				EB27DD03185F93F7003849B8 /* bslAppVersion.h */,
+				EB27DD04185F93F7003849B8 /* bslAppVersionEventData.h */,
+				EB27DD05185F93F7003849B8 /* bslCommonTypes.h */,
+				EB27DD06185F93F7003849B8 /* bslCustomEventData.h */,
+				EB27DD07185F93F7003849B8 /* bslErrors.h */,
+				EB27DD08185F93F7003849B8 /* bslHandles.h */,
+				EB27DD09185F93F7003849B8 /* bslHost.h */,
+				EB27DD0A185F93F7003849B8 /* bslHostCoprocAMD.h */,
+				EB27DD0B185F93F7003849B8 /* bslHostCoprocNvidia.h */,
+				EB27DD0C185F93F7003849B8 /* bslHostCoprocOpenCL.h */,
+				EB27DD0D185F93F7003849B8 /* bslHostEventData.h */,
+				EB27DD0E185F93F7003849B8 /* bslHostStatus.h */,
+				EB27DD0F185F93F7003849B8 /* bslHostStatusEventData.h */,
+				EB27DD10185F93F7003849B8 /* bslMessage.h */,
+				EB27DD11185F93F7003849B8 /* bslMessageEventData.h */,
+				EB27DD12185F93F7003849B8 /* bslNotification.h */,
+				EB27DD13185F93F7003849B8 /* bslNotificationEventData.h */,
+				EB27DD14185F93F7003849B8 /* bslProject.h */,
+				EB27DD15185F93F7003849B8 /* bslProjectEventData.h */,
+				EB27DD16185F93F7003849B8 /* bslProjectLink.h */,
+				EB27DD17185F93F7003849B8 /* bslProjectListItem.h */,
+				EB27DD18185F93F7003849B8 /* bslProjectListItemEventData.h */,
+				EB27DD19185F93F7003849B8 /* bslProjectStatistic.h */,
+				EB27DD1A185F93F7003849B8 /* bslProjectStatisticEventData.h */,
+				EB27DD1B185F93F7003849B8 /* bslTask.h */,
+				EB27DD1C185F93F7003849B8 /* bslTaskEventData.h */,
+				EB27DD1D185F93F7003849B8 /* bslTaskInstance.h */,
+				EB27DD1E185F93F7003849B8 /* bslTaskInstanceEventData.h */,
+				EB27DD1F185F93F7003849B8 /* bslTransfer.h */,
+				EB27DD20185F93F7003849B8 /* bslTransferEventData.h */,
+			);
+			path = bslcommon;
+			sourceTree = "<group>";
+		};
+		EB27DD22185F93F7003849B8 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				EB18D3751BB0890B00911CFE /* bslAppEvents.cpp */,
+				EB18D3761BB0890B00911CFE /* bslAppVersionEvents.cpp */,
+				EB18D3771BB0890B00911CFE /* bslHostEvents.cpp */,
+				EB18D3781BB0890B00911CFE /* bslHostStatusEvents.cpp */,
+				EB18D3791BB0890B00911CFE /* bslMessageEvents.cpp */,
+				EB18D37A1BB0890B00911CFE /* bslNotificationEvents.cpp */,
+				EB18D37B1BB0890B00911CFE /* bslProjectEvents.cpp */,
+				EB18D37C1BB0890B00911CFE /* bslProjectListItemEvents.cpp */,
+				EB18D37D1BB0890B00911CFE /* bslProjectStatisticEvents.cpp */,
+				EB18D37E1BB0890B00911CFE /* bslTaskEvents.cpp */,
+				EB18D37F1BB0890B00911CFE /* bslTaskInstanceEvents.cpp */,
+				EB18D3801BB0890B00911CFE /* bslTransferEvents.cpp */,
+				EB18D3731BB088E000911CFE /* bslEventBase.cpp */,
+				EB27DD23185F93F7003849B8 /* bslApp.cpp */,
+				EB27DD25185F93F7003849B8 /* bslAppVersion.cpp */,
+				EB27DD28185F93F7003849B8 /* bslHost.cpp */,
+				EB27DD29185F93F7003849B8 /* bslHostCoprocAMD.cpp */,
+				EB27DD2A185F93F7003849B8 /* bslHostCoprocNvidia.cpp */,
+				EB27DD2B185F93F7003849B8 /* bslHostCoprocOpenCL.cpp */,
+				EB27DD2D185F93F7003849B8 /* bslHostStatus.cpp */,
+				EB27DD2F185F93F7003849B8 /* bslMessage.cpp */,
+				EB27DD31185F93F7003849B8 /* bslNotification.cpp */,
+				EB27DD33185F93F7003849B8 /* bslProject.cpp */,
+				EB27DD35185F93F7003849B8 /* bslProjectLink.cpp */,
+				EB27DD36185F93F7003849B8 /* bslProjectListItem.cpp */,
+				EB27DD38185F93F7003849B8 /* bslProjectStatistic.cpp */,
+				EB27DD3A185F93F7003849B8 /* bslTask.cpp */,
+				EB27DD3C185F93F7003849B8 /* bslTaskInstance.cpp */,
+				EB27DD3E185F93F7003849B8 /* bslTransfer.cpp */,
+			);
+			name = src;
+			path = ../../../bslcommon/src;
+			sourceTree = SOURCE_ROOT;
+		};
+		EB35B1951860D9A700B3C798 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				EB35B1971860D9BD00B3C798 /* Project */,
+				EB35B1961860D9B300B3C798 /* Shreds */,
+			);
+			name = Configurations;
+			sourceTree = SOURCE_ROOT;
+		};
+		EB35B1961860D9B300B3C798 /* Shreds */ = {
+			isa = PBXGroup;
+			children = (
+				EB35B1981860DA5C00B3C798 /* BOINCSentinels.xcconfig */,
+				EB35B1A01860DD6B00B3C798 /* bslCommon.xcconfig */,
+				EB35B19F1860DC2800B3C798 /* bslXML.xcconfig */,
+				EB35B19A1860DA5C00B3C798 /* LibDebug.xcconfig */,
+				EB35B19B1860DA5C00B3C798 /* LibRelease.xcconfig */,
+				EB35B19C1860DA5C00B3C798 /* MacOSX.xcconfig */,
+				EB35B19D1860DA5C00B3C798 /* Paths.xcconfig */,
+				EBA1DE0C1863F9FE00CA1B18 /* wxWidgets30Debug.xcconfig */,
+				EBA1DE0D1863F9FE00CA1B18 /* wxWidgets30Release.xcconfig */,
+			);
+			name = Shreds;
+			sourceTree = SOURCE_ROOT;
+		};
+		EB35B1971860D9BD00B3C798 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				EB35B1A11860DDFD00B3C798 /* bslCommonDebug.xcconfig */,
+				EB35B1A21860DE1C00B3C798 /* bslCommonRelease.xcconfig */,
+			);
+			name = Project;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EB27DC93185BA05B003849B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB27DD74185F93F7003849B8 /* bslApp.h in Headers */,
+				EB27DD75185F93F7003849B8 /* bslAppEventData.h in Headers */,
+				EB27DD79185F93F7003849B8 /* bslCustomEventData.h in Headers */,
+				EB27DD7D185F93F7003849B8 /* bslHostCoprocAMD.h in Headers */,
+				EB27DD90185F93F7003849B8 /* bslTaskInstance.h in Headers */,
+				EB27DD84185F93F7003849B8 /* bslMessageEventData.h in Headers */,
+				EB27DD77185F93F7003849B8 /* bslAppVersionEventData.h in Headers */,
+				EB27DD8B185F93F7003849B8 /* bslProjectListItemEventData.h in Headers */,
+				EB27DD80185F93F7003849B8 /* bslHostEventData.h in Headers */,
+				EB27DD83185F93F7003849B8 /* bslMessage.h in Headers */,
+				EB27DD8C185F93F7003849B8 /* bslProjectStatistic.h in Headers */,
+				EB27DD8E185F93F7003849B8 /* bslTask.h in Headers */,
+				EB27DD76185F93F7003849B8 /* bslAppVersion.h in Headers */,
+				EB27DD81185F93F7003849B8 /* bslHostStatus.h in Headers */,
+				EB27DD7B185F93F7003849B8 /* bslHandles.h in Headers */,
+				EB27DD89185F93F7003849B8 /* bslProjectLink.h in Headers */,
+				EB27DD87185F93F7003849B8 /* bslProject.h in Headers */,
+				EB27DD93185F93F7003849B8 /* bslTransferEventData.h in Headers */,
+				EB27DD8D185F93F7003849B8 /* bslProjectStatisticEventData.h in Headers */,
+				EB27DD7C185F93F7003849B8 /* bslHost.h in Headers */,
+				EB27DD7A185F93F7003849B8 /* bslErrors.h in Headers */,
+				EB27DD92185F93F7003849B8 /* bslTransfer.h in Headers */,
+				EB27DD91185F93F7003849B8 /* bslTaskInstanceEventData.h in Headers */,
+				EB27DD7E185F93F7003849B8 /* bslHostCoprocNvidia.h in Headers */,
+				EB27DD78185F93F7003849B8 /* bslCommonTypes.h in Headers */,
+				EB27DD8F185F93F7003849B8 /* bslTaskEventData.h in Headers */,
+				EB27DD8A185F93F7003849B8 /* bslProjectListItem.h in Headers */,
+				EB27DD88185F93F7003849B8 /* bslProjectEventData.h in Headers */,
+				EB27DD82185F93F7003849B8 /* bslHostStatusEventData.h in Headers */,
+				EB27DD86185F93F7003849B8 /* bslNotificationEventData.h in Headers */,
+				EB27DD7F185F93F7003849B8 /* bslHostCoprocOpenCL.h in Headers */,
+				EB27DD85185F93F7003849B8 /* bslNotification.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EB27DC94185BA05B003849B8 /* bslcommon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB27DC99185BA05B003849B8 /* Build configuration list for PBXNativeTarget "bslcommon" */;
+			buildPhases = (
+				EB27DC91185BA05B003849B8 /* Sources */,
+				EB27DC92185BA05B003849B8 /* Frameworks */,
+				EB27DC93185BA05B003849B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bslcommon;
+			productName = bslcommon;
+			productReference = EB27DC95185BA05B003849B8 /* libbslcommon.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB27DC8D185BA05B003849B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "BOINC Sentinels Team";
+			};
+			buildConfigurationList = EB27DC90185BA05B003849B8 /* Build configuration list for PBXProject "bslcommon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB27DC8C185BA05B003849B8;
+			productRefGroup = EB27DC96185BA05B003849B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB27DC94185BA05B003849B8 /* bslcommon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB27DC91185BA05B003849B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB27DD9B185F93F7003849B8 /* bslHostCoprocNvidia.cpp in Sources */,
+				EB27DDA4185F93F7003849B8 /* bslProject.cpp in Sources */,
+				EB18D3871BB0890B00911CFE /* bslProjectEvents.cpp in Sources */,
+				EB18D3861BB0890B00911CFE /* bslNotificationEvents.cpp in Sources */,
+				EB27DDAD185F93F7003849B8 /* bslTaskInstance.cpp in Sources */,
+				EB27DD94185F93F7003849B8 /* bslApp.cpp in Sources */,
+				EB27DDA7185F93F7003849B8 /* bslProjectListItem.cpp in Sources */,
+				EB27DDAB185F93F7003849B8 /* bslTask.cpp in Sources */,
+				EB18D3881BB0890B00911CFE /* bslProjectListItemEvents.cpp in Sources */,
+				EB18D38C1BB0890B00911CFE /* bslTransferEvents.cpp in Sources */,
+				EB18D3831BB0890B00911CFE /* bslHostEvents.cpp in Sources */,
+				EB27DDAF185F93F7003849B8 /* bslTransfer.cpp in Sources */,
+				EB27DD99185F93F7003849B8 /* bslHost.cpp in Sources */,
+				EB18D3741BB088E000911CFE /* bslEventBase.cpp in Sources */,
+				EB18D3851BB0890B00911CFE /* bslMessageEvents.cpp in Sources */,
+				EB18D38A1BB0890B00911CFE /* bslTaskEvents.cpp in Sources */,
+				EB27DD96185F93F7003849B8 /* bslAppVersion.cpp in Sources */,
+				EB18D3891BB0890B00911CFE /* bslProjectStatisticEvents.cpp in Sources */,
+				EB18D3811BB0890B00911CFE /* bslAppEvents.cpp in Sources */,
+				EB27DD9A185F93F7003849B8 /* bslHostCoprocAMD.cpp in Sources */,
+				EB27DDA2185F93F7003849B8 /* bslNotification.cpp in Sources */,
+				EB27DD9C185F93F7003849B8 /* bslHostCoprocOpenCL.cpp in Sources */,
+				EB27DD9E185F93F7003849B8 /* bslHostStatus.cpp in Sources */,
+				EB18D3841BB0890B00911CFE /* bslHostStatusEvents.cpp in Sources */,
+				EB18D3821BB0890B00911CFE /* bslAppVersionEvents.cpp in Sources */,
+				EB18D38B1BB0890B00911CFE /* bslTaskInstanceEvents.cpp in Sources */,
+				EB27DDA6185F93F7003849B8 /* bslProjectLink.cpp in Sources */,
+				EB27DDA9185F93F7003849B8 /* bslProjectStatistic.cpp in Sources */,
+				EB27DDA0185F93F7003849B8 /* bslMessage.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EB27DC97185BA05B003849B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EB27DC98185BA05B003849B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EB27DC9A185BA05B003849B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB35B1A11860DDFD00B3C798 /* bslCommonDebug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EB27DC9B185BA05B003849B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB35B1A21860DE1C00B3C798 /* bslCommonRelease.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB27DC90185BA05B003849B8 /* Build configuration list for PBXProject "bslcommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB27DC97185BA05B003849B8 /* Debug */,
+				EB27DC98185BA05B003849B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB27DC99185BA05B003849B8 /* Build configuration list for PBXNativeTarget "bslcommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB27DC9A185BA05B003849B8 /* Debug */,
+				EB27DC9B185BA05B003849B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB27DC8D185BA05B003849B8 /* Project object */;
+}

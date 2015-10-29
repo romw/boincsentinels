@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Hunter/Hunter.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:XmlReader/XmlReader.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Valkyrie/Valkyrie.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:bslclient/bslclient.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:bslcommon/bslcommon.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:bslxml/bslxml.xcodeproj">
+   </FileRef>
+</Workspace>

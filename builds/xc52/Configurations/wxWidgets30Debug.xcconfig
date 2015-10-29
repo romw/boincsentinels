@@ -1,0 +1,17 @@
+//
+//  wxWidgets30Debug.xcconfig
+//
+//  Created by Rom Walton on 12/16/13.
+//  Copyright (c) 2013 BOINC Sentinels Team. All rights reserved.
+//
+
+#include "../Configurations/Paths.xcconfig"
+
+WXROOT=$(BSLROOT)/../wxWidgets-3.0.0-Debug
+
+WX_GCC_PREPROCESSOR_DEFINITIONS = __WXMAC__ __WXOSX__ __WXOSX_COCOA__
+
+WX_HEADER_SEARCH_PATHS = $(WXROOT)/lib/wx/include/osx_cocoa-unicode-static-3.0 $(WXROOT)/include/wx-3.0
+WX_LIBRARY_SEARCH_PATHS = $(WXROOT)/lib
+
+WXLDFLAGS = -framework IOKit -framework Carbon -framework Cocoa -framework AudioToolbox -framework System -framework OpenGL libwx_osx_cocoau_xrc-3.0.a libwx_osx_cocoau_webview-3.0.a libwx_osx_cocoau_qa-3.0.a libwx_baseu_net-3.0.a libwx_osx_cocoau_html-3.0.a libwx_osx_cocoau_adv-3.0.a libwx_osx_cocoau_core-3.0.a libwx_baseu_xml-3.0.a libwx_baseu-3.0.a -framework WebKit -lexpat -lwxregexu-3.0 -lwxtiff-3.0 -lwxjpeg-3.0 -lwxpng-3.0 -lz -lpthread -liconv -llzma

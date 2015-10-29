@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB27DCDD185F93C3003849B8 /* bslXMLAttributeEx.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DCBB185F93C3003849B8 /* bslXMLAttributeEx.h */; };
+		EB27DCDE185F93C3003849B8 /* bslXMLConverterEx.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DCBC185F93C3003849B8 /* bslXMLConverterEx.h */; };
+		EB27DCDF185F93C3003849B8 /* bslXMLDictionaryEx.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DCBD185F93C3003849B8 /* bslXMLDictionaryEx.h */; };
+		EB27DCE0185F93C3003849B8 /* bslXMLDocumentEx.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DCBE185F93C3003849B8 /* bslXMLDocumentEx.h */; };
+		EB27DCE1185F93C3003849B8 /* bslXMLElementEx.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DCBF185F93C3003849B8 /* bslXMLElementEx.h */; };
+		EB27DCE2185F93C3003849B8 /* bslXMLErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DCC0185F93C3003849B8 /* bslXMLErrors.h */; };
+		EB27DCE3185F93C3003849B8 /* bslXMLTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DCC1185F93C3003849B8 /* bslXMLTypes.h */; };
+		EB27DCE4185F93C3003849B8 /* bslXMLUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DCC2185F93C3003849B8 /* bslXMLUtil.h */; };
+		EB27DCE5185F93C3003849B8 /* bslStrChr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DCC5185F93C3003849B8 /* bslStrChr.cpp */; };
+		EB27DCE6185F93C3003849B8 /* bslStrHash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DCC6185F93C3003849B8 /* bslStrHash.cpp */; };
+		EB27DCE7185F93C3003849B8 /* bslXMLAttributeEx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DCC7185F93C3003849B8 /* bslXMLAttributeEx.cpp */; };
+		EB27DCE8185F93C3003849B8 /* bslXMLConverterEx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DCC8185F93C3003849B8 /* bslXMLConverterEx.cpp */; };
+		EB27DCE9185F93C3003849B8 /* bslXMLDictionaryEx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DCC9185F93C3003849B8 /* bslXMLDictionaryEx.cpp */; };
+		EB27DCEA185F93C3003849B8 /* bslXMLDocumentEx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DCCA185F93C3003849B8 /* bslXMLDocumentEx.cpp */; };
+		EB27DCEB185F93C3003849B8 /* bslXMLElementEx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DCCB185F93C3003849B8 /* bslXMLElementEx.cpp */; };
+		EB27DCEC185F93C3003849B8 /* FNV1Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DCCC185F93C3003849B8 /* FNV1Hash.h */; };
+		EB27DCED185F93C3003849B8 /* LookupTables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DCCD185F93C3003849B8 /* LookupTables.cpp */; };
+		EB27DCEE185F93C3003849B8 /* LookupTables.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DCCE185F93C3003849B8 /* LookupTables.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB27DC85185BA023003849B8 /* libbslxml.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libbslxml.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB27DCBB185F93C3003849B8 /* bslXMLAttributeEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslXMLAttributeEx.h; path = ../../../bslxml/include/bslxml/bslXMLAttributeEx.h; sourceTree = SOURCE_ROOT; };
+		EB27DCBC185F93C3003849B8 /* bslXMLConverterEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslXMLConverterEx.h; path = ../../../bslxml/include/bslxml/bslXMLConverterEx.h; sourceTree = SOURCE_ROOT; };
+		EB27DCBD185F93C3003849B8 /* bslXMLDictionaryEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslXMLDictionaryEx.h; path = ../../../bslxml/include/bslxml/bslXMLDictionaryEx.h; sourceTree = SOURCE_ROOT; };
+		EB27DCBE185F93C3003849B8 /* bslXMLDocumentEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslXMLDocumentEx.h; path = ../../../bslxml/include/bslxml/bslXMLDocumentEx.h; sourceTree = SOURCE_ROOT; };
+		EB27DCBF185F93C3003849B8 /* bslXMLElementEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslXMLElementEx.h; path = ../../../bslxml/include/bslxml/bslXMLElementEx.h; sourceTree = SOURCE_ROOT; };
+		EB27DCC0185F93C3003849B8 /* bslXMLErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslXMLErrors.h; path = ../../../bslxml/include/bslxml/bslXMLErrors.h; sourceTree = SOURCE_ROOT; };
+		EB27DCC1185F93C3003849B8 /* bslXMLTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslXMLTypes.h; path = ../../../bslxml/include/bslxml/bslXMLTypes.h; sourceTree = SOURCE_ROOT; };
+		EB27DCC2185F93C3003849B8 /* bslXMLUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslXMLUtil.h; path = ../../../bslxml/include/bslxml/bslXMLUtil.h; sourceTree = SOURCE_ROOT; };
+		EB27DCC5185F93C3003849B8 /* bslStrChr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bslStrChr.cpp; path = ../../../bslxml/src/bslStrChr.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DCC6185F93C3003849B8 /* bslStrHash.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bslStrHash.cpp; path = ../../../bslxml/src/bslStrHash.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DCC7185F93C3003849B8 /* bslXMLAttributeEx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bslXMLAttributeEx.cpp; path = ../../../bslxml/src/bslXMLAttributeEx.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DCC8185F93C3003849B8 /* bslXMLConverterEx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bslXMLConverterEx.cpp; path = ../../../bslxml/src/bslXMLConverterEx.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DCC9185F93C3003849B8 /* bslXMLDictionaryEx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bslXMLDictionaryEx.cpp; path = ../../../bslxml/src/bslXMLDictionaryEx.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DCCA185F93C3003849B8 /* bslXMLDocumentEx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bslXMLDocumentEx.cpp; path = ../../../bslxml/src/bslXMLDocumentEx.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DCCB185F93C3003849B8 /* bslXMLElementEx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bslXMLElementEx.cpp; path = ../../../bslxml/src/bslXMLElementEx.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DCCC185F93C3003849B8 /* FNV1Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FNV1Hash.h; path = ../../../bslxml/src/FNV1Hash.h; sourceTree = SOURCE_ROOT; };
+		EB27DCCD185F93C3003849B8 /* LookupTables.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LookupTables.cpp; path = ../../../bslxml/src/LookupTables.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DCCE185F93C3003849B8 /* LookupTables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LookupTables.h; path = ../../../bslxml/src/LookupTables.h; sourceTree = SOURCE_ROOT; };
+		EB27DF7A185FBA6F003849B8 /* wxWidgets30Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = wxWidgets30Release.xcconfig; path = ../Configurations/wxWidgets30Release.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB27DF7B185FF97A003849B8 /* Paths.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Paths.xcconfig; path = ../Configurations/Paths.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB27DF7C18600259003849B8 /* LibRelease.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = LibRelease.xcconfig; path = ../Configurations/LibRelease.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB27DF7D18600274003849B8 /* LibDebug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = LibDebug.xcconfig; path = ../Configurations/LibDebug.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B1501860AB9800B3C798 /* bslXMLDebug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = bslXMLDebug.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B1511860ABB900B3C798 /* bslXMLRelease.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = bslXMLRelease.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B1521860B80700B3C798 /* MacOSX.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = MacOSX.xcconfig; path = ../Configurations/MacOSX.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B1531860BC9700B3C798 /* bslXML.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = bslXML.xcconfig; path = ../Configurations/bslXML.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B1941860CFF400B3C798 /* BOINCSentinels.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = BOINCSentinels.xcconfig; path = ../Configurations/BOINCSentinels.xcconfig; sourceTree = SOURCE_ROOT; };
+		EBA1DE0B1863F96000CA1B18 /* wxWidgets30Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = wxWidgets30Debug.xcconfig; path = ../Configurations/wxWidgets30Debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB27DC82185BA023003849B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB27DC7C185BA023003849B8 = {
+			isa = PBXGroup;
+			children = (
+				EB27DF75185FB4BE003849B8 /* Configurations */,
+				EB27DCB2185F93C3003849B8 /* Sources */,
+				EB27DC86185BA023003849B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB27DC86185BA023003849B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB27DC85185BA023003849B8 /* libbslxml.a */,
+			);
+			name = Products;
+			sourceTree = SOURCE_ROOT;
+		};
+		EB27DCB2185F93C3003849B8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EB27DCB9185F93C3003849B8 /* include */,
+				EB27DCC4185F93C3003849B8 /* src */,
+			);
+			name = Sources;
+			path = ../../../bslxml;
+			sourceTree = SOURCE_ROOT;
+		};
+		EB27DCB9185F93C3003849B8 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				EB27DCBA185F93C3003849B8 /* bslxml */,
+			);
+			name = include;
+			path = ../../../bslxml/include;
+			sourceTree = SOURCE_ROOT;
+		};
+		EB27DCBA185F93C3003849B8 /* bslxml */ = {
+			isa = PBXGroup;
+			children = (
+				EB27DCBB185F93C3003849B8 /* bslXMLAttributeEx.h */,
+				EB27DCBC185F93C3003849B8 /* bslXMLConverterEx.h */,
+				EB27DCBD185F93C3003849B8 /* bslXMLDictionaryEx.h */,
+				EB27DCBE185F93C3003849B8 /* bslXMLDocumentEx.h */,
+				EB27DCBF185F93C3003849B8 /* bslXMLElementEx.h */,
+				EB27DCC0185F93C3003849B8 /* bslXMLErrors.h */,
+				EB27DCC1185F93C3003849B8 /* bslXMLTypes.h */,
+				EB27DCC2185F93C3003849B8 /* bslXMLUtil.h */,
+			);
+			path = bslxml;
+			sourceTree = "<group>";
+		};
+		EB27DCC4185F93C3003849B8 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				EB27DCC5185F93C3003849B8 /* bslStrChr.cpp */,
+				EB27DCC6185F93C3003849B8 /* bslStrHash.cpp */,
+				EB27DCC7185F93C3003849B8 /* bslXMLAttributeEx.cpp */,
+				EB27DCC8185F93C3003849B8 /* bslXMLConverterEx.cpp */,
+				EB27DCC9185F93C3003849B8 /* bslXMLDictionaryEx.cpp */,
+				EB27DCCA185F93C3003849B8 /* bslXMLDocumentEx.cpp */,
+				EB27DCCB185F93C3003849B8 /* bslXMLElementEx.cpp */,
+				EB27DCCC185F93C3003849B8 /* FNV1Hash.h */,
+				EB27DCCD185F93C3003849B8 /* LookupTables.cpp */,
+				EB27DCCE185F93C3003849B8 /* LookupTables.h */,
+			);
+			name = src;
+			path = ../../../bslxml/src;
+			sourceTree = SOURCE_ROOT;
+		};
+		EB27DF75185FB4BE003849B8 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				EB27DF77185FB9DB003849B8 /* Project */,
+				EB27DF79185FBA29003849B8 /* Shreds */,
+			);
+			name = Configurations;
+			sourceTree = SOURCE_ROOT;
+		};
+		EB27DF77185FB9DB003849B8 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				EB35B1501860AB9800B3C798 /* bslXMLDebug.xcconfig */,
+				EB35B1511860ABB900B3C798 /* bslXMLRelease.xcconfig */,
+			);
+			name = Project;
+			sourceTree = SOURCE_ROOT;
+		};
+		EB27DF79185FBA29003849B8 /* Shreds */ = {
+			isa = PBXGroup;
+			children = (
+				EB35B1941860CFF400B3C798 /* BOINCSentinels.xcconfig */,
+				EB35B1531860BC9700B3C798 /* bslXML.xcconfig */,
+				EB27DF7D18600274003849B8 /* LibDebug.xcconfig */,
+				EB27DF7C18600259003849B8 /* LibRelease.xcconfig */,
+				EB35B1521860B80700B3C798 /* MacOSX.xcconfig */,
+				EB27DF7B185FF97A003849B8 /* Paths.xcconfig */,
+				EBA1DE0B1863F96000CA1B18 /* wxWidgets30Debug.xcconfig */,
+				EB27DF7A185FBA6F003849B8 /* wxWidgets30Release.xcconfig */,
+			);
+			name = Shreds;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EB27DC83185BA023003849B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB27DCDE185F93C3003849B8 /* bslXMLConverterEx.h in Headers */,
+				EB27DCEC185F93C3003849B8 /* FNV1Hash.h in Headers */,
+				EB27DCE1185F93C3003849B8 /* bslXMLElementEx.h in Headers */,
+				EB27DCE2185F93C3003849B8 /* bslXMLErrors.h in Headers */,
+				EB27DCDD185F93C3003849B8 /* bslXMLAttributeEx.h in Headers */,
+				EB27DCDF185F93C3003849B8 /* bslXMLDictionaryEx.h in Headers */,
+				EB27DCE0185F93C3003849B8 /* bslXMLDocumentEx.h in Headers */,
+				EB27DCE3185F93C3003849B8 /* bslXMLTypes.h in Headers */,
+				EB27DCEE185F93C3003849B8 /* LookupTables.h in Headers */,
+				EB27DCE4185F93C3003849B8 /* bslXMLUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EB27DC84185BA023003849B8 /* bslxml */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB27DC89185BA023003849B8 /* Build configuration list for PBXNativeTarget "bslxml" */;
+			buildPhases = (
+				EB27DC81185BA023003849B8 /* Sources */,
+				EB27DC82185BA023003849B8 /* Frameworks */,
+				EB27DC83185BA023003849B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bslxml;
+			productName = bslxml;
+			productReference = EB27DC85185BA023003849B8 /* libbslxml.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB27DC7D185BA023003849B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "BOINC Sentinels Team";
+			};
+			buildConfigurationList = EB27DC80185BA023003849B8 /* Build configuration list for PBXProject "bslxml" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB27DC7C185BA023003849B8;
+			productRefGroup = EB27DC86185BA023003849B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB27DC84185BA023003849B8 /* bslxml */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB27DC81185BA023003849B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB27DCE5185F93C3003849B8 /* bslStrChr.cpp in Sources */,
+				EB27DCEB185F93C3003849B8 /* bslXMLElementEx.cpp in Sources */,
+				EB27DCEA185F93C3003849B8 /* bslXMLDocumentEx.cpp in Sources */,
+				EB27DCE8185F93C3003849B8 /* bslXMLConverterEx.cpp in Sources */,
+				EB27DCE6185F93C3003849B8 /* bslStrHash.cpp in Sources */,
+				EB27DCE7185F93C3003849B8 /* bslXMLAttributeEx.cpp in Sources */,
+				EB27DCED185F93C3003849B8 /* LookupTables.cpp in Sources */,
+				EB27DCE9185F93C3003849B8 /* bslXMLDictionaryEx.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EB27DC87185BA023003849B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EB27DC88185BA023003849B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EB27DC8A185BA023003849B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB35B1501860AB9800B3C798 /* bslXMLDebug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB27DC8B185BA023003849B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB35B1511860ABB900B3C798 /* bslXMLRelease.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB27DC80185BA023003849B8 /* Build configuration list for PBXProject "bslxml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB27DC87185BA023003849B8 /* Debug */,
+				EB27DC88185BA023003849B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB27DC89185BA023003849B8 /* Build configuration list for PBXNativeTarget "bslxml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB27DC8A185BA023003849B8 /* Debug */,
+				EB27DC8B185BA023003849B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB27DC7D185BA023003849B8 /* Project object */;
+}

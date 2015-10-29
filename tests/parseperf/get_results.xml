@@ -1,0 +1,785 @@
+<boinc_gui_rpc_reply>
+<results>
+<result>
+    <name>caa03215-1b38-489c-abd4-252c594ad6ff_8de724c1-5729-4e31-b39b-3629747eb512_129390_0</name>
+    <wu_name>caa03215-1b38-489c-abd4-252c594ad6ff_8de724c1-5729-4e31-b39b-3629747eb512_129390</wu_name>
+    <version_num>206</version_num>
+    <plan_class></plan_class>
+    <project_url>http://szdg.lpds.sztaki.hu/szdg/</project_url>
+    <final_cpu_time>394.869731</final_cpu_time>
+    <final_elapsed_time>416.430902</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1284007551.000000</report_deadline>
+    <received_time>1281415551.523302</received_time>
+    <estimated_cpu_time_remaining>17270.143328</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+<active_task>
+    <active_task_state>0</active_task_state>
+    <app_version_num>206</app_version_num>
+    <slot>1</slot>
+    <pid>0</pid>
+    <scheduler_state>1</scheduler_state>
+    <checkpoint_cpu_time>350.284645</checkpoint_cpu_time>
+    <fraction_done>0.000000</fraction_done>
+    <current_cpu_time>350.284645</current_cpu_time>
+    <elapsed_time>368.774668</elapsed_time>
+    <swap_size>1007616.000000</swap_size>
+    <working_set_size>3256320.000000</working_set_size>
+    <working_set_size_smoothed>3256320.000000</working_set_size_smoothed>
+    <page_fault_rate>0.000000</page_fault_rate>
+</active_task>
+</result>
+<result>
+    <name>evo_A1281288304-44-0_34.3MB_63.84_0</name>
+    <wu_name>evo_A1281288304-44-0_34.3MB_63.84</wu_name>
+    <version_num>112</version_num>
+    <plan_class></plan_class>
+    <project_url>http://www.rechenkraft.net/yoyo/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1283570449.000000</report_deadline>
+    <received_time>1281415850.478689</received_time>
+    <estimated_cpu_time_remaining>86711.020469</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+<active_task>
+    <active_task_state>0</active_task_state>
+    <app_version_num>112</app_version_num>
+    <slot>3</slot>
+    <pid>0</pid>
+    <scheduler_state>1</scheduler_state>
+    <checkpoint_cpu_time>0.000000</checkpoint_cpu_time>
+    <fraction_done>0.021443</fraction_done>
+    <current_cpu_time>0.000000</current_cpu_time>
+    <elapsed_time>0.000000</elapsed_time>
+    <swap_size>34742272.000000</swap_size>
+    <working_set_size>39247872.000000</working_set_size>
+    <working_set_size_smoothed>39247872.000000</working_set_size_smoothed>
+    <page_fault_rate>0.000000</page_fault_rate>
+   <graphics_exec_path>C:\ProgramData\BOINC/projects/www.rechenkraft.net_yoyo/yoyo_graphics_1.01_windows_intelx86.exe</graphics_exec_path>
+   <slot_path>C:\ProgramData\BOINC/slots/3</slot_path>
+</active_task>
+</result>
+<result>
+    <name>qasino_b3lypqz-21a_s22test.853_0</name>
+    <wu_name>qasino_b3lypqz-21a_s22test.853</wu_name>
+    <version_num>501</version_num>
+    <plan_class></plan_class>
+    <project_url>http://qah.uni-muenster.de/</project_url>
+    <final_cpu_time>14608.670000</final_cpu_time>
+    <final_elapsed_time>15354.137110</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1282625600.000000</report_deadline>
+    <received_time>1281416000.570679</received_time>
+    <estimated_cpu_time_remaining>7761.896445</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+<active_task>
+    <active_task_state>0</active_task_state>
+    <app_version_num>501</app_version_num>
+    <slot>2</slot>
+    <pid>0</pid>
+    <scheduler_state>1</scheduler_state>
+    <checkpoint_cpu_time>14340.240000</checkpoint_cpu_time>
+    <fraction_done>0.661919</fraction_done>
+    <current_cpu_time>14340.240000</current_cpu_time>
+    <elapsed_time>15065.494110</elapsed_time>
+    <swap_size>0.000000</swap_size>
+    <working_set_size>0.000000</working_set_size>
+    <working_set_size_smoothed>0.000000</working_set_size_smoothed>
+    <page_fault_rate>0.000000</page_fault_rate>
+</active_task>
+</result>
+<result>
+    <name>iq64DT1c_100813a_3_384_1</name>
+    <wu_name>iq64DT1c_100813a_3_384</wu_name>
+    <version_num>114</version_num>
+    <plan_class>mt1</plan_class>
+    <project_url>http://aqua.dwavesys.com/</project_url>
+    <final_cpu_time>66034.780000</final_cpu_time>
+    <final_elapsed_time>35058.569616</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285454281.000000</report_deadline>
+    <received_time>1281998282.039669</received_time>
+    <estimated_cpu_time_remaining>209595.985410</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+<active_task>
+    <active_task_state>0</active_task_state>
+    <app_version_num>114</app_version_num>
+    <slot>7</slot>
+    <pid>0</pid>
+    <scheduler_state>1</scheduler_state>
+    <checkpoint_cpu_time>66032.980000</checkpoint_cpu_time>
+    <fraction_done>0.280784</fraction_done>
+    <current_cpu_time>66032.980000</current_cpu_time>
+    <elapsed_time>35058.569616</elapsed_time>
+    <swap_size>33443840.000000</swap_size>
+    <working_set_size>35385344.000000</working_set_size>
+    <working_set_size_smoothed>35385344.000000</working_set_size_smoothed>
+    <page_fault_rate>0.000000</page_fault_rate>
+   <graphics_exec_path>C:\ProgramData\BOINC/projects/aqua.dwavesys.com/gfx_4.15_x86_64.exe</graphics_exec_path>
+   <slot_path>C:\ProgramData\BOINC/slots/7</slot_path>
+</active_task>
+    <resources>2.00 CPUs</resources>
+</result>
+<result>
+    <name>hadam3p_pnw_v098_1992_1_000256775_0</name>
+    <wu_name>hadam3p_pnw_v098_1992_1_000256775</wu_name>
+    <version_num>602</version_num>
+    <plan_class></plan_class>
+    <project_url>http://cpdnbeta.oerc.ox.ac.uk/</project_url>
+    <final_cpu_time>12216.719112</final_cpu_time>
+    <final_elapsed_time>12823.794110</final_elapsed_time>
+    <exit_status>-1073741502</exit_status>
+    <state>2</state>
+    <report_deadline>1312039637.000000</report_deadline>
+    <received_time>1282039656.918425</received_time>
+    <estimated_cpu_time_remaining>313159.714530</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+<active_task>
+    <active_task_state>0</active_task_state>
+    <app_version_num>602</app_version_num>
+    <slot>9</slot>
+    <pid>0</pid>
+    <scheduler_state>1</scheduler_state>
+    <checkpoint_cpu_time>12216.719112</checkpoint_cpu_time>
+    <fraction_done>0.039048</fraction_done>
+    <current_cpu_time>12216.719112</current_cpu_time>
+    <elapsed_time>12882.915909</elapsed_time>
+    <swap_size>244035584.000000</swap_size>
+    <working_set_size>179290112.000000</working_set_size>
+    <working_set_size_smoothed>179290112.000000</working_set_size_smoothed>
+    <page_fault_rate>0.000000</page_fault_rate>
+   <graphics_exec_path>C:\ProgramData\BOINC/projects/cpdnbeta.oerc.ox.ac.uk/hadam3p_pnw_graphics_6.02_windows_intelx86.exe</graphics_exec_path>
+   <slot_path>C:\ProgramData\BOINC/slots/9</slot_path>
+</active_task>
+</result>
+<result>
+    <name>21ap10ad.21921.4162.15.10.35.vlar_0</name>
+    <wu_name>21ap10ad.21921.4162.15.10.35.vlar</wu_name>
+    <version_num>603</version_num>
+    <plan_class></plan_class>
+    <project_url>http://setiathome.berkeley.edu/</project_url>
+    <final_cpu_time>5626.691000</final_cpu_time>
+    <final_elapsed_time>5883.432159</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1286064465.000000</report_deadline>
+    <received_time>1282046466.287325</received_time>
+    <estimated_cpu_time_remaining>14940.612513</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+<active_task>
+    <active_task_state>0</active_task_state>
+    <app_version_num>603</app_version_num>
+    <slot>0</slot>
+    <pid>0</pid>
+    <scheduler_state>1</scheduler_state>
+    <checkpoint_cpu_time>5543.886000</checkpoint_cpu_time>
+    <fraction_done>0.330953</fraction_done>
+    <current_cpu_time>5543.886000</current_cpu_time>
+    <elapsed_time>5785.951160</elapsed_time>
+    <swap_size>38240256.000000</swap_size>
+    <working_set_size>39645184.000000</working_set_size>
+    <working_set_size_smoothed>39645184.000000</working_set_size_smoothed>
+    <page_fault_rate>0.000000</page_fault_rate>
+   <graphics_exec_path>C:\ProgramData\BOINC/projects/setiathome.berkeley.edu/setigraphics_6.03_windows_intelx86.exe</graphics_exec_path>
+   <slot_path>C:\ProgramData\BOINC/slots/0</slot_path>
+</active_task>
+</result>
+<result>
+    <name>collatz_1283173811_738803_1</name>
+    <wu_name>collatz_1283173811_738803</wu_name>
+    <version_num>209</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://boinc.thesonntags.com/collatz/</project_url>
+    <final_cpu_time>366.079000</final_cpu_time>
+    <final_elapsed_time>366.348000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285186529.000000</report_deadline>
+    <received_time>1283976929.983896</received_time>
+    <estimated_cpu_time_remaining>459.761001</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+<active_task>
+    <active_task_state>0</active_task_state>
+    <app_version_num>209</app_version_num>
+    <slot>4</slot>
+    <pid>0</pid>
+    <scheduler_state>1</scheduler_state>
+    <checkpoint_cpu_time>189.953000</checkpoint_cpu_time>
+    <fraction_done>0.362712</fraction_done>
+    <current_cpu_time>189.953000</current_cpu_time>
+    <elapsed_time>190.650000</elapsed_time>
+    <swap_size>0.000000</swap_size>
+    <working_set_size>0.000000</working_set_size>
+    <working_set_size_smoothed>0.000000</working_set_size_smoothed>
+    <page_fault_rate>0.000000</page_fault_rate>
+</active_task>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>de_11_3s_2_235789_1283925448_1</name>
+    <wu_name>de_11_3s_2_235789_1283925448</wu_name>
+    <version_num>23</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://milkyway.cs.rpi.edu/milkyway/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1284669084.000000</report_deadline>
+    <received_time>1283977885.521587</received_time>
+    <estimated_cpu_time_remaining>231.860594</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>collatz_1283173811_740048_0</name>
+    <wu_name>collatz_1283173811_740048</wu_name>
+    <version_num>209</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://boinc.thesonntags.com/collatz/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285187746.000000</report_deadline>
+    <received_time>1283978146.951586</received_time>
+    <estimated_cpu_time_remaining>1007.752791</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>de_16_3s_2_228737_1284387326_0</name>
+    <wu_name>de_16_3s_2_228737_1284387326</wu_name>
+    <version_num>23</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://milkyway.cs.rpi.edu/milkyway/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285078710.000000</report_deadline>
+    <received_time>1284387512.006668</received_time>
+    <estimated_cpu_time_remaining>231.862462</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>de_16_3s_2_228736_1284387326_0</name>
+    <wu_name>de_16_3s_2_228736_1284387326</wu_name>
+    <version_num>23</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://milkyway.cs.rpi.edu/milkyway/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285078710.000000</report_deadline>
+    <received_time>1284387512.006668</received_time>
+    <estimated_cpu_time_remaining>231.862462</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>de_16_3s_2_228735_1284387326_0</name>
+    <wu_name>de_16_3s_2_228735_1284387326</wu_name>
+    <version_num>23</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://milkyway.cs.rpi.edu/milkyway/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285078710.000000</report_deadline>
+    <received_time>1284387512.006668</received_time>
+    <estimated_cpu_time_remaining>231.862462</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>de_16_3s_2_228726_1284387326_0</name>
+    <wu_name>de_16_3s_2_228726_1284387326</wu_name>
+    <version_num>23</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://milkyway.cs.rpi.edu/milkyway/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285078710.000000</report_deadline>
+    <received_time>1284387512.006668</received_time>
+    <estimated_cpu_time_remaining>231.862462</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>de_16_3s_2_228725_1284387326_0</name>
+    <wu_name>de_16_3s_2_228725_1284387326</wu_name>
+    <version_num>23</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://milkyway.cs.rpi.edu/milkyway/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285078710.000000</report_deadline>
+    <received_time>1284387512.006668</received_time>
+    <estimated_cpu_time_remaining>231.862462</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>de_16_3s_2_228722_1284387326_0</name>
+    <wu_name>de_16_3s_2_228722_1284387326</wu_name>
+    <version_num>23</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://milkyway.cs.rpi.edu/milkyway/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285078710.000000</report_deadline>
+    <received_time>1284387512.006668</received_time>
+    <estimated_cpu_time_remaining>231.862462</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>de_16_3s_2_228721_1284387326_0</name>
+    <wu_name>de_16_3s_2_228721_1284387326</wu_name>
+    <version_num>23</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://milkyway.cs.rpi.edu/milkyway/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285078710.000000</report_deadline>
+    <received_time>1284387512.006668</received_time>
+    <estimated_cpu_time_remaining>231.862462</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>de_16_3s_2_228720_1284387326_0</name>
+    <wu_name>de_16_3s_2_228720_1284387326</wu_name>
+    <version_num>23</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://milkyway.cs.rpi.edu/milkyway/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285078710.000000</report_deadline>
+    <received_time>1284387512.006668</received_time>
+    <estimated_cpu_time_remaining>231.862462</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>de_16_3s_2_228719_1284387326_0</name>
+    <wu_name>de_16_3s_2_228719_1284387326</wu_name>
+    <version_num>23</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://milkyway.cs.rpi.edu/milkyway/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285078710.000000</report_deadline>
+    <received_time>1284387512.006668</received_time>
+    <estimated_cpu_time_remaining>231.862462</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>de_16_3s_2_228718_1284387326_0</name>
+    <wu_name>de_16_3s_2_228718_1284387326</wu_name>
+    <version_num>23</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://milkyway.cs.rpi.edu/milkyway/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285078710.000000</report_deadline>
+    <received_time>1284387512.006668</received_time>
+    <estimated_cpu_time_remaining>231.862462</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>de_14_3s_2_229809_1284387337_0</name>
+    <wu_name>de_14_3s_2_229809_1284387337</wu_name>
+    <version_num>23</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://milkyway.cs.rpi.edu/milkyway/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285078836.000000</report_deadline>
+    <received_time>1284387636.666668</received_time>
+    <estimated_cpu_time_remaining>231.861599</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>collatz_1283173811_3821_2</name>
+    <wu_name>collatz_1283173811_3821</wu_name>
+    <version_num>209</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://boinc.thesonntags.com/collatz/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285597271.000000</report_deadline>
+    <received_time>1284387672.335669</received_time>
+    <estimated_cpu_time_remaining>1007.752791</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>collatz_1283173811_1091687_1</name>
+    <wu_name>collatz_1283173811_1091687</wu_name>
+    <version_num>209</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://boinc.thesonntags.com/collatz/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285597271.000000</report_deadline>
+    <received_time>1284387672.335669</received_time>
+    <estimated_cpu_time_remaining>1007.752791</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>collatz_1283173811_1091674_1</name>
+    <wu_name>collatz_1283173811_1091674</wu_name>
+    <version_num>209</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://boinc.thesonntags.com/collatz/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285597271.000000</report_deadline>
+    <received_time>1284387672.335669</received_time>
+    <estimated_cpu_time_remaining>1007.752791</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>collatz_1283173811_1091669_0</name>
+    <wu_name>collatz_1283173811_1091669</wu_name>
+    <version_num>209</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://boinc.thesonntags.com/collatz/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285597271.000000</report_deadline>
+    <received_time>1284387672.335669</received_time>
+    <estimated_cpu_time_remaining>1007.752791</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>collatz_1283173811_1091666_1</name>
+    <wu_name>collatz_1283173811_1091666</wu_name>
+    <version_num>209</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://boinc.thesonntags.com/collatz/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285597271.000000</report_deadline>
+    <received_time>1284387672.335669</received_time>
+    <estimated_cpu_time_remaining>1007.752791</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>collatz_1283173811_1091638_1</name>
+    <wu_name>collatz_1283173811_1091638</wu_name>
+    <version_num>209</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://boinc.thesonntags.com/collatz/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285597271.000000</report_deadline>
+    <received_time>1284387672.335669</received_time>
+    <estimated_cpu_time_remaining>1007.752791</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>collatz_1283173811_1091637_0</name>
+    <wu_name>collatz_1283173811_1091637</wu_name>
+    <version_num>209</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://boinc.thesonntags.com/collatz/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285597271.000000</report_deadline>
+    <received_time>1284387672.335669</received_time>
+    <estimated_cpu_time_remaining>1007.752791</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>collatz_1283173811_1091636_1</name>
+    <wu_name>collatz_1283173811_1091636</wu_name>
+    <version_num>209</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://boinc.thesonntags.com/collatz/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285597271.000000</report_deadline>
+    <received_time>1284387672.335669</received_time>
+    <estimated_cpu_time_remaining>1007.752791</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>collatz_1283173811_1091635_1</name>
+    <wu_name>collatz_1283173811_1091635</wu_name>
+    <version_num>209</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://boinc.thesonntags.com/collatz/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285597271.000000</report_deadline>
+    <received_time>1284387672.335669</received_time>
+    <estimated_cpu_time_remaining>1007.752791</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>collatz_1283173811_1091616_0</name>
+    <wu_name>collatz_1283173811_1091616</wu_name>
+    <version_num>209</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://boinc.thesonntags.com/collatz/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285597271.000000</report_deadline>
+    <received_time>1284387672.335669</received_time>
+    <estimated_cpu_time_remaining>1007.752791</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>collatz_1283173811_1091615_0</name>
+    <wu_name>collatz_1283173811_1091615</wu_name>
+    <version_num>209</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://boinc.thesonntags.com/collatz/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285597271.000000</report_deadline>
+    <received_time>1284387672.335669</received_time>
+    <estimated_cpu_time_remaining>1007.752791</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>collatz_1283173811_1091614_1</name>
+    <wu_name>collatz_1283173811_1091614</wu_name>
+    <version_num>209</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://boinc.thesonntags.com/collatz/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285597271.000000</report_deadline>
+    <received_time>1284387672.335669</received_time>
+    <estimated_cpu_time_remaining>1007.752791</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>collatz_1283173811_1091609_1</name>
+    <wu_name>collatz_1283173811_1091609</wu_name>
+    <version_num>209</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://boinc.thesonntags.com/collatz/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285597271.000000</report_deadline>
+    <received_time>1284387672.335669</received_time>
+    <estimated_cpu_time_remaining>1007.752791</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>collatz_1283173811_1091595_1</name>
+    <wu_name>collatz_1283173811_1091595</wu_name>
+    <version_num>209</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://boinc.thesonntags.com/collatz/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285597271.000000</report_deadline>
+    <received_time>1284387672.335669</received_time>
+    <estimated_cpu_time_remaining>1007.752791</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>collatz_1283173811_1091576_1</name>
+    <wu_name>collatz_1283173811_1091576</wu_name>
+    <version_num>209</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://boinc.thesonntags.com/collatz/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285597271.000000</report_deadline>
+    <received_time>1284387672.335669</received_time>
+    <estimated_cpu_time_remaining>1007.752791</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>collatz_1283173811_1091536_0</name>
+    <wu_name>collatz_1283173811_1091536</wu_name>
+    <version_num>209</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://boinc.thesonntags.com/collatz/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285597271.000000</report_deadline>
+    <received_time>1284387672.335669</received_time>
+    <estimated_cpu_time_remaining>1007.752791</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>collatz_1283173811_1091513_0</name>
+    <wu_name>collatz_1283173811_1091513</wu_name>
+    <version_num>209</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://boinc.thesonntags.com/collatz/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285597271.000000</report_deadline>
+    <received_time>1284387672.335669</received_time>
+    <estimated_cpu_time_remaining>1007.752791</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>collatz_1283173811_1091512_1</name>
+    <wu_name>collatz_1283173811_1091512</wu_name>
+    <version_num>209</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://boinc.thesonntags.com/collatz/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285597271.000000</report_deadline>
+    <received_time>1284387672.335669</received_time>
+    <estimated_cpu_time_remaining>1007.752791</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>collatz_1283173811_1091477_1</name>
+    <wu_name>collatz_1283173811_1091477</wu_name>
+    <version_num>209</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://boinc.thesonntags.com/collatz/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285597271.000000</report_deadline>
+    <received_time>1284387672.335669</received_time>
+    <estimated_cpu_time_remaining>1007.752791</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>collatz_1283173811_1091449_1</name>
+    <wu_name>collatz_1283173811_1091449</wu_name>
+    <version_num>209</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://boinc.thesonntags.com/collatz/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285597271.000000</report_deadline>
+    <received_time>1284387672.335669</received_time>
+    <estimated_cpu_time_remaining>1007.752791</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>collatz_1283173811_1091447_0</name>
+    <wu_name>collatz_1283173811_1091447</wu_name>
+    <version_num>209</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://boinc.thesonntags.com/collatz/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285597271.000000</report_deadline>
+    <received_time>1284387672.335669</received_time>
+    <estimated_cpu_time_remaining>1007.752791</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+<result>
+    <name>collatz_1283173811_1091356_1</name>
+    <wu_name>collatz_1283173811_1091356</wu_name>
+    <version_num>209</version_num>
+    <plan_class>ati13ati</plan_class>
+    <project_url>http://boinc.thesonntags.com/collatz/</project_url>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <report_deadline>1285597271.000000</report_deadline>
+    <received_time>1284387672.335669</received_time>
+    <estimated_cpu_time_remaining>1007.752791</estimated_cpu_time_remaining>
+    <edf_scheduled/>
+    <resources>0.05 CPUs + 1.00 ATI GPUs</resources>
+</result>
+</results>
+</boinc_gui_rpc_reply>
+

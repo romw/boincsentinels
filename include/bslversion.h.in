@@ -1,0 +1,65 @@
+/* Platform independent version definitions... */
+
+#ifndef BOINCSENTINELS_VERSION_H
+#define BOINCSENTINELS_VERSION_H
+
+#if (defined(_WIN32) || defined(__APPLE__))
+
+/* String representation of BOINC version number we are compatible with */
+#define BOINCCOMPAT_VERSION "@BOINCCOMPAT_VERSION@"
+
+/* Major part of BOINC version number we are compatible with */
+#define BOINCCOMPAT_VERSION_MAJOR @BOINCCOMPAT_VERSION_MAJOR@
+
+/* Minor part of BOINC version number we are compatible with */
+#define BOINCCOMPAT_VERSION_MINOR @BOINCCOMPAT_VERSION_MINOR@
+
+/* Release part of BOINC version number we are compatible with */
+#define BOINCCOMPAT_VERSION_RELEASE @BOINCCOMPAT_VERSION_RELEASE@
+
+/* The branch used to build the software */
+#define BOINCSENTINELS_BRANCH "@BOINCSENTINELS_BRANCH@"
+
+/* The date/time when the software was archived */
+#define BOINCSENTINELS_ID "@BOINCSENTINELS_ID@"
+
+/* String representation of BOINC Sentinels version number */
+#define BOINCSENTINELS_VERSION "@BOINCSENTINELS_VERSION@"
+
+/* Build part of BOINC Sentinels version number */
+#define BOINCSENTINELS_VERSION_BUILD @BOINCSENTINELS_VERSION_BUILD@
+
+/* Major part of BOINC Sentinels version number */
+#define BOINCSENTINELS_VERSION_MAJOR @BOINCSENTINELS_VERSION_MAJOR@
+
+/* Minor part of BOINC Sentinels version number */
+#define BOINCSENTINELS_VERSION_MINOR @BOINCSENTINELS_VERSION_MINOR@
+
+/* Name of package */
+#define PACKAGE "@PACKAGE@"
+
+/* Define to the address where bug reports for this package should be sent. */
+#define PACKAGE_BUGREPORT "@PACKAGE_BUGREPORT@"
+
+/* Define to the full name of this package. */
+#define PACKAGE_NAME "@PACKAGE_NAME@"
+
+/* Define to the full name and version of this package. */
+#define PACKAGE_STRING "@PACKAGE_STRING@"
+
+/* Define to the one symbol short name of this package. */
+#define PACKAGE_TARNAME "@PACKAGE_TARNAME@"
+
+/* Define to the version of this package. */
+#define PACKAGE_VERSION "@PACKAGE_VERSION@"
+
+/* Define to the URL of this package. */
+#define PACKAGE_URL "@PACKAGE_URL@"
+
+#else /* #if (defined(_WIN32) || defined(__APPLE__)) */
+
+#include "../bsconfig.h"
+
+#endif
+
+#endif

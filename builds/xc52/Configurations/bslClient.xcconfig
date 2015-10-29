@@ -1,0 +1,14 @@
+//
+//  bslClient.xcconfig
+//
+//  Created by Rom Walton on 12/17/13.
+//  Copyright (c) 2013 BOINC Sentinels Team. All rights reserved.
+//
+
+#include "../Configurations/Paths.xcconfig"
+
+BSLCLIENTROOT = $(BSLROOT)/bslclient
+
+BSLCLIENT_USER_HEADER_SEARCH_PATHS = $(BSLCLIENTROOT)/include
+
+BSLCLIENTLIBS = -lbslclient

@@ -1,0 +1,50 @@
+BOINC Sentinels.
+
+Background
+==========
+
+Audience
+========
+
+Downloading
+===========
+The latest version of BOINC Sentinels may be found at:
+
+   https://www.romwnet.org:8001/boincsentinels
+
+Building
+========
+See INSTALL for a description of how to build and install this library.
+
+Copyright
+=========
+Copyright (C) 2009-2011 Rom Walton
+
+BOINC Sentinels is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation,
+either version 3 of the License, or (at your option) any later version.
+
+BOINC Sentinels is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with BOINC Sentinels.  If not, see <http://www.gnu.org/licenses/>.
+
+Bugs and comments
+=================
+
+Report BOINC Sentinels bugs at:
+
+	https://www.romwnet.org:8001/boincsentinels
+
+And send your comments to:
+
+	<Fill in later>
+
+
+
+Rom Walton <romw@romwnet.org>
+August 22, 2010

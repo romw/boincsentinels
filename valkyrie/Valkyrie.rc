@@ -1,0 +1,91 @@
+// Valkyrie resource script.
+//
+#include "windows.h"
+#include "wx/msw/wx.rc"
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+aaaaaaaa                          ICON              "res\\win\\boincsentinels.ico"
+boincsentinels                    ICON              "res\\win\\boincsentinels.ico"
+computer                          ICON              "res\\win\\computer.ico"
+computer_add                      ICON              "res\\win\\computer_add.ico"
+computer_connecting               ICON              "res\\win\\computer_connecting.ico"
+computer_connected                ICON              "res\\win\\computer_connected.ico"
+computer_connection_failure       ICON              "res\\win\\computer_connection_failure.ico"
+computer_authentication_failure   ICON              "res\\win\\computer_authentication_failure.ico"
+computer_disconnected             ICON              "res\\win\\computer_disconnected.ico"
+project_add                       ICON              "res\\win\\project_add.ico"
+project_remove                    ICON              "res\\win\\project_remove.ico"
+pause                             ICON              "res\\win\\pause.ico"
+play                              ICON              "res\\win\\play.ico"
+stop                              ICON              "res\\win\\stop.ico"
+search                            ICON              "res\\win\\search.ico"
+copy                              ICON              "res\\win\\copy.ico"
+refresh                           ICON              "res\\win\\refresh.ico"
+alert                             ICON              "res\\win\\alert.ico"
+notification                      ICON              "res\\win\\notification.ico"
+showgraphics                      ICON              "res\\win\\showgraphics.ico"
+showvmconsole                     ICON              "res\\win\\showvmconsole.ico"
+showwebgraphics                   ICON              "res\\win\\showwebgraphics.ico"
+chevronexpanded                   ICON              "res\\win\\chevronexpanded.ico"
+chevroncollapsed                  ICON              "res\\win\\chevroncollapsed.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,0,1,0
+ PRODUCTVERSION 0,0,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "ROMWNET"
+            VALUE "FileDescription", "BOINC Sentinels Valkyrie"
+            VALUE "FileVersion", "0.0.1.0"
+            VALUE "InternalName", "valkyrie"
+            VALUE "LegalCopyright", "© 2009-2014 BOINC Sentinels Development Team"
+            VALUE "OriginalFilename", "valkyrie.exe"
+            VALUE "ProductName", "BOINC Sentinels"
+            VALUE "ProductVersion", "0.0.1.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+

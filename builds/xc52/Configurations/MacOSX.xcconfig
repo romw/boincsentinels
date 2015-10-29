@@ -1,0 +1,9 @@
+//
+//  MacOSX.xcconfig
+//
+//  Created by Rom Walton on 12/17/13.
+//  Copyright (c) 2013 BOINC Sentinels Team. All rights reserved.
+//
+
+SDKROOT = macosx
+MACOSX_DEPLOYMENT_TARGET = 10.8

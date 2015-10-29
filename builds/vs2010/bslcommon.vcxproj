@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B1495216-5697-4BCF-B354-DCD481498BB1}</ProjectGuid>
+    <RootNamespace>bslcommon</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)\$(PlatformShortName)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)\$(PlatformShortName)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)\$(ProjectName)\$(PROCESSOR_ARCHITECTURE)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)\$(ProjectName)\$(PROCESSOR_ARCHITECTURE)\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)\$(PlatformShortName)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)\$(PlatformShortName)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)\$(ProjectName)\$(PlatformShortName)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)\$(ProjectName)\$(PlatformShortName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PrecompiledHeaderFile>stdwx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(WXDIR)\lib\vc_lib\mswud;$(WXDIR)\include;$(SolutionDir)..\..\;$(SolutionDir)..\..\include;$(SolutionDir)..\..\bslxml\include;$(SolutionDir)..\..\bslcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PrecompiledHeaderFile>stdwx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(WXDIRX64)\lib\vc_x64_lib\mswud;$(WXDIRX64)\include;$(SolutionDir)..\..\;$(SolutionDir)..\..\include;$(SolutionDir)..\..\bslxml\include;$(SolutionDir)..\..\bslcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(WXDIR)\lib\vc_lib\mswu;$(WXDIR)\include;$(SolutionDir)..\..\;$(SolutionDir)..\..\include;$(SolutionDir)..\..\bslxml\include;$(SolutionDir)..\..\bslcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>stdwx.h</PrecompiledHeaderFile>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(WXDIRX64)\lib\vc_x64_lib\mswu;$(WXDIRX64)\include;$(SolutionDir)..\..\;$(SolutionDir)..\..\include;$(SolutionDir)..\..\bslxml\include;$(SolutionDir)..\..\bslcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>stdwx.h</PrecompiledHeaderFile>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\bslcommon\src\bslEventBase.cpp" />
+    <ClCompile Include="..\..\include\stdwx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\bslcommon\src\bslApp.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslAppEvents.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslAppVersion.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslAppVersionEvents.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslHost.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslHostCoprocAMD.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslHostCoprocNvidia.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslHostCoprocOpenCL.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslHostEvents.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslHostStatus.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslHostStatusEvents.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslMessage.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslMessageEvents.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslNotification.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslNotificationEvents.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslProject.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslProjectEvents.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslProjectLink.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslProjectListItem.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslProjectListItemEvents.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslProjectStatistic.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslProjectStatisticEvents.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslTask.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslTaskEvents.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslTaskInstance.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslTaskInstanceEvents.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslTransfer.cpp" />
+    <ClCompile Include="..\..\bslcommon\src\bslTransferEvents.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslEventBase.h" />
+    <ClInclude Include="..\..\include\stdwx.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslApp.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslAppEvents.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslAppVersion.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslAppVersionEvents.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslCommonTypes.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslErrors.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslHandles.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslHost.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslHostCoprocAMD.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslHostCoprocNvidia.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslHostCoprocOpenCL.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslHostEvents.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslHostStatus.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslHostStatusEvents.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslMessage.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslMessageEvents.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslNotification.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslNotificationEvents.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslProject.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslProjectEvents.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslProjectLink.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslProjectListItem.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslProjectListItemEvents.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslProjectStatistic.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslProjectStatisticEvents.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslTask.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslTaskEvents.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslTaskInstance.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslTaskInstanceEvents.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslTransfer.h" />
+    <ClInclude Include="..\..\bslcommon\include\bslcommon\bslTransferEvents.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

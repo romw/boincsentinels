@@ -1,0 +1,19 @@
+//
+//  bslClientRelease.xcconfig
+//
+//  Created by Rom Walton on 12/17/13.
+//  Copyright (c) 2013 BOINC Sentinels Team. All rights reserved.
+//
+
+#include "../Configurations/Paths.xcconfig"
+#include "../Configurations/MacOSX.xcconfig"
+#include "../Configurations/wxWidgets30Release.xcconfig"
+#include "../Configurations/LibRelease.xcconfig"
+#include "../Configurations/BOINCSentinels.xcconfig"
+#include "../Configurations/bslXML.xcconfig"
+#include "../Configurations/bslCommon.xcconfig"
+#include "../Configurations/bslClient.xcconfig"
+
+HEADER_SEARCH_PATHS = $(inherited) $(WX_HEADER_SEARCH_PATHS) $(BSL_USER_HEADER_SEARCH_PATHS) $(BSLXML_USER_HEADER_SEARCH_PATHS) $(BSLCOMMON_USER_HEADER_SEARCH_PATHS) $(BSLCLIENT_USER_HEADER_SEARCH_PATHS)
+USER_HEADER_SEARCH_PATHS = $(inherited) $(BSL_USER_HEADER_SEARCH_PATHS) $(BSLXML_USER_HEADER_SEARCH_PATHS) $(BSLCOMMON_USER_HEADER_SEARCH_PATHS) $(BSLCLIENT_USER_HEADER_SEARCH_PATHS)
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) $(WX_GCC_PREPROCESSOR_DEFINITIONS)

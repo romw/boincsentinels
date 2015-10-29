@@ -1,0 +1,12 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: bslclient
+Description: BOINC Sentinels Client Library
+URL: https://www.romwnet.org:8001/boincsentinels/
+Requires: bslcommon-@BOINCSENTINELS_VERSION_MAJOR@.@BOINCSENTINELS_VERSION_MINOR@
+Version: @PACKAGE_VERSION@
+Libs: -L${libdir} -lbslclient
+Cflags: -I${includedir}/bslclient-@BOINCSENTINELS_VERSION_MAJOR@.@BOINCSENTINELS_VERSION_MINOR@

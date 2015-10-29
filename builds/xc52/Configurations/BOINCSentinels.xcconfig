@@ -1,0 +1,13 @@
+//
+//  BOINCSentinels.xcconfig
+//
+//  Created by Rom Walton on 12/17/13.
+//  Copyright (c) 2013 BOINC Sentinels Team. All rights reserved.
+//
+
+#include "../Configurations/Paths.xcconfig"
+
+BSL_USER_HEADER_SEARCH_PATHS = $(BSLROOT)/include
+
+GCC_PRECOMPILE_PREFIX_HEADER = YES
+GCC_PREFIX_HEADER = $(BSLROOT)/include/stdwx.h

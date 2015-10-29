@@ -1,0 +1,33 @@
+## -*- mode: makefile; tab-width: 4 -*-
+
+AM_CFLAGS = -Wall -Wextra -Wshadow -Wdisabled-optimization -Wpointer-arith -Wstrict-aliasing
+AM_CXXFLAGS = $(AM_CFLAGS)
+AM_LDFLAGS =
+
+# dependencies to make sure libs gets compiled before
+# programs linking to them:
+PROJECTINCLUDE = -I$(abs_top_srcdir)/include
+
+LIBBSLXML_CFLAGS=-I$(abs_top_srcdir)/bslxml/include
+LIBBSLXML_CPPFLAGS=-I$(abs_top_srcdir)/bslxml/include
+LIBBSLXML_CXXFLAGS=-I$(abs_top_srcdir)/bslxml/include
+LIBBSLXML_LIBS=-L$(abs_top_builddir)/bslxml/src -lbslxml
+LIBBSLXML = $(abs_top_builddir)/bslxml/src/libbslxml.la
+$(LIBBSLXML):
+	cd $(top_builddir)/bslxml/src; ${MAKE}
+
+LIBBSLCOMMON_CFLAGS=-I$(abs_top_srcdir)/bslcommon/include
+LIBBSLCOMMON_CPPFLAGS=-I$(abs_top_srcdir)/bslcommon/include
+LIBBSLCOMMON_CXXFLAGS=-I$(abs_top_srcdir)/bslcommon/include
+LIBBSLCOMMON_LIBS=-L$(abs_top_builddir)/bslcommon/src -lbslcommon
+LIBBSLCOMMON = $(abs_top_builddir)/bslcommon/src/libbslcommon.la
+$(LIBBSLCOMMON):
+	cd $(abs_top_builddir)/bslcommon/src; ${MAKE}
+
+LIBBSLCLIENT_CFLAGS=-I$(abs_top_srcdir)/bslclient/include
+LIBBSLCLIENT_CPPFLAGS=-I$(abs_top_srcdir)/bslclient/include
+LIBBSLCLIENT_CXXFLAGS=-I$(abs_top_srcdir)/bslclient/include
+LIBBSLCLIENT_LIBS=-L$(abs_top_builddir)/bslclient/src -lbslclient
+LIBBSLCLIENT = $(abs_top_builddir)/bslclient/src/libbslclient.la
+$(LIBBSLCLIENT):
+	cd $(abs_top_builddir)/bslclient/src; ${MAKE}

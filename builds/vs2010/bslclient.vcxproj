@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B09944CE-AD0C-4C6E-9ACA-AB20DE80EDFD}</ProjectGuid>
+    <RootNamespace>bslclient</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)\$(PlatformShortName)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)\$(PlatformShortName)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)\$(ProjectName)\$(PlatformShortName)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)\$(ProjectName)\$(PlatformShortName)\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)\$(PlatformShortName)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)\$(PlatformShortName)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)\$(ProjectName)\$(PlatformShortName)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)\$(ProjectName)\$(PlatformShortName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PrecompiledHeaderFile>stdwx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(WXDIR)\lib\vc_lib\mswud;$(WXDIR)\include;$(SolutionDir)\..\..\;$(SolutionDir)\..\..\include;$(SolutionDir)\..\..\bslxml\include;$(SolutionDir)\..\..\bslcommon\include;$(SolutionDir)\..\..\bslclient\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PrecompiledHeaderFile>stdwx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(WXDIRX64)\lib\vc_x64_lib\mswud;$(WXDIRX64)\include;$(SolutionDir)\..\..\;$(SolutionDir)\..\..\include;$(SolutionDir)\..\..\bslxml\include;$(SolutionDir)\..\..\bslcommon\include;$(SolutionDir)\..\..\bslclient\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(WXDIR)\lib\vc_lib\mswu;$(WXDIR)\include;$(SolutionDir)\..\..\;$(SolutionDir)\..\..\include;$(SolutionDir)\..\..\bslxml\include;$(SolutionDir)\..\..\bslcommon\include;$(SolutionDir)\..\..\bslclient\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>stdwx.h</PrecompiledHeaderFile>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(WXDIRX64)\lib\vc_x64_lib\mswu;$(WXDIRX64)\include;$(SolutionDir)\..\..\;$(SolutionDir)\..\..\include;$(SolutionDir)\..\..\bslxml\include;$(SolutionDir)\..\..\bslcommon\include;$(SolutionDir)\..\..\bslclient\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>stdwx.h</PrecompiledHeaderFile>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\include\stdwx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\bslclient\src\bslClient.cpp" />
+    <ClCompile Include="..\..\bslclient\src\bslClientEvents.cpp" />
+    <ClCompile Include="..\..\bslclient\src\ClientState.cpp" />
+    <ClCompile Include="..\..\bslclient\src\ClientStateApp.cpp" />
+    <ClCompile Include="..\..\bslclient\src\ClientStateAppVersion.cpp" />
+    <ClCompile Include="..\..\bslclient\src\ClientStateDatabase.cpp" />
+    <ClCompile Include="..\..\bslclient\src\ClientStateEvents.cpp" />
+    <ClCompile Include="..\..\bslclient\src\ClientStateHost.cpp" />
+    <ClCompile Include="..\..\bslclient\src\ClientStateHostStatus.cpp" />
+    <ClCompile Include="..\..\bslclient\src\ClientStateMessage.cpp" />
+    <ClCompile Include="..\..\bslclient\src\ClientStateNotification.cpp" />
+    <ClCompile Include="..\..\bslclient\src\ClientStateObject.cpp" />
+    <ClCompile Include="..\..\bslclient\src\ClientStateProject.cpp" />
+    <ClCompile Include="..\..\bslclient\src\ClientStateProjectLink.cpp" />
+    <ClCompile Include="..\..\bslclient\src\ClientStateProjectListItem.cpp" />
+    <ClCompile Include="..\..\bslclient\src\ClientStateProjectStatistic.cpp" />
+    <ClCompile Include="..\..\bslclient\src\ClientStateRPCProfile.cpp" />
+    <ClCompile Include="..\..\bslclient\src\ClientStateSyncProfile.cpp" />
+    <ClCompile Include="..\..\bslclient\src\ClientStateTask.cpp" />
+    <ClCompile Include="..\..\bslclient\src\ClientStateTaskInstance.cpp" />
+    <ClCompile Include="..\..\bslclient\src\ClientStateTransfer.cpp" />
+    <ClCompile Include="..\..\bslclient\src\EventManager.cpp" />
+    <ClCompile Include="..\..\bslclient\src\GarbageCollector.cpp" />
+    <ClCompile Include="..\..\bslclient\src\Instance.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCAuthorize.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCConnection.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCCreateAccount.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCCreateAccountPoll.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCExchangeVersions.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCLookupAccount.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCLookupAccountPoll.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCManager.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCNetworkAvailable.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCProjectAllowMoreWork.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCProjectAttach.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCProjectAttachPoll.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCProjectDetach.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCProjectDetachWhenDone.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCProjectDontDetachWhenDone.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCProjectNoMoreWork.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCProjectOperation.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCProjectReset.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCProjectResume.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCProjectSuspend.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCProjectUpdate.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCProtocol.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCRunBenchmarks.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCSetModeCPU.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCSetModeGPU.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCSetModeNetwork.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCSetModeOperation.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCShutdown.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCSyncHost.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCSyncHostStatus.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCSyncMessages.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCSyncNotifications.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCSyncProjectList.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCSyncProjects.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCSyncProjectStatistics.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCSyncState.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCSyncTaskInstances.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCSyncTransfers.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCTaskInstanceAbort.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCTaskInstanceOperation.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCTaskInstanceResume.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCTaskInstanceSuspend.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCTransferAbort.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCTransferOperation.cpp" />
+    <ClCompile Include="..\..\bslclient\src\RPCTransferRetry.cpp" />
+    <ClCompile Include="..\..\bslclient\src\StateManager.cpp" />
+    <ClCompile Include="..\..\bslclient\src\StateManagerJob.cpp" />
+    <ClCompile Include="..\..\bslclient\src\StateManagerThread.cpp" />
+    <ClCompile Include="..\..\bslclient\src\StateWorkerThread.cpp" />
+    <ClCompile Include="..\..\bslclient\src\wxMD5.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\stdwx.h" />
+    <ClInclude Include="..\..\bslclient\include\bslclient\bslClient.h" />
+    <ClInclude Include="..\..\bslclient\include\bslclient\bslClientEventDefs.hxx" />
+    <ClInclude Include="..\..\bslclient\include\bslclient\bslClientEvents.h" />
+    <ClInclude Include="..\..\bslclient\src\ClientState.h" />
+    <ClInclude Include="..\..\bslclient\src\ClientStateApp.h" />
+    <ClInclude Include="..\..\bslclient\src\ClientStateAppVersion.h" />
+    <ClInclude Include="..\..\bslclient\src\ClientStateDatabase.h" />
+    <ClInclude Include="..\..\bslclient\src\ClientStateEventDefs.hxx" />
+    <ClInclude Include="..\..\bslclient\src\ClientStateEvents.h" />
+    <ClInclude Include="..\..\bslclient\src\ClientStateHost.h" />
+    <ClInclude Include="..\..\bslclient\src\ClientStateHostStatus.h" />
+    <ClInclude Include="..\..\bslclient\src\ClientStateMessage.h" />
+    <ClInclude Include="..\..\bslclient\src\ClientStateNotification.h" />
+    <ClInclude Include="..\..\bslclient\src\ClientStateObject.h" />
+    <ClInclude Include="..\..\bslclient\src\ClientStateProject.h" />
+    <ClInclude Include="..\..\bslclient\src\ClientStateProjectLink.h" />
+    <ClInclude Include="..\..\bslclient\src\ClientStateProjectListItem.h" />
+    <ClInclude Include="..\..\bslclient\src\ClientStateProjectStatistic.h" />
+    <ClInclude Include="..\..\bslclient\src\ClientStateRPCProfile.h" />
+    <ClInclude Include="..\..\bslclient\src\ClientStateSyncProfile.h" />
+    <ClInclude Include="..\..\bslclient\src\ClientStateTask.h" />
+    <ClInclude Include="..\..\bslclient\src\ClientStateTaskInstance.h" />
+    <ClInclude Include="..\..\bslclient\src\ClientStateTransfer.h" />
+    <ClInclude Include="..\..\bslclient\src\ClientStateTypes.h" />
+    <ClInclude Include="..\..\bslclient\src\EventManager.h" />
+    <ClInclude Include="..\..\bslclient\src\EventManagerTypes.h" />
+    <ClInclude Include="..\..\bslclient\src\GarbageCollector.h" />
+    <ClInclude Include="..\..\bslclient\src\Instance.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCAuthorize.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCConnection.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCCreateAccount.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCCreateAccountPoll.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCExchangeVersions.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCLookupAccount.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCLookupAccountPoll.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCManager.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCNetworkAvailable.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCProjectAllowMoreWork.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCProjectAttach.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCProjectAttachPoll.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCProjectDetach.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCProjectDetachWhenDone.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCProjectDontDetachWhenDone.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCProjectNoMoreWork.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCProjectOperation.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCProjectReset.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCProjectResume.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCProjectSuspend.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCProjectUpdate.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCProtocol.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCRunBenchmarks.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCSetModeCPU.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCSetModeGPU.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCSetModeNetwork.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCSetModeOperation.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCShutdown.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCSyncHost.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCSyncHostStatus.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCSyncMessages.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCSyncNotifications.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCSyncProjectList.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCSyncProjects.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCSyncProjectStatistics.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCSyncState.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCSyncTaskInstances.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCSyncTransfers.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCTaskInstanceAbort.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCTaskInstanceOperation.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCTaskInstanceResume.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCTaskInstanceSuspend.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCTransferAbort.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCTransferOperation.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCTransferRetry.h" />
+    <ClInclude Include="..\..\bslclient\src\RPCTypes.h" />
+    <ClInclude Include="..\..\bslclient\src\StateManager.h" />
+    <ClInclude Include="..\..\bslclient\src\StateManagerJob.h" />
+    <ClInclude Include="..\..\bslclient\src\StateManagerThread.h" />
+    <ClInclude Include="..\..\bslclient\src\StateWorkerThread.h" />
+    <ClInclude Include="..\..\bslclient\src\wxMD5.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

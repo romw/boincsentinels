@@ -1,0 +1,921 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB27DEB1185F9464003849B8 /* bslClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DDE7185F9464003849B8 /* bslClient.h */; };
+		EB27DEB2185F9464003849B8 /* bslClientEventDefs.hxx in Headers */ = {isa = PBXBuildFile; fileRef = EB27DDE8185F9464003849B8 /* bslClientEventDefs.hxx */; };
+		EB27DEB3185F9464003849B8 /* bslClientEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DDE9185F9464003849B8 /* bslClientEvents.h */; };
+		EB27DEB4185F9464003849B8 /* bslClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DDEC185F9464003849B8 /* bslClient.cpp */; };
+		EB27DEB5185F9464003849B8 /* bslClientEvents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DDED185F9464003849B8 /* bslClientEvents.cpp */; };
+		EB27DEB6185F9464003849B8 /* ClientState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DDEE185F9464003849B8 /* ClientState.cpp */; };
+		EB27DEB7185F9464003849B8 /* ClientState.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DDEF185F9464003849B8 /* ClientState.h */; };
+		EB27DEB8185F9464003849B8 /* ClientStateApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DDF0185F9464003849B8 /* ClientStateApp.cpp */; };
+		EB27DEB9185F9464003849B8 /* ClientStateApp.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DDF1185F9464003849B8 /* ClientStateApp.h */; };
+		EB27DEBA185F9464003849B8 /* ClientStateAppVersion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DDF2185F9464003849B8 /* ClientStateAppVersion.cpp */; };
+		EB27DEBB185F9464003849B8 /* ClientStateAppVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DDF3185F9464003849B8 /* ClientStateAppVersion.h */; };
+		EB27DEBC185F9464003849B8 /* ClientStateDatabase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DDF4185F9464003849B8 /* ClientStateDatabase.cpp */; };
+		EB27DEBD185F9464003849B8 /* ClientStateDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DDF5185F9464003849B8 /* ClientStateDatabase.h */; };
+		EB27DEBE185F9464003849B8 /* ClientStateEventDefs.hxx in Headers */ = {isa = PBXBuildFile; fileRef = EB27DDF6185F9464003849B8 /* ClientStateEventDefs.hxx */; };
+		EB27DEBF185F9464003849B8 /* ClientStateEvents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DDF7185F9464003849B8 /* ClientStateEvents.cpp */; };
+		EB27DEC0185F9464003849B8 /* ClientStateEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DDF8185F9464003849B8 /* ClientStateEvents.h */; };
+		EB27DEC1185F9464003849B8 /* ClientStateHost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DDF9185F9464003849B8 /* ClientStateHost.cpp */; };
+		EB27DEC2185F9464003849B8 /* ClientStateHost.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DDFA185F9464003849B8 /* ClientStateHost.h */; };
+		EB27DEC3185F9464003849B8 /* ClientStateHostStatus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DDFB185F9464003849B8 /* ClientStateHostStatus.cpp */; };
+		EB27DEC4185F9464003849B8 /* ClientStateHostStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DDFC185F9464003849B8 /* ClientStateHostStatus.h */; };
+		EB27DEC5185F9464003849B8 /* ClientStateMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DDFD185F9464003849B8 /* ClientStateMessage.cpp */; };
+		EB27DEC6185F9464003849B8 /* ClientStateMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DDFE185F9464003849B8 /* ClientStateMessage.h */; };
+		EB27DEC7185F9464003849B8 /* ClientStateNotification.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DDFF185F9464003849B8 /* ClientStateNotification.cpp */; };
+		EB27DEC8185F9464003849B8 /* ClientStateNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE00185F9464003849B8 /* ClientStateNotification.h */; };
+		EB27DEC9185F9464003849B8 /* ClientStateObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE01185F9464003849B8 /* ClientStateObject.cpp */; };
+		EB27DECA185F9464003849B8 /* ClientStateObject.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE02185F9464003849B8 /* ClientStateObject.h */; };
+		EB27DECB185F9464003849B8 /* ClientStateProject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE03185F9464003849B8 /* ClientStateProject.cpp */; };
+		EB27DECC185F9464003849B8 /* ClientStateProject.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE04185F9464003849B8 /* ClientStateProject.h */; };
+		EB27DECD185F9464003849B8 /* ClientStateProjectLink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE05185F9464003849B8 /* ClientStateProjectLink.cpp */; };
+		EB27DECE185F9464003849B8 /* ClientStateProjectLink.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE06185F9464003849B8 /* ClientStateProjectLink.h */; };
+		EB27DECF185F9464003849B8 /* ClientStateProjectListItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE07185F9464003849B8 /* ClientStateProjectListItem.cpp */; };
+		EB27DED0185F9464003849B8 /* ClientStateProjectListItem.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE08185F9464003849B8 /* ClientStateProjectListItem.h */; };
+		EB27DED1185F9464003849B8 /* ClientStateProjectStatistic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE09185F9464003849B8 /* ClientStateProjectStatistic.cpp */; };
+		EB27DED2185F9464003849B8 /* ClientStateProjectStatistic.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE0A185F9464003849B8 /* ClientStateProjectStatistic.h */; };
+		EB27DED3185F9464003849B8 /* ClientStateRPCProfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE0B185F9464003849B8 /* ClientStateRPCProfile.cpp */; };
+		EB27DED4185F9464003849B8 /* ClientStateRPCProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE0C185F9464003849B8 /* ClientStateRPCProfile.h */; };
+		EB27DED5185F9464003849B8 /* ClientStateSyncProfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE0D185F9464003849B8 /* ClientStateSyncProfile.cpp */; };
+		EB27DED6185F9464003849B8 /* ClientStateSyncProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE0E185F9464003849B8 /* ClientStateSyncProfile.h */; };
+		EB27DED7185F9464003849B8 /* ClientStateTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE0F185F9464003849B8 /* ClientStateTask.cpp */; };
+		EB27DED8185F9464003849B8 /* ClientStateTask.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE10185F9464003849B8 /* ClientStateTask.h */; };
+		EB27DED9185F9464003849B8 /* ClientStateTaskInstance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE11185F9464003849B8 /* ClientStateTaskInstance.cpp */; };
+		EB27DEDA185F9464003849B8 /* ClientStateTaskInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE12185F9464003849B8 /* ClientStateTaskInstance.h */; };
+		EB27DEDB185F9464003849B8 /* ClientStateTransfer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE13185F9464003849B8 /* ClientStateTransfer.cpp */; };
+		EB27DEDC185F9464003849B8 /* ClientStateTransfer.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE14185F9464003849B8 /* ClientStateTransfer.h */; };
+		EB27DEDD185F9464003849B8 /* ClientStateTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE15185F9464003849B8 /* ClientStateTypes.h */; };
+		EB27DEDE185F9464003849B8 /* EventManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE16185F9464003849B8 /* EventManager.cpp */; };
+		EB27DEDF185F9464003849B8 /* EventManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE17185F9464003849B8 /* EventManager.h */; };
+		EB27DEE0185F9464003849B8 /* EventManagerTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE18185F9464003849B8 /* EventManagerTypes.h */; };
+		EB27DEE1185F9464003849B8 /* GarbageCollector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE19185F9464003849B8 /* GarbageCollector.cpp */; };
+		EB27DEE2185F9464003849B8 /* GarbageCollector.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE1A185F9464003849B8 /* GarbageCollector.h */; };
+		EB27DEE3185F9464003849B8 /* Instance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE1B185F9464003849B8 /* Instance.cpp */; };
+		EB27DEE4185F9464003849B8 /* Instance.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE1C185F9464003849B8 /* Instance.h */; };
+		EB27DEE5185F9464003849B8 /* RPCAuthorize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE1E185F9464003849B8 /* RPCAuthorize.cpp */; };
+		EB27DEE6185F9464003849B8 /* RPCAuthorize.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE1F185F9464003849B8 /* RPCAuthorize.h */; };
+		EB27DEE7185F9464003849B8 /* RPCConnection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE20185F9464003849B8 /* RPCConnection.cpp */; };
+		EB27DEE8185F9464003849B8 /* RPCConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE21185F9464003849B8 /* RPCConnection.h */; };
+		EB27DEE9185F9464003849B8 /* RPCCreateAccount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE22185F9464003849B8 /* RPCCreateAccount.cpp */; };
+		EB27DEEA185F9464003849B8 /* RPCCreateAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE23185F9464003849B8 /* RPCCreateAccount.h */; };
+		EB27DEEB185F9464003849B8 /* RPCCreateAccountPoll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE24185F9464003849B8 /* RPCCreateAccountPoll.cpp */; };
+		EB27DEEC185F9464003849B8 /* RPCCreateAccountPoll.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE25185F9464003849B8 /* RPCCreateAccountPoll.h */; };
+		EB27DEED185F9464003849B8 /* RPCExchangeVersions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE26185F9464003849B8 /* RPCExchangeVersions.cpp */; };
+		EB27DEEE185F9464003849B8 /* RPCExchangeVersions.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE27185F9464003849B8 /* RPCExchangeVersions.h */; };
+		EB27DEEF185F9464003849B8 /* RPCLookupAccount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE28185F9464003849B8 /* RPCLookupAccount.cpp */; };
+		EB27DEF0185F9464003849B8 /* RPCLookupAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE29185F9464003849B8 /* RPCLookupAccount.h */; };
+		EB27DEF1185F9464003849B8 /* RPCLookupAccountPoll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE2A185F9464003849B8 /* RPCLookupAccountPoll.cpp */; };
+		EB27DEF2185F9464003849B8 /* RPCLookupAccountPoll.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE2B185F9464003849B8 /* RPCLookupAccountPoll.h */; };
+		EB27DEF3185F9464003849B8 /* RPCManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE2C185F9464003849B8 /* RPCManager.cpp */; };
+		EB27DEF4185F9464003849B8 /* RPCManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE2D185F9464003849B8 /* RPCManager.h */; };
+		EB27DEF5185F9464003849B8 /* RPCNetworkAvailable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE2E185F9464003849B8 /* RPCNetworkAvailable.cpp */; };
+		EB27DEF6185F9464003849B8 /* RPCNetworkAvailable.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE2F185F9464003849B8 /* RPCNetworkAvailable.h */; };
+		EB27DEF7185F9464003849B8 /* RPCProjectAllowMoreWork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE30185F9464003849B8 /* RPCProjectAllowMoreWork.cpp */; };
+		EB27DEF8185F9464003849B8 /* RPCProjectAllowMoreWork.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE31185F9464003849B8 /* RPCProjectAllowMoreWork.h */; };
+		EB27DEF9185F9464003849B8 /* RPCProjectAttach.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE32185F9464003849B8 /* RPCProjectAttach.cpp */; };
+		EB27DEFA185F9464003849B8 /* RPCProjectAttach.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE33185F9464003849B8 /* RPCProjectAttach.h */; };
+		EB27DEFB185F9464003849B8 /* RPCProjectAttachPoll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE34185F9464003849B8 /* RPCProjectAttachPoll.cpp */; };
+		EB27DEFC185F9464003849B8 /* RPCProjectAttachPoll.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE35185F9464003849B8 /* RPCProjectAttachPoll.h */; };
+		EB27DEFD185F9464003849B8 /* RPCProjectDetach.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE36185F9464003849B8 /* RPCProjectDetach.cpp */; };
+		EB27DEFE185F9464003849B8 /* RPCProjectDetach.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE37185F9464003849B8 /* RPCProjectDetach.h */; };
+		EB27DEFF185F9464003849B8 /* RPCProjectDetachWhenDone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE38185F9464003849B8 /* RPCProjectDetachWhenDone.cpp */; };
+		EB27DF00185F9464003849B8 /* RPCProjectDetachWhenDone.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE39185F9464003849B8 /* RPCProjectDetachWhenDone.h */; };
+		EB27DF01185F9464003849B8 /* RPCProjectDontDetachWhenDone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE3A185F9464003849B8 /* RPCProjectDontDetachWhenDone.cpp */; };
+		EB27DF02185F9464003849B8 /* RPCProjectDontDetachWhenDone.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE3B185F9464003849B8 /* RPCProjectDontDetachWhenDone.h */; };
+		EB27DF03185F9464003849B8 /* RPCProjectNoMoreWork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE3C185F9464003849B8 /* RPCProjectNoMoreWork.cpp */; };
+		EB27DF04185F9464003849B8 /* RPCProjectNoMoreWork.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE3D185F9464003849B8 /* RPCProjectNoMoreWork.h */; };
+		EB27DF05185F9464003849B8 /* RPCProjectOperation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE3E185F9464003849B8 /* RPCProjectOperation.cpp */; };
+		EB27DF06185F9464003849B8 /* RPCProjectOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE3F185F9464003849B8 /* RPCProjectOperation.h */; };
+		EB27DF07185F9464003849B8 /* RPCProjectReset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE40185F9464003849B8 /* RPCProjectReset.cpp */; };
+		EB27DF08185F9464003849B8 /* RPCProjectReset.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE41185F9464003849B8 /* RPCProjectReset.h */; };
+		EB27DF09185F9464003849B8 /* RPCProjectResume.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE42185F9464003849B8 /* RPCProjectResume.cpp */; };
+		EB27DF0A185F9464003849B8 /* RPCProjectResume.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE43185F9464003849B8 /* RPCProjectResume.h */; };
+		EB27DF0B185F9464003849B8 /* RPCProjectSuspend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE44185F9464003849B8 /* RPCProjectSuspend.cpp */; };
+		EB27DF0C185F9464003849B8 /* RPCProjectSuspend.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE45185F9464003849B8 /* RPCProjectSuspend.h */; };
+		EB27DF0D185F9464003849B8 /* RPCProjectUpdate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE46185F9464003849B8 /* RPCProjectUpdate.cpp */; };
+		EB27DF0E185F9464003849B8 /* RPCProjectUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE47185F9464003849B8 /* RPCProjectUpdate.h */; };
+		EB27DF0F185F9464003849B8 /* RPCProtocol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE48185F9464003849B8 /* RPCProtocol.cpp */; };
+		EB27DF10185F9464003849B8 /* RPCProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE49185F9464003849B8 /* RPCProtocol.h */; };
+		EB27DF11185F9464003849B8 /* RPCRunBenchmarks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE4A185F9464003849B8 /* RPCRunBenchmarks.cpp */; };
+		EB27DF12185F9464003849B8 /* RPCRunBenchmarks.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE4B185F9464003849B8 /* RPCRunBenchmarks.h */; };
+		EB27DF13185F9464003849B8 /* RPCSetModeCPU.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE4C185F9464003849B8 /* RPCSetModeCPU.cpp */; };
+		EB27DF14185F9464003849B8 /* RPCSetModeCPU.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE4D185F9464003849B8 /* RPCSetModeCPU.h */; };
+		EB27DF15185F9464003849B8 /* RPCSetModeGPU.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE4E185F9464003849B8 /* RPCSetModeGPU.cpp */; };
+		EB27DF16185F9464003849B8 /* RPCSetModeGPU.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE4F185F9464003849B8 /* RPCSetModeGPU.h */; };
+		EB27DF17185F9464003849B8 /* RPCSetModeNetwork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE50185F9464003849B8 /* RPCSetModeNetwork.cpp */; };
+		EB27DF18185F9464003849B8 /* RPCSetModeNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE51185F9464003849B8 /* RPCSetModeNetwork.h */; };
+		EB27DF19185F9464003849B8 /* RPCSetModeOperation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE52185F9464003849B8 /* RPCSetModeOperation.cpp */; };
+		EB27DF1A185F9464003849B8 /* RPCSetModeOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE53185F9464003849B8 /* RPCSetModeOperation.h */; };
+		EB27DF1B185F9464003849B8 /* RPCShutdown.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE54185F9464003849B8 /* RPCShutdown.cpp */; };
+		EB27DF1C185F9464003849B8 /* RPCShutdown.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE55185F9464003849B8 /* RPCShutdown.h */; };
+		EB27DF1D185F9464003849B8 /* RPCSyncHost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE56185F9464003849B8 /* RPCSyncHost.cpp */; };
+		EB27DF1E185F9464003849B8 /* RPCSyncHost.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE57185F9464003849B8 /* RPCSyncHost.h */; };
+		EB27DF1F185F9464003849B8 /* RPCSyncHostStatus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE58185F9464003849B8 /* RPCSyncHostStatus.cpp */; };
+		EB27DF20185F9464003849B8 /* RPCSyncHostStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE59185F9464003849B8 /* RPCSyncHostStatus.h */; };
+		EB27DF21185F9464003849B8 /* RPCSyncMessages.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE5A185F9464003849B8 /* RPCSyncMessages.cpp */; };
+		EB27DF22185F9464003849B8 /* RPCSyncMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE5B185F9464003849B8 /* RPCSyncMessages.h */; };
+		EB27DF23185F9464003849B8 /* RPCSyncNotifications.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE5C185F9464003849B8 /* RPCSyncNotifications.cpp */; };
+		EB27DF24185F9464003849B8 /* RPCSyncNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE5D185F9464003849B8 /* RPCSyncNotifications.h */; };
+		EB27DF25185F9464003849B8 /* RPCSyncProjectList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE5E185F9464003849B8 /* RPCSyncProjectList.cpp */; };
+		EB27DF26185F9464003849B8 /* RPCSyncProjectList.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE5F185F9464003849B8 /* RPCSyncProjectList.h */; };
+		EB27DF27185F9464003849B8 /* RPCSyncProjects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE60185F9464003849B8 /* RPCSyncProjects.cpp */; };
+		EB27DF28185F9464003849B8 /* RPCSyncProjects.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE61185F9464003849B8 /* RPCSyncProjects.h */; };
+		EB27DF29185F9464003849B8 /* RPCSyncProjectStatistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE62185F9464003849B8 /* RPCSyncProjectStatistics.cpp */; };
+		EB27DF2A185F9464003849B8 /* RPCSyncProjectStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE63185F9464003849B8 /* RPCSyncProjectStatistics.h */; };
+		EB27DF2B185F9464003849B8 /* RPCSyncState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE64185F9464003849B8 /* RPCSyncState.cpp */; };
+		EB27DF2C185F9464003849B8 /* RPCSyncState.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE65185F9464003849B8 /* RPCSyncState.h */; };
+		EB27DF2D185F9464003849B8 /* RPCSyncTaskInstances.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE66185F9464003849B8 /* RPCSyncTaskInstances.cpp */; };
+		EB27DF2E185F9464003849B8 /* RPCSyncTaskInstances.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE67185F9464003849B8 /* RPCSyncTaskInstances.h */; };
+		EB27DF2F185F9464003849B8 /* RPCSyncTransfers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE68185F9464003849B8 /* RPCSyncTransfers.cpp */; };
+		EB27DF30185F9464003849B8 /* RPCSyncTransfers.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE69185F9464003849B8 /* RPCSyncTransfers.h */; };
+		EB27DF31185F9464003849B8 /* RPCTaskInstanceAbort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE6A185F9464003849B8 /* RPCTaskInstanceAbort.cpp */; };
+		EB27DF32185F9464003849B8 /* RPCTaskInstanceAbort.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE6B185F9464003849B8 /* RPCTaskInstanceAbort.h */; };
+		EB27DF33185F9464003849B8 /* RPCTaskInstanceOperation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE6C185F9464003849B8 /* RPCTaskInstanceOperation.cpp */; };
+		EB27DF34185F9464003849B8 /* RPCTaskInstanceOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE6D185F9464003849B8 /* RPCTaskInstanceOperation.h */; };
+		EB27DF35185F9464003849B8 /* RPCTaskInstanceResume.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE6E185F9464003849B8 /* RPCTaskInstanceResume.cpp */; };
+		EB27DF36185F9464003849B8 /* RPCTaskInstanceResume.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE6F185F9464003849B8 /* RPCTaskInstanceResume.h */; };
+		EB27DF37185F9464003849B8 /* RPCTaskInstanceSuspend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE70185F9464003849B8 /* RPCTaskInstanceSuspend.cpp */; };
+		EB27DF38185F9464003849B8 /* RPCTaskInstanceSuspend.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE71185F9464003849B8 /* RPCTaskInstanceSuspend.h */; };
+		EB27DF39185F9464003849B8 /* RPCTransferAbort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE72185F9464003849B8 /* RPCTransferAbort.cpp */; };
+		EB27DF3A185F9464003849B8 /* RPCTransferAbort.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE73185F9464003849B8 /* RPCTransferAbort.h */; };
+		EB27DF3B185F9464003849B8 /* RPCTransferOperation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE74185F9464003849B8 /* RPCTransferOperation.cpp */; };
+		EB27DF3C185F9464003849B8 /* RPCTransferOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE75185F9464003849B8 /* RPCTransferOperation.h */; };
+		EB27DF3D185F9464003849B8 /* RPCTransferRetry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE76185F9464003849B8 /* RPCTransferRetry.cpp */; };
+		EB27DF3E185F9464003849B8 /* RPCTransferRetry.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE77185F9464003849B8 /* RPCTransferRetry.h */; };
+		EB27DF3F185F9464003849B8 /* RPCTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE78185F9464003849B8 /* RPCTypes.h */; };
+		EB27DF40185F9464003849B8 /* StateManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE79185F9464003849B8 /* StateManager.cpp */; };
+		EB27DF41185F9464003849B8 /* StateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE7A185F9464003849B8 /* StateManager.h */; };
+		EB27DF42185F9464003849B8 /* StateManagerJob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE7B185F9464003849B8 /* StateManagerJob.cpp */; };
+		EB27DF43185F9464003849B8 /* StateManagerJob.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE7C185F9464003849B8 /* StateManagerJob.h */; };
+		EB27DF44185F9464003849B8 /* StateManagerThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE7D185F9464003849B8 /* StateManagerThread.cpp */; };
+		EB27DF45185F9464003849B8 /* StateManagerThread.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE7E185F9464003849B8 /* StateManagerThread.h */; };
+		EB27DF46185F9464003849B8 /* StateWorkerThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE7F185F9464003849B8 /* StateWorkerThread.cpp */; };
+		EB27DF47185F9464003849B8 /* StateWorkerThread.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE80185F9464003849B8 /* StateWorkerThread.h */; };
+		EB27DF48185F9464003849B8 /* wxMD5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB27DE81185F9464003849B8 /* wxMD5.cpp */; };
+		EB27DF49185F9464003849B8 /* wxMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27DE82185F9464003849B8 /* wxMD5.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB27DCAB185EBA4B003849B8 /* libbslclient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libbslclient.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB27DDE7185F9464003849B8 /* bslClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslClient.h; path = ../../../bslclient/include/bslclient/bslClient.h; sourceTree = SOURCE_ROOT; };
+		EB27DDE8185F9464003849B8 /* bslClientEventDefs.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = bslClientEventDefs.hxx; path = ../../../bslclient/include/bslclient/bslClientEventDefs.hxx; sourceTree = SOURCE_ROOT; };
+		EB27DDE9185F9464003849B8 /* bslClientEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bslClientEvents.h; path = ../../../bslclient/include/bslclient/bslClientEvents.h; sourceTree = SOURCE_ROOT; };
+		EB27DDEC185F9464003849B8 /* bslClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bslClient.cpp; path = ../../../bslclient/src/bslClient.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DDED185F9464003849B8 /* bslClientEvents.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bslClientEvents.cpp; path = ../../../bslclient/src/bslClientEvents.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DDEE185F9464003849B8 /* ClientState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientState.cpp; path = ../../../bslclient/src/ClientState.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DDEF185F9464003849B8 /* ClientState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientState.h; path = ../../../bslclient/src/ClientState.h; sourceTree = SOURCE_ROOT; };
+		EB27DDF0185F9464003849B8 /* ClientStateApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientStateApp.cpp; path = ../../../bslclient/src/ClientStateApp.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DDF1185F9464003849B8 /* ClientStateApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientStateApp.h; path = ../../../bslclient/src/ClientStateApp.h; sourceTree = SOURCE_ROOT; };
+		EB27DDF2185F9464003849B8 /* ClientStateAppVersion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientStateAppVersion.cpp; path = ../../../bslclient/src/ClientStateAppVersion.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DDF3185F9464003849B8 /* ClientStateAppVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientStateAppVersion.h; path = ../../../bslclient/src/ClientStateAppVersion.h; sourceTree = SOURCE_ROOT; };
+		EB27DDF4185F9464003849B8 /* ClientStateDatabase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientStateDatabase.cpp; path = ../../../bslclient/src/ClientStateDatabase.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DDF5185F9464003849B8 /* ClientStateDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientStateDatabase.h; path = ../../../bslclient/src/ClientStateDatabase.h; sourceTree = SOURCE_ROOT; };
+		EB27DDF6185F9464003849B8 /* ClientStateEventDefs.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ClientStateEventDefs.hxx; path = ../../../bslclient/src/ClientStateEventDefs.hxx; sourceTree = SOURCE_ROOT; };
+		EB27DDF7185F9464003849B8 /* ClientStateEvents.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientStateEvents.cpp; path = ../../../bslclient/src/ClientStateEvents.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DDF8185F9464003849B8 /* ClientStateEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientStateEvents.h; path = ../../../bslclient/src/ClientStateEvents.h; sourceTree = SOURCE_ROOT; };
+		EB27DDF9185F9464003849B8 /* ClientStateHost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientStateHost.cpp; path = ../../../bslclient/src/ClientStateHost.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DDFA185F9464003849B8 /* ClientStateHost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientStateHost.h; path = ../../../bslclient/src/ClientStateHost.h; sourceTree = SOURCE_ROOT; };
+		EB27DDFB185F9464003849B8 /* ClientStateHostStatus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientStateHostStatus.cpp; path = ../../../bslclient/src/ClientStateHostStatus.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DDFC185F9464003849B8 /* ClientStateHostStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientStateHostStatus.h; path = ../../../bslclient/src/ClientStateHostStatus.h; sourceTree = SOURCE_ROOT; };
+		EB27DDFD185F9464003849B8 /* ClientStateMessage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientStateMessage.cpp; path = ../../../bslclient/src/ClientStateMessage.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DDFE185F9464003849B8 /* ClientStateMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientStateMessage.h; path = ../../../bslclient/src/ClientStateMessage.h; sourceTree = SOURCE_ROOT; };
+		EB27DDFF185F9464003849B8 /* ClientStateNotification.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientStateNotification.cpp; path = ../../../bslclient/src/ClientStateNotification.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE00185F9464003849B8 /* ClientStateNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientStateNotification.h; path = ../../../bslclient/src/ClientStateNotification.h; sourceTree = SOURCE_ROOT; };
+		EB27DE01185F9464003849B8 /* ClientStateObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientStateObject.cpp; path = ../../../bslclient/src/ClientStateObject.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE02185F9464003849B8 /* ClientStateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientStateObject.h; path = ../../../bslclient/src/ClientStateObject.h; sourceTree = SOURCE_ROOT; };
+		EB27DE03185F9464003849B8 /* ClientStateProject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientStateProject.cpp; path = ../../../bslclient/src/ClientStateProject.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE04185F9464003849B8 /* ClientStateProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientStateProject.h; path = ../../../bslclient/src/ClientStateProject.h; sourceTree = SOURCE_ROOT; };
+		EB27DE05185F9464003849B8 /* ClientStateProjectLink.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientStateProjectLink.cpp; path = ../../../bslclient/src/ClientStateProjectLink.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE06185F9464003849B8 /* ClientStateProjectLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientStateProjectLink.h; path = ../../../bslclient/src/ClientStateProjectLink.h; sourceTree = SOURCE_ROOT; };
+		EB27DE07185F9464003849B8 /* ClientStateProjectListItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientStateProjectListItem.cpp; path = ../../../bslclient/src/ClientStateProjectListItem.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE08185F9464003849B8 /* ClientStateProjectListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientStateProjectListItem.h; path = ../../../bslclient/src/ClientStateProjectListItem.h; sourceTree = SOURCE_ROOT; };
+		EB27DE09185F9464003849B8 /* ClientStateProjectStatistic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientStateProjectStatistic.cpp; path = ../../../bslclient/src/ClientStateProjectStatistic.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE0A185F9464003849B8 /* ClientStateProjectStatistic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientStateProjectStatistic.h; path = ../../../bslclient/src/ClientStateProjectStatistic.h; sourceTree = SOURCE_ROOT; };
+		EB27DE0B185F9464003849B8 /* ClientStateRPCProfile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientStateRPCProfile.cpp; path = ../../../bslclient/src/ClientStateRPCProfile.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE0C185F9464003849B8 /* ClientStateRPCProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientStateRPCProfile.h; path = ../../../bslclient/src/ClientStateRPCProfile.h; sourceTree = SOURCE_ROOT; };
+		EB27DE0D185F9464003849B8 /* ClientStateSyncProfile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientStateSyncProfile.cpp; path = ../../../bslclient/src/ClientStateSyncProfile.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE0E185F9464003849B8 /* ClientStateSyncProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientStateSyncProfile.h; path = ../../../bslclient/src/ClientStateSyncProfile.h; sourceTree = SOURCE_ROOT; };
+		EB27DE0F185F9464003849B8 /* ClientStateTask.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientStateTask.cpp; path = ../../../bslclient/src/ClientStateTask.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE10185F9464003849B8 /* ClientStateTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientStateTask.h; path = ../../../bslclient/src/ClientStateTask.h; sourceTree = SOURCE_ROOT; };
+		EB27DE11185F9464003849B8 /* ClientStateTaskInstance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientStateTaskInstance.cpp; path = ../../../bslclient/src/ClientStateTaskInstance.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE12185F9464003849B8 /* ClientStateTaskInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientStateTaskInstance.h; path = ../../../bslclient/src/ClientStateTaskInstance.h; sourceTree = SOURCE_ROOT; };
+		EB27DE13185F9464003849B8 /* ClientStateTransfer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientStateTransfer.cpp; path = ../../../bslclient/src/ClientStateTransfer.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE14185F9464003849B8 /* ClientStateTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientStateTransfer.h; path = ../../../bslclient/src/ClientStateTransfer.h; sourceTree = SOURCE_ROOT; };
+		EB27DE15185F9464003849B8 /* ClientStateTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientStateTypes.h; path = ../../../bslclient/src/ClientStateTypes.h; sourceTree = SOURCE_ROOT; };
+		EB27DE16185F9464003849B8 /* EventManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EventManager.cpp; path = ../../../bslclient/src/EventManager.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE17185F9464003849B8 /* EventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventManager.h; path = ../../../bslclient/src/EventManager.h; sourceTree = SOURCE_ROOT; };
+		EB27DE18185F9464003849B8 /* EventManagerTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventManagerTypes.h; path = ../../../bslclient/src/EventManagerTypes.h; sourceTree = SOURCE_ROOT; };
+		EB27DE19185F9464003849B8 /* GarbageCollector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GarbageCollector.cpp; path = ../../../bslclient/src/GarbageCollector.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE1A185F9464003849B8 /* GarbageCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GarbageCollector.h; path = ../../../bslclient/src/GarbageCollector.h; sourceTree = SOURCE_ROOT; };
+		EB27DE1B185F9464003849B8 /* Instance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Instance.cpp; path = ../../../bslclient/src/Instance.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE1C185F9464003849B8 /* Instance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Instance.h; path = ../../../bslclient/src/Instance.h; sourceTree = SOURCE_ROOT; };
+		EB27DE1E185F9464003849B8 /* RPCAuthorize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCAuthorize.cpp; path = ../../../bslclient/src/RPCAuthorize.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE1F185F9464003849B8 /* RPCAuthorize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCAuthorize.h; path = ../../../bslclient/src/RPCAuthorize.h; sourceTree = SOURCE_ROOT; };
+		EB27DE20185F9464003849B8 /* RPCConnection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCConnection.cpp; path = ../../../bslclient/src/RPCConnection.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE21185F9464003849B8 /* RPCConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCConnection.h; path = ../../../bslclient/src/RPCConnection.h; sourceTree = SOURCE_ROOT; };
+		EB27DE22185F9464003849B8 /* RPCCreateAccount.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCCreateAccount.cpp; path = ../../../bslclient/src/RPCCreateAccount.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE23185F9464003849B8 /* RPCCreateAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCCreateAccount.h; path = ../../../bslclient/src/RPCCreateAccount.h; sourceTree = SOURCE_ROOT; };
+		EB27DE24185F9464003849B8 /* RPCCreateAccountPoll.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCCreateAccountPoll.cpp; path = ../../../bslclient/src/RPCCreateAccountPoll.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE25185F9464003849B8 /* RPCCreateAccountPoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCCreateAccountPoll.h; path = ../../../bslclient/src/RPCCreateAccountPoll.h; sourceTree = SOURCE_ROOT; };
+		EB27DE26185F9464003849B8 /* RPCExchangeVersions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCExchangeVersions.cpp; path = ../../../bslclient/src/RPCExchangeVersions.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE27185F9464003849B8 /* RPCExchangeVersions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCExchangeVersions.h; path = ../../../bslclient/src/RPCExchangeVersions.h; sourceTree = SOURCE_ROOT; };
+		EB27DE28185F9464003849B8 /* RPCLookupAccount.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCLookupAccount.cpp; path = ../../../bslclient/src/RPCLookupAccount.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE29185F9464003849B8 /* RPCLookupAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCLookupAccount.h; path = ../../../bslclient/src/RPCLookupAccount.h; sourceTree = SOURCE_ROOT; };
+		EB27DE2A185F9464003849B8 /* RPCLookupAccountPoll.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCLookupAccountPoll.cpp; path = ../../../bslclient/src/RPCLookupAccountPoll.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE2B185F9464003849B8 /* RPCLookupAccountPoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCLookupAccountPoll.h; path = ../../../bslclient/src/RPCLookupAccountPoll.h; sourceTree = SOURCE_ROOT; };
+		EB27DE2C185F9464003849B8 /* RPCManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCManager.cpp; path = ../../../bslclient/src/RPCManager.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE2D185F9464003849B8 /* RPCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCManager.h; path = ../../../bslclient/src/RPCManager.h; sourceTree = SOURCE_ROOT; };
+		EB27DE2E185F9464003849B8 /* RPCNetworkAvailable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCNetworkAvailable.cpp; path = ../../../bslclient/src/RPCNetworkAvailable.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE2F185F9464003849B8 /* RPCNetworkAvailable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCNetworkAvailable.h; path = ../../../bslclient/src/RPCNetworkAvailable.h; sourceTree = SOURCE_ROOT; };
+		EB27DE30185F9464003849B8 /* RPCProjectAllowMoreWork.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCProjectAllowMoreWork.cpp; path = ../../../bslclient/src/RPCProjectAllowMoreWork.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE31185F9464003849B8 /* RPCProjectAllowMoreWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCProjectAllowMoreWork.h; path = ../../../bslclient/src/RPCProjectAllowMoreWork.h; sourceTree = SOURCE_ROOT; };
+		EB27DE32185F9464003849B8 /* RPCProjectAttach.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCProjectAttach.cpp; path = ../../../bslclient/src/RPCProjectAttach.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE33185F9464003849B8 /* RPCProjectAttach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCProjectAttach.h; path = ../../../bslclient/src/RPCProjectAttach.h; sourceTree = SOURCE_ROOT; };
+		EB27DE34185F9464003849B8 /* RPCProjectAttachPoll.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCProjectAttachPoll.cpp; path = ../../../bslclient/src/RPCProjectAttachPoll.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE35185F9464003849B8 /* RPCProjectAttachPoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCProjectAttachPoll.h; path = ../../../bslclient/src/RPCProjectAttachPoll.h; sourceTree = SOURCE_ROOT; };
+		EB27DE36185F9464003849B8 /* RPCProjectDetach.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCProjectDetach.cpp; path = ../../../bslclient/src/RPCProjectDetach.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE37185F9464003849B8 /* RPCProjectDetach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCProjectDetach.h; path = ../../../bslclient/src/RPCProjectDetach.h; sourceTree = SOURCE_ROOT; };
+		EB27DE38185F9464003849B8 /* RPCProjectDetachWhenDone.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCProjectDetachWhenDone.cpp; path = ../../../bslclient/src/RPCProjectDetachWhenDone.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE39185F9464003849B8 /* RPCProjectDetachWhenDone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCProjectDetachWhenDone.h; path = ../../../bslclient/src/RPCProjectDetachWhenDone.h; sourceTree = SOURCE_ROOT; };
+		EB27DE3A185F9464003849B8 /* RPCProjectDontDetachWhenDone.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCProjectDontDetachWhenDone.cpp; path = ../../../bslclient/src/RPCProjectDontDetachWhenDone.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE3B185F9464003849B8 /* RPCProjectDontDetachWhenDone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCProjectDontDetachWhenDone.h; path = ../../../bslclient/src/RPCProjectDontDetachWhenDone.h; sourceTree = SOURCE_ROOT; };
+		EB27DE3C185F9464003849B8 /* RPCProjectNoMoreWork.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCProjectNoMoreWork.cpp; path = ../../../bslclient/src/RPCProjectNoMoreWork.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE3D185F9464003849B8 /* RPCProjectNoMoreWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCProjectNoMoreWork.h; path = ../../../bslclient/src/RPCProjectNoMoreWork.h; sourceTree = SOURCE_ROOT; };
+		EB27DE3E185F9464003849B8 /* RPCProjectOperation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCProjectOperation.cpp; path = ../../../bslclient/src/RPCProjectOperation.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE3F185F9464003849B8 /* RPCProjectOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCProjectOperation.h; path = ../../../bslclient/src/RPCProjectOperation.h; sourceTree = SOURCE_ROOT; };
+		EB27DE40185F9464003849B8 /* RPCProjectReset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCProjectReset.cpp; path = ../../../bslclient/src/RPCProjectReset.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE41185F9464003849B8 /* RPCProjectReset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCProjectReset.h; path = ../../../bslclient/src/RPCProjectReset.h; sourceTree = SOURCE_ROOT; };
+		EB27DE42185F9464003849B8 /* RPCProjectResume.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCProjectResume.cpp; path = ../../../bslclient/src/RPCProjectResume.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE43185F9464003849B8 /* RPCProjectResume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCProjectResume.h; path = ../../../bslclient/src/RPCProjectResume.h; sourceTree = SOURCE_ROOT; };
+		EB27DE44185F9464003849B8 /* RPCProjectSuspend.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCProjectSuspend.cpp; path = ../../../bslclient/src/RPCProjectSuspend.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE45185F9464003849B8 /* RPCProjectSuspend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCProjectSuspend.h; path = ../../../bslclient/src/RPCProjectSuspend.h; sourceTree = SOURCE_ROOT; };
+		EB27DE46185F9464003849B8 /* RPCProjectUpdate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCProjectUpdate.cpp; path = ../../../bslclient/src/RPCProjectUpdate.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE47185F9464003849B8 /* RPCProjectUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCProjectUpdate.h; path = ../../../bslclient/src/RPCProjectUpdate.h; sourceTree = SOURCE_ROOT; };
+		EB27DE48185F9464003849B8 /* RPCProtocol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCProtocol.cpp; path = ../../../bslclient/src/RPCProtocol.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE49185F9464003849B8 /* RPCProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCProtocol.h; path = ../../../bslclient/src/RPCProtocol.h; sourceTree = SOURCE_ROOT; };
+		EB27DE4A185F9464003849B8 /* RPCRunBenchmarks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCRunBenchmarks.cpp; path = ../../../bslclient/src/RPCRunBenchmarks.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE4B185F9464003849B8 /* RPCRunBenchmarks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCRunBenchmarks.h; path = ../../../bslclient/src/RPCRunBenchmarks.h; sourceTree = SOURCE_ROOT; };
+		EB27DE4C185F9464003849B8 /* RPCSetModeCPU.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCSetModeCPU.cpp; path = ../../../bslclient/src/RPCSetModeCPU.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE4D185F9464003849B8 /* RPCSetModeCPU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCSetModeCPU.h; path = ../../../bslclient/src/RPCSetModeCPU.h; sourceTree = SOURCE_ROOT; };
+		EB27DE4E185F9464003849B8 /* RPCSetModeGPU.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCSetModeGPU.cpp; path = ../../../bslclient/src/RPCSetModeGPU.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE4F185F9464003849B8 /* RPCSetModeGPU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCSetModeGPU.h; path = ../../../bslclient/src/RPCSetModeGPU.h; sourceTree = SOURCE_ROOT; };
+		EB27DE50185F9464003849B8 /* RPCSetModeNetwork.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCSetModeNetwork.cpp; path = ../../../bslclient/src/RPCSetModeNetwork.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE51185F9464003849B8 /* RPCSetModeNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCSetModeNetwork.h; path = ../../../bslclient/src/RPCSetModeNetwork.h; sourceTree = SOURCE_ROOT; };
+		EB27DE52185F9464003849B8 /* RPCSetModeOperation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCSetModeOperation.cpp; path = ../../../bslclient/src/RPCSetModeOperation.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE53185F9464003849B8 /* RPCSetModeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCSetModeOperation.h; path = ../../../bslclient/src/RPCSetModeOperation.h; sourceTree = SOURCE_ROOT; };
+		EB27DE54185F9464003849B8 /* RPCShutdown.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCShutdown.cpp; path = ../../../bslclient/src/RPCShutdown.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE55185F9464003849B8 /* RPCShutdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCShutdown.h; path = ../../../bslclient/src/RPCShutdown.h; sourceTree = SOURCE_ROOT; };
+		EB27DE56185F9464003849B8 /* RPCSyncHost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCSyncHost.cpp; path = ../../../bslclient/src/RPCSyncHost.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE57185F9464003849B8 /* RPCSyncHost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCSyncHost.h; path = ../../../bslclient/src/RPCSyncHost.h; sourceTree = SOURCE_ROOT; };
+		EB27DE58185F9464003849B8 /* RPCSyncHostStatus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCSyncHostStatus.cpp; path = ../../../bslclient/src/RPCSyncHostStatus.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE59185F9464003849B8 /* RPCSyncHostStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCSyncHostStatus.h; path = ../../../bslclient/src/RPCSyncHostStatus.h; sourceTree = SOURCE_ROOT; };
+		EB27DE5A185F9464003849B8 /* RPCSyncMessages.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCSyncMessages.cpp; path = ../../../bslclient/src/RPCSyncMessages.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE5B185F9464003849B8 /* RPCSyncMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCSyncMessages.h; path = ../../../bslclient/src/RPCSyncMessages.h; sourceTree = SOURCE_ROOT; };
+		EB27DE5C185F9464003849B8 /* RPCSyncNotifications.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCSyncNotifications.cpp; path = ../../../bslclient/src/RPCSyncNotifications.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE5D185F9464003849B8 /* RPCSyncNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCSyncNotifications.h; path = ../../../bslclient/src/RPCSyncNotifications.h; sourceTree = SOURCE_ROOT; };
+		EB27DE5E185F9464003849B8 /* RPCSyncProjectList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCSyncProjectList.cpp; path = ../../../bslclient/src/RPCSyncProjectList.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE5F185F9464003849B8 /* RPCSyncProjectList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCSyncProjectList.h; path = ../../../bslclient/src/RPCSyncProjectList.h; sourceTree = SOURCE_ROOT; };
+		EB27DE60185F9464003849B8 /* RPCSyncProjects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCSyncProjects.cpp; path = ../../../bslclient/src/RPCSyncProjects.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE61185F9464003849B8 /* RPCSyncProjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCSyncProjects.h; path = ../../../bslclient/src/RPCSyncProjects.h; sourceTree = SOURCE_ROOT; };
+		EB27DE62185F9464003849B8 /* RPCSyncProjectStatistics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCSyncProjectStatistics.cpp; path = ../../../bslclient/src/RPCSyncProjectStatistics.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE63185F9464003849B8 /* RPCSyncProjectStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCSyncProjectStatistics.h; path = ../../../bslclient/src/RPCSyncProjectStatistics.h; sourceTree = SOURCE_ROOT; };
+		EB27DE64185F9464003849B8 /* RPCSyncState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCSyncState.cpp; path = ../../../bslclient/src/RPCSyncState.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE65185F9464003849B8 /* RPCSyncState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCSyncState.h; path = ../../../bslclient/src/RPCSyncState.h; sourceTree = SOURCE_ROOT; };
+		EB27DE66185F9464003849B8 /* RPCSyncTaskInstances.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCSyncTaskInstances.cpp; path = ../../../bslclient/src/RPCSyncTaskInstances.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE67185F9464003849B8 /* RPCSyncTaskInstances.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCSyncTaskInstances.h; path = ../../../bslclient/src/RPCSyncTaskInstances.h; sourceTree = SOURCE_ROOT; };
+		EB27DE68185F9464003849B8 /* RPCSyncTransfers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCSyncTransfers.cpp; path = ../../../bslclient/src/RPCSyncTransfers.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE69185F9464003849B8 /* RPCSyncTransfers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCSyncTransfers.h; path = ../../../bslclient/src/RPCSyncTransfers.h; sourceTree = SOURCE_ROOT; };
+		EB27DE6A185F9464003849B8 /* RPCTaskInstanceAbort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCTaskInstanceAbort.cpp; path = ../../../bslclient/src/RPCTaskInstanceAbort.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE6B185F9464003849B8 /* RPCTaskInstanceAbort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCTaskInstanceAbort.h; path = ../../../bslclient/src/RPCTaskInstanceAbort.h; sourceTree = SOURCE_ROOT; };
+		EB27DE6C185F9464003849B8 /* RPCTaskInstanceOperation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCTaskInstanceOperation.cpp; path = ../../../bslclient/src/RPCTaskInstanceOperation.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE6D185F9464003849B8 /* RPCTaskInstanceOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCTaskInstanceOperation.h; path = ../../../bslclient/src/RPCTaskInstanceOperation.h; sourceTree = SOURCE_ROOT; };
+		EB27DE6E185F9464003849B8 /* RPCTaskInstanceResume.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCTaskInstanceResume.cpp; path = ../../../bslclient/src/RPCTaskInstanceResume.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE6F185F9464003849B8 /* RPCTaskInstanceResume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCTaskInstanceResume.h; path = ../../../bslclient/src/RPCTaskInstanceResume.h; sourceTree = SOURCE_ROOT; };
+		EB27DE70185F9464003849B8 /* RPCTaskInstanceSuspend.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCTaskInstanceSuspend.cpp; path = ../../../bslclient/src/RPCTaskInstanceSuspend.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE71185F9464003849B8 /* RPCTaskInstanceSuspend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCTaskInstanceSuspend.h; path = ../../../bslclient/src/RPCTaskInstanceSuspend.h; sourceTree = SOURCE_ROOT; };
+		EB27DE72185F9464003849B8 /* RPCTransferAbort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCTransferAbort.cpp; path = ../../../bslclient/src/RPCTransferAbort.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE73185F9464003849B8 /* RPCTransferAbort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCTransferAbort.h; path = ../../../bslclient/src/RPCTransferAbort.h; sourceTree = SOURCE_ROOT; };
+		EB27DE74185F9464003849B8 /* RPCTransferOperation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCTransferOperation.cpp; path = ../../../bslclient/src/RPCTransferOperation.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE75185F9464003849B8 /* RPCTransferOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCTransferOperation.h; path = ../../../bslclient/src/RPCTransferOperation.h; sourceTree = SOURCE_ROOT; };
+		EB27DE76185F9464003849B8 /* RPCTransferRetry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPCTransferRetry.cpp; path = ../../../bslclient/src/RPCTransferRetry.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE77185F9464003849B8 /* RPCTransferRetry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCTransferRetry.h; path = ../../../bslclient/src/RPCTransferRetry.h; sourceTree = SOURCE_ROOT; };
+		EB27DE78185F9464003849B8 /* RPCTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCTypes.h; path = ../../../bslclient/src/RPCTypes.h; sourceTree = SOURCE_ROOT; };
+		EB27DE79185F9464003849B8 /* StateManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StateManager.cpp; path = ../../../bslclient/src/StateManager.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE7A185F9464003849B8 /* StateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StateManager.h; path = ../../../bslclient/src/StateManager.h; sourceTree = SOURCE_ROOT; };
+		EB27DE7B185F9464003849B8 /* StateManagerJob.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StateManagerJob.cpp; path = ../../../bslclient/src/StateManagerJob.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE7C185F9464003849B8 /* StateManagerJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StateManagerJob.h; path = ../../../bslclient/src/StateManagerJob.h; sourceTree = SOURCE_ROOT; };
+		EB27DE7D185F9464003849B8 /* StateManagerThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StateManagerThread.cpp; path = ../../../bslclient/src/StateManagerThread.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE7E185F9464003849B8 /* StateManagerThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StateManagerThread.h; path = ../../../bslclient/src/StateManagerThread.h; sourceTree = SOURCE_ROOT; };
+		EB27DE7F185F9464003849B8 /* StateWorkerThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StateWorkerThread.cpp; path = ../../../bslclient/src/StateWorkerThread.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE80185F9464003849B8 /* StateWorkerThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StateWorkerThread.h; path = ../../../bslclient/src/StateWorkerThread.h; sourceTree = SOURCE_ROOT; };
+		EB27DE81185F9464003849B8 /* wxMD5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wxMD5.cpp; path = ../../../bslclient/src/wxMD5.cpp; sourceTree = SOURCE_ROOT; };
+		EB27DE82185F9464003849B8 /* wxMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wxMD5.h; path = ../../../bslclient/src/wxMD5.h; sourceTree = SOURCE_ROOT; };
+		EB35B1AC1860E76600B3C798 /* BOINCSentinels.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = BOINCSentinels.xcconfig; path = ../Configurations/BOINCSentinels.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B1AD1860E76600B3C798 /* bslCommon.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = bslCommon.xcconfig; path = ../Configurations/bslCommon.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B1AE1860E76600B3C798 /* bslXML.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = bslXML.xcconfig; path = ../Configurations/bslXML.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B1AF1860E76600B3C798 /* LibDebug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = LibDebug.xcconfig; path = ../Configurations/LibDebug.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B1B01860E76600B3C798 /* LibRelease.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = LibRelease.xcconfig; path = ../Configurations/LibRelease.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B1B11860E76600B3C798 /* MacOSX.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = MacOSX.xcconfig; path = ../Configurations/MacOSX.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B1B21860E76600B3C798 /* Paths.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Paths.xcconfig; path = ../Configurations/Paths.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B1B41860E78200B3C798 /* bslClient.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = bslClient.xcconfig; path = ../Configurations/bslClient.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B1B51860E83700B3C798 /* bslClientDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = bslClientDebug.xcconfig; sourceTree = SOURCE_ROOT; };
+		EB35B1B61860E85000B3C798 /* bslClientRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = bslClientRelease.xcconfig; sourceTree = SOURCE_ROOT; };
+		EBA1DE0E1863FA8300CA1B18 /* wxWidgets30Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = wxWidgets30Debug.xcconfig; path = ../Configurations/wxWidgets30Debug.xcconfig; sourceTree = "<group>"; };
+		EBA1DE0F1863FA8300CA1B18 /* wxWidgets30Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = wxWidgets30Release.xcconfig; path = ../Configurations/wxWidgets30Release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB27DCA8185EBA4B003849B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB27DCA2185EBA4B003849B8 = {
+			isa = PBXGroup;
+			children = (
+				EB35B1A91860E73000B3C798 /* Configurations */,
+				EB27DDE0185F9464003849B8 /* Sources */,
+				EB27DCAC185EBA4B003849B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB27DCAC185EBA4B003849B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB27DCAB185EBA4B003849B8 /* libbslclient.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB27DDE0185F9464003849B8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EB27DDE5185F9464003849B8 /* include */,
+				EB27DDEB185F9464003849B8 /* src */,
+			);
+			name = Sources;
+			path = ../../../bslclient;
+			sourceTree = "<group>";
+		};
+		EB27DDE5185F9464003849B8 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				EB27DDE6185F9464003849B8 /* bslclient */,
+			);
+			name = include;
+			path = ../../../bslclient/include;
+			sourceTree = SOURCE_ROOT;
+		};
+		EB27DDE6185F9464003849B8 /* bslclient */ = {
+			isa = PBXGroup;
+			children = (
+				EB27DDE7185F9464003849B8 /* bslClient.h */,
+				EB27DDE8185F9464003849B8 /* bslClientEventDefs.hxx */,
+				EB27DDE9185F9464003849B8 /* bslClientEvents.h */,
+			);
+			name = bslclient;
+			path = ../../../bslclient/include/bslclient;
+			sourceTree = SOURCE_ROOT;
+		};
+		EB27DDEB185F9464003849B8 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				EB27DDEC185F9464003849B8 /* bslClient.cpp */,
+				EB27DDED185F9464003849B8 /* bslClientEvents.cpp */,
+				EB27DDEE185F9464003849B8 /* ClientState.cpp */,
+				EB27DDEF185F9464003849B8 /* ClientState.h */,
+				EB27DDF0185F9464003849B8 /* ClientStateApp.cpp */,
+				EB27DDF1185F9464003849B8 /* ClientStateApp.h */,
+				EB27DDF2185F9464003849B8 /* ClientStateAppVersion.cpp */,
+				EB27DDF3185F9464003849B8 /* ClientStateAppVersion.h */,
+				EB27DDF4185F9464003849B8 /* ClientStateDatabase.cpp */,
+				EB27DDF5185F9464003849B8 /* ClientStateDatabase.h */,
+				EB27DDF6185F9464003849B8 /* ClientStateEventDefs.hxx */,
+				EB27DDF7185F9464003849B8 /* ClientStateEvents.cpp */,
+				EB27DDF8185F9464003849B8 /* ClientStateEvents.h */,
+				EB27DDF9185F9464003849B8 /* ClientStateHost.cpp */,
+				EB27DDFA185F9464003849B8 /* ClientStateHost.h */,
+				EB27DDFB185F9464003849B8 /* ClientStateHostStatus.cpp */,
+				EB27DDFC185F9464003849B8 /* ClientStateHostStatus.h */,
+				EB27DDFD185F9464003849B8 /* ClientStateMessage.cpp */,
+				EB27DDFE185F9464003849B8 /* ClientStateMessage.h */,
+				EB27DDFF185F9464003849B8 /* ClientStateNotification.cpp */,
+				EB27DE00185F9464003849B8 /* ClientStateNotification.h */,
+				EB27DE01185F9464003849B8 /* ClientStateObject.cpp */,
+				EB27DE02185F9464003849B8 /* ClientStateObject.h */,
+				EB27DE03185F9464003849B8 /* ClientStateProject.cpp */,
+				EB27DE04185F9464003849B8 /* ClientStateProject.h */,
+				EB27DE05185F9464003849B8 /* ClientStateProjectLink.cpp */,
+				EB27DE06185F9464003849B8 /* ClientStateProjectLink.h */,
+				EB27DE07185F9464003849B8 /* ClientStateProjectListItem.cpp */,
+				EB27DE08185F9464003849B8 /* ClientStateProjectListItem.h */,
+				EB27DE09185F9464003849B8 /* ClientStateProjectStatistic.cpp */,
+				EB27DE0A185F9464003849B8 /* ClientStateProjectStatistic.h */,
+				EB27DE0B185F9464003849B8 /* ClientStateRPCProfile.cpp */,
+				EB27DE0C185F9464003849B8 /* ClientStateRPCProfile.h */,
+				EB27DE0D185F9464003849B8 /* ClientStateSyncProfile.cpp */,
+				EB27DE0E185F9464003849B8 /* ClientStateSyncProfile.h */,
+				EB27DE0F185F9464003849B8 /* ClientStateTask.cpp */,
+				EB27DE10185F9464003849B8 /* ClientStateTask.h */,
+				EB27DE11185F9464003849B8 /* ClientStateTaskInstance.cpp */,
+				EB27DE12185F9464003849B8 /* ClientStateTaskInstance.h */,
+				EB27DE13185F9464003849B8 /* ClientStateTransfer.cpp */,
+				EB27DE14185F9464003849B8 /* ClientStateTransfer.h */,
+				EB27DE15185F9464003849B8 /* ClientStateTypes.h */,
+				EB27DE16185F9464003849B8 /* EventManager.cpp */,
+				EB27DE17185F9464003849B8 /* EventManager.h */,
+				EB27DE18185F9464003849B8 /* EventManagerTypes.h */,
+				EB27DE19185F9464003849B8 /* GarbageCollector.cpp */,
+				EB27DE1A185F9464003849B8 /* GarbageCollector.h */,
+				EB27DE1B185F9464003849B8 /* Instance.cpp */,
+				EB27DE1C185F9464003849B8 /* Instance.h */,
+				EB27DE1E185F9464003849B8 /* RPCAuthorize.cpp */,
+				EB27DE1F185F9464003849B8 /* RPCAuthorize.h */,
+				EB27DE20185F9464003849B8 /* RPCConnection.cpp */,
+				EB27DE21185F9464003849B8 /* RPCConnection.h */,
+				EB27DE22185F9464003849B8 /* RPCCreateAccount.cpp */,
+				EB27DE23185F9464003849B8 /* RPCCreateAccount.h */,
+				EB27DE24185F9464003849B8 /* RPCCreateAccountPoll.cpp */,
+				EB27DE25185F9464003849B8 /* RPCCreateAccountPoll.h */,
+				EB27DE26185F9464003849B8 /* RPCExchangeVersions.cpp */,
+				EB27DE27185F9464003849B8 /* RPCExchangeVersions.h */,
+				EB27DE28185F9464003849B8 /* RPCLookupAccount.cpp */,
+				EB27DE29185F9464003849B8 /* RPCLookupAccount.h */,
+				EB27DE2A185F9464003849B8 /* RPCLookupAccountPoll.cpp */,
+				EB27DE2B185F9464003849B8 /* RPCLookupAccountPoll.h */,
+				EB27DE2C185F9464003849B8 /* RPCManager.cpp */,
+				EB27DE2D185F9464003849B8 /* RPCManager.h */,
+				EB27DE2E185F9464003849B8 /* RPCNetworkAvailable.cpp */,
+				EB27DE2F185F9464003849B8 /* RPCNetworkAvailable.h */,
+				EB27DE30185F9464003849B8 /* RPCProjectAllowMoreWork.cpp */,
+				EB27DE31185F9464003849B8 /* RPCProjectAllowMoreWork.h */,
+				EB27DE32185F9464003849B8 /* RPCProjectAttach.cpp */,
+				EB27DE33185F9464003849B8 /* RPCProjectAttach.h */,
+				EB27DE34185F9464003849B8 /* RPCProjectAttachPoll.cpp */,
+				EB27DE35185F9464003849B8 /* RPCProjectAttachPoll.h */,
+				EB27DE36185F9464003849B8 /* RPCProjectDetach.cpp */,
+				EB27DE37185F9464003849B8 /* RPCProjectDetach.h */,
+				EB27DE38185F9464003849B8 /* RPCProjectDetachWhenDone.cpp */,
+				EB27DE39185F9464003849B8 /* RPCProjectDetachWhenDone.h */,
+				EB27DE3A185F9464003849B8 /* RPCProjectDontDetachWhenDone.cpp */,
+				EB27DE3B185F9464003849B8 /* RPCProjectDontDetachWhenDone.h */,
+				EB27DE3C185F9464003849B8 /* RPCProjectNoMoreWork.cpp */,
+				EB27DE3D185F9464003849B8 /* RPCProjectNoMoreWork.h */,
+				EB27DE3E185F9464003849B8 /* RPCProjectOperation.cpp */,
+				EB27DE3F185F9464003849B8 /* RPCProjectOperation.h */,
+				EB27DE40185F9464003849B8 /* RPCProjectReset.cpp */,
+				EB27DE41185F9464003849B8 /* RPCProjectReset.h */,
+				EB27DE42185F9464003849B8 /* RPCProjectResume.cpp */,
+				EB27DE43185F9464003849B8 /* RPCProjectResume.h */,
+				EB27DE44185F9464003849B8 /* RPCProjectSuspend.cpp */,
+				EB27DE45185F9464003849B8 /* RPCProjectSuspend.h */,
+				EB27DE46185F9464003849B8 /* RPCProjectUpdate.cpp */,
+				EB27DE47185F9464003849B8 /* RPCProjectUpdate.h */,
+				EB27DE48185F9464003849B8 /* RPCProtocol.cpp */,
+				EB27DE49185F9464003849B8 /* RPCProtocol.h */,
+				EB27DE4A185F9464003849B8 /* RPCRunBenchmarks.cpp */,
+				EB27DE4B185F9464003849B8 /* RPCRunBenchmarks.h */,
+				EB27DE4C185F9464003849B8 /* RPCSetModeCPU.cpp */,
+				EB27DE4D185F9464003849B8 /* RPCSetModeCPU.h */,
+				EB27DE4E185F9464003849B8 /* RPCSetModeGPU.cpp */,
+				EB27DE4F185F9464003849B8 /* RPCSetModeGPU.h */,
+				EB27DE50185F9464003849B8 /* RPCSetModeNetwork.cpp */,
+				EB27DE51185F9464003849B8 /* RPCSetModeNetwork.h */,
+				EB27DE52185F9464003849B8 /* RPCSetModeOperation.cpp */,
+				EB27DE53185F9464003849B8 /* RPCSetModeOperation.h */,
+				EB27DE54185F9464003849B8 /* RPCShutdown.cpp */,
+				EB27DE55185F9464003849B8 /* RPCShutdown.h */,
+				EB27DE56185F9464003849B8 /* RPCSyncHost.cpp */,
+				EB27DE57185F9464003849B8 /* RPCSyncHost.h */,
+				EB27DE58185F9464003849B8 /* RPCSyncHostStatus.cpp */,
+				EB27DE59185F9464003849B8 /* RPCSyncHostStatus.h */,
+				EB27DE5A185F9464003849B8 /* RPCSyncMessages.cpp */,
+				EB27DE5B185F9464003849B8 /* RPCSyncMessages.h */,
+				EB27DE5C185F9464003849B8 /* RPCSyncNotifications.cpp */,
+				EB27DE5D185F9464003849B8 /* RPCSyncNotifications.h */,
+				EB27DE5E185F9464003849B8 /* RPCSyncProjectList.cpp */,
+				EB27DE5F185F9464003849B8 /* RPCSyncProjectList.h */,
+				EB27DE60185F9464003849B8 /* RPCSyncProjects.cpp */,
+				EB27DE61185F9464003849B8 /* RPCSyncProjects.h */,
+				EB27DE62185F9464003849B8 /* RPCSyncProjectStatistics.cpp */,
+				EB27DE63185F9464003849B8 /* RPCSyncProjectStatistics.h */,
+				EB27DE64185F9464003849B8 /* RPCSyncState.cpp */,
+				EB27DE65185F9464003849B8 /* RPCSyncState.h */,
+				EB27DE66185F9464003849B8 /* RPCSyncTaskInstances.cpp */,
+				EB27DE67185F9464003849B8 /* RPCSyncTaskInstances.h */,
+				EB27DE68185F9464003849B8 /* RPCSyncTransfers.cpp */,
+				EB27DE69185F9464003849B8 /* RPCSyncTransfers.h */,
+				EB27DE6A185F9464003849B8 /* RPCTaskInstanceAbort.cpp */,
+				EB27DE6B185F9464003849B8 /* RPCTaskInstanceAbort.h */,
+				EB27DE6C185F9464003849B8 /* RPCTaskInstanceOperation.cpp */,
+				EB27DE6D185F9464003849B8 /* RPCTaskInstanceOperation.h */,
+				EB27DE6E185F9464003849B8 /* RPCTaskInstanceResume.cpp */,
+				EB27DE6F185F9464003849B8 /* RPCTaskInstanceResume.h */,
+				EB27DE70185F9464003849B8 /* RPCTaskInstanceSuspend.cpp */,
+				EB27DE71185F9464003849B8 /* RPCTaskInstanceSuspend.h */,
+				EB27DE72185F9464003849B8 /* RPCTransferAbort.cpp */,
+				EB27DE73185F9464003849B8 /* RPCTransferAbort.h */,
+				EB27DE74185F9464003849B8 /* RPCTransferOperation.cpp */,
+				EB27DE75185F9464003849B8 /* RPCTransferOperation.h */,
+				EB27DE76185F9464003849B8 /* RPCTransferRetry.cpp */,
+				EB27DE77185F9464003849B8 /* RPCTransferRetry.h */,
+				EB27DE78185F9464003849B8 /* RPCTypes.h */,
+				EB27DE79185F9464003849B8 /* StateManager.cpp */,
+				EB27DE7A185F9464003849B8 /* StateManager.h */,
+				EB27DE7B185F9464003849B8 /* StateManagerJob.cpp */,
+				EB27DE7C185F9464003849B8 /* StateManagerJob.h */,
+				EB27DE7D185F9464003849B8 /* StateManagerThread.cpp */,
+				EB27DE7E185F9464003849B8 /* StateManagerThread.h */,
+				EB27DE7F185F9464003849B8 /* StateWorkerThread.cpp */,
+				EB27DE80185F9464003849B8 /* StateWorkerThread.h */,
+				EB27DE81185F9464003849B8 /* wxMD5.cpp */,
+				EB27DE82185F9464003849B8 /* wxMD5.h */,
+			);
+			name = src;
+			path = ../../../bslclient/src;
+			sourceTree = SOURCE_ROOT;
+		};
+		EB35B1A91860E73000B3C798 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				EB35B1AA1860E74000B3C798 /* Project */,
+				EB35B1AB1860E74F00B3C798 /* Shreds */,
+			);
+			name = Configurations;
+			sourceTree = "<group>";
+		};
+		EB35B1AA1860E74000B3C798 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				EB35B1B51860E83700B3C798 /* bslClientDebug.xcconfig */,
+				EB35B1B61860E85000B3C798 /* bslClientRelease.xcconfig */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		EB35B1AB1860E74F00B3C798 /* Shreds */ = {
+			isa = PBXGroup;
+			children = (
+				EB35B1AC1860E76600B3C798 /* BOINCSentinels.xcconfig */,
+				EB35B1B41860E78200B3C798 /* bslClient.xcconfig */,
+				EB35B1AD1860E76600B3C798 /* bslCommon.xcconfig */,
+				EB35B1AE1860E76600B3C798 /* bslXML.xcconfig */,
+				EB35B1AF1860E76600B3C798 /* LibDebug.xcconfig */,
+				EB35B1B01860E76600B3C798 /* LibRelease.xcconfig */,
+				EB35B1B11860E76600B3C798 /* MacOSX.xcconfig */,
+				EB35B1B21860E76600B3C798 /* Paths.xcconfig */,
+				EBA1DE0E1863FA8300CA1B18 /* wxWidgets30Debug.xcconfig */,
+				EBA1DE0F1863FA8300CA1B18 /* wxWidgets30Release.xcconfig */,
+			);
+			name = Shreds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EB27DCA9185EBA4B003849B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB27DEE6185F9464003849B8 /* RPCAuthorize.h in Headers */,
+				EB27DEF0185F9464003849B8 /* RPCLookupAccount.h in Headers */,
+				EB27DEE4185F9464003849B8 /* Instance.h in Headers */,
+				EB27DF2C185F9464003849B8 /* RPCSyncState.h in Headers */,
+				EB27DF1C185F9464003849B8 /* RPCShutdown.h in Headers */,
+				EB27DEC6185F9464003849B8 /* ClientStateMessage.h in Headers */,
+				EB27DECC185F9464003849B8 /* ClientStateProject.h in Headers */,
+				EB27DF36185F9464003849B8 /* RPCTaskInstanceResume.h in Headers */,
+				EB27DF41185F9464003849B8 /* StateManager.h in Headers */,
+				EB27DF0A185F9464003849B8 /* RPCProjectResume.h in Headers */,
+				EB27DF34185F9464003849B8 /* RPCTaskInstanceOperation.h in Headers */,
+				EB27DF00185F9464003849B8 /* RPCProjectDetachWhenDone.h in Headers */,
+				EB27DF18185F9464003849B8 /* RPCSetModeNetwork.h in Headers */,
+				EB27DEBD185F9464003849B8 /* ClientStateDatabase.h in Headers */,
+				EB27DED2185F9464003849B8 /* ClientStateProjectStatistic.h in Headers */,
+				EB27DEB3185F9464003849B8 /* bslClientEvents.h in Headers */,
+				EB27DF32185F9464003849B8 /* RPCTaskInstanceAbort.h in Headers */,
+				EB27DEDD185F9464003849B8 /* ClientStateTypes.h in Headers */,
+				EB27DF28185F9464003849B8 /* RPCSyncProjects.h in Headers */,
+				EB27DEF8185F9464003849B8 /* RPCProjectAllowMoreWork.h in Headers */,
+				EB27DEBE185F9464003849B8 /* ClientStateEventDefs.hxx in Headers */,
+				EB27DEB2185F9464003849B8 /* bslClientEventDefs.hxx in Headers */,
+				EB27DEFE185F9464003849B8 /* RPCProjectDetach.h in Headers */,
+				EB27DEC2185F9464003849B8 /* ClientStateHost.h in Headers */,
+				EB27DF43185F9464003849B8 /* StateManagerJob.h in Headers */,
+				EB27DEB9185F9464003849B8 /* ClientStateApp.h in Headers */,
+				EB27DEEC185F9464003849B8 /* RPCCreateAccountPoll.h in Headers */,
+				EB27DF3C185F9464003849B8 /* RPCTransferOperation.h in Headers */,
+				EB27DEB7185F9464003849B8 /* ClientState.h in Headers */,
+				EB27DEEA185F9464003849B8 /* RPCCreateAccount.h in Headers */,
+				EB27DED4185F9464003849B8 /* ClientStateRPCProfile.h in Headers */,
+				EB27DECE185F9464003849B8 /* ClientStateProjectLink.h in Headers */,
+				EB27DF0E185F9464003849B8 /* RPCProjectUpdate.h in Headers */,
+				EB27DEB1185F9464003849B8 /* bslClient.h in Headers */,
+				EB27DF1A185F9464003849B8 /* RPCSetModeOperation.h in Headers */,
+				EB27DEF4185F9464003849B8 /* RPCManager.h in Headers */,
+				EB27DEDF185F9464003849B8 /* EventManager.h in Headers */,
+				EB27DF20185F9464003849B8 /* RPCSyncHostStatus.h in Headers */,
+				EB27DEE2185F9464003849B8 /* GarbageCollector.h in Headers */,
+				EB27DF47185F9464003849B8 /* StateWorkerThread.h in Headers */,
+				EB27DF08185F9464003849B8 /* RPCProjectReset.h in Headers */,
+				EB27DF26185F9464003849B8 /* RPCSyncProjectList.h in Headers */,
+				EB27DEDA185F9464003849B8 /* ClientStateTaskInstance.h in Headers */,
+				EB27DEFC185F9464003849B8 /* RPCProjectAttachPoll.h in Headers */,
+				EB27DF3E185F9464003849B8 /* RPCTransferRetry.h in Headers */,
+				EB27DEF2185F9464003849B8 /* RPCLookupAccountPoll.h in Headers */,
+				EB27DF0C185F9464003849B8 /* RPCProjectSuspend.h in Headers */,
+				EB27DF38185F9464003849B8 /* RPCTaskInstanceSuspend.h in Headers */,
+				EB27DF24185F9464003849B8 /* RPCSyncNotifications.h in Headers */,
+				EB27DF49185F9464003849B8 /* wxMD5.h in Headers */,
+				EB27DED8185F9464003849B8 /* ClientStateTask.h in Headers */,
+				EB27DF1E185F9464003849B8 /* RPCSyncHost.h in Headers */,
+				EB27DF04185F9464003849B8 /* RPCProjectNoMoreWork.h in Headers */,
+				EB27DEDC185F9464003849B8 /* ClientStateTransfer.h in Headers */,
+				EB27DF22185F9464003849B8 /* RPCSyncMessages.h in Headers */,
+				EB27DF14185F9464003849B8 /* RPCSetModeCPU.h in Headers */,
+				EB27DEEE185F9464003849B8 /* RPCExchangeVersions.h in Headers */,
+				EB27DEC0185F9464003849B8 /* ClientStateEvents.h in Headers */,
+				EB27DF30185F9464003849B8 /* RPCSyncTransfers.h in Headers */,
+				EB27DEE8185F9464003849B8 /* RPCConnection.h in Headers */,
+				EB27DEBB185F9464003849B8 /* ClientStateAppVersion.h in Headers */,
+				EB27DED0185F9464003849B8 /* ClientStateProjectListItem.h in Headers */,
+				EB27DF3F185F9464003849B8 /* RPCTypes.h in Headers */,
+				EB27DEFA185F9464003849B8 /* RPCProjectAttach.h in Headers */,
+				EB27DF2A185F9464003849B8 /* RPCSyncProjectStatistics.h in Headers */,
+				EB27DECA185F9464003849B8 /* ClientStateObject.h in Headers */,
+				EB27DEF6185F9464003849B8 /* RPCNetworkAvailable.h in Headers */,
+				EB27DEE0185F9464003849B8 /* EventManagerTypes.h in Headers */,
+				EB27DF2E185F9464003849B8 /* RPCSyncTaskInstances.h in Headers */,
+				EB27DF45185F9464003849B8 /* StateManagerThread.h in Headers */,
+				EB27DF10185F9464003849B8 /* RPCProtocol.h in Headers */,
+				EB27DF16185F9464003849B8 /* RPCSetModeGPU.h in Headers */,
+				EB27DEC8185F9464003849B8 /* ClientStateNotification.h in Headers */,
+				EB27DF3A185F9464003849B8 /* RPCTransferAbort.h in Headers */,
+				EB27DF06185F9464003849B8 /* RPCProjectOperation.h in Headers */,
+				EB27DF12185F9464003849B8 /* RPCRunBenchmarks.h in Headers */,
+				EB27DEC4185F9464003849B8 /* ClientStateHostStatus.h in Headers */,
+				EB27DF02185F9464003849B8 /* RPCProjectDontDetachWhenDone.h in Headers */,
+				EB27DED6185F9464003849B8 /* ClientStateSyncProfile.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EB27DCAA185EBA4B003849B8 /* bslclient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB27DCAF185EBA4B003849B8 /* Build configuration list for PBXNativeTarget "bslclient" */;
+			buildPhases = (
+				EB27DCA7185EBA4B003849B8 /* Sources */,
+				EB27DCA8185EBA4B003849B8 /* Frameworks */,
+				EB27DCA9185EBA4B003849B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bslclient;
+			productName = bslclient;
+			productReference = EB27DCAB185EBA4B003849B8 /* libbslclient.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB27DCA3185EBA4B003849B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "BOINC Sentinels Team";
+			};
+			buildConfigurationList = EB27DCA6185EBA4B003849B8 /* Build configuration list for PBXProject "bslclient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB27DCA2185EBA4B003849B8;
+			productRefGroup = EB27DCAC185EBA4B003849B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB27DCAA185EBA4B003849B8 /* bslclient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB27DCA7185EBA4B003849B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB27DF03185F9464003849B8 /* RPCProjectNoMoreWork.cpp in Sources */,
+				EB27DEC5185F9464003849B8 /* ClientStateMessage.cpp in Sources */,
+				EB27DF05185F9464003849B8 /* RPCProjectOperation.cpp in Sources */,
+				EB27DED5185F9464003849B8 /* ClientStateSyncProfile.cpp in Sources */,
+				EB27DF1D185F9464003849B8 /* RPCSyncHost.cpp in Sources */,
+				EB27DF11185F9464003849B8 /* RPCRunBenchmarks.cpp in Sources */,
+				EB27DEC9185F9464003849B8 /* ClientStateObject.cpp in Sources */,
+				EB27DF17185F9464003849B8 /* RPCSetModeNetwork.cpp in Sources */,
+				EB27DEC3185F9464003849B8 /* ClientStateHostStatus.cpp in Sources */,
+				EB27DEED185F9464003849B8 /* RPCExchangeVersions.cpp in Sources */,
+				EB27DEDE185F9464003849B8 /* EventManager.cpp in Sources */,
+				EB27DF29185F9464003849B8 /* RPCSyncProjectStatistics.cpp in Sources */,
+				EB27DF3B185F9464003849B8 /* RPCTransferOperation.cpp in Sources */,
+				EB27DED7185F9464003849B8 /* ClientStateTask.cpp in Sources */,
+				EB27DEF7185F9464003849B8 /* RPCProjectAllowMoreWork.cpp in Sources */,
+				EB27DEB8185F9464003849B8 /* ClientStateApp.cpp in Sources */,
+				EB27DF1B185F9464003849B8 /* RPCShutdown.cpp in Sources */,
+				EB27DEBC185F9464003849B8 /* ClientStateDatabase.cpp in Sources */,
+				EB27DEC7185F9464003849B8 /* ClientStateNotification.cpp in Sources */,
+				EB27DEE5185F9464003849B8 /* RPCAuthorize.cpp in Sources */,
+				EB27DEFF185F9464003849B8 /* RPCProjectDetachWhenDone.cpp in Sources */,
+				EB27DEFD185F9464003849B8 /* RPCProjectDetach.cpp in Sources */,
+				EB27DF09185F9464003849B8 /* RPCProjectResume.cpp in Sources */,
+				EB27DED3185F9464003849B8 /* ClientStateRPCProfile.cpp in Sources */,
+				EB27DF46185F9464003849B8 /* StateWorkerThread.cpp in Sources */,
+				EB27DEFB185F9464003849B8 /* RPCProjectAttachPoll.cpp in Sources */,
+				EB27DEF9185F9464003849B8 /* RPCProjectAttach.cpp in Sources */,
+				EB27DF35185F9464003849B8 /* RPCTaskInstanceResume.cpp in Sources */,
+				EB27DF44185F9464003849B8 /* StateManagerThread.cpp in Sources */,
+				EB27DF40185F9464003849B8 /* StateManager.cpp in Sources */,
+				EB27DF3D185F9464003849B8 /* RPCTransferRetry.cpp in Sources */,
+				EB27DECD185F9464003849B8 /* ClientStateProjectLink.cpp in Sources */,
+				EB27DECF185F9464003849B8 /* ClientStateProjectListItem.cpp in Sources */,
+				EB27DF21185F9464003849B8 /* RPCSyncMessages.cpp in Sources */,
+				EB27DF07185F9464003849B8 /* RPCProjectReset.cpp in Sources */,
+				EB27DEC1185F9464003849B8 /* ClientStateHost.cpp in Sources */,
+				EB27DEEF185F9464003849B8 /* RPCLookupAccount.cpp in Sources */,
+				EB27DF27185F9464003849B8 /* RPCSyncProjects.cpp in Sources */,
+				EB27DF25185F9464003849B8 /* RPCSyncProjectList.cpp in Sources */,
+				EB27DF31185F9464003849B8 /* RPCTaskInstanceAbort.cpp in Sources */,
+				EB27DEEB185F9464003849B8 /* RPCCreateAccountPoll.cpp in Sources */,
+				EB27DED9185F9464003849B8 /* ClientStateTaskInstance.cpp in Sources */,
+				EB27DEB4185F9464003849B8 /* bslClient.cpp in Sources */,
+				EB27DEBA185F9464003849B8 /* ClientStateAppVersion.cpp in Sources */,
+				EB27DEBF185F9464003849B8 /* ClientStateEvents.cpp in Sources */,
+				EB27DF42185F9464003849B8 /* StateManagerJob.cpp in Sources */,
+				EB27DEF1185F9464003849B8 /* RPCLookupAccountPoll.cpp in Sources */,
+				EB27DF48185F9464003849B8 /* wxMD5.cpp in Sources */,
+				EB27DF13185F9464003849B8 /* RPCSetModeCPU.cpp in Sources */,
+				EB27DF1F185F9464003849B8 /* RPCSyncHostStatus.cpp in Sources */,
+				EB27DEF5185F9464003849B8 /* RPCNetworkAvailable.cpp in Sources */,
+				EB27DF33185F9464003849B8 /* RPCTaskInstanceOperation.cpp in Sources */,
+				EB27DEDB185F9464003849B8 /* ClientStateTransfer.cpp in Sources */,
+				EB27DEE7185F9464003849B8 /* RPCConnection.cpp in Sources */,
+				EB27DEE3185F9464003849B8 /* Instance.cpp in Sources */,
+				EB27DF15185F9464003849B8 /* RPCSetModeGPU.cpp in Sources */,
+				EB27DF0F185F9464003849B8 /* RPCProtocol.cpp in Sources */,
+				EB27DF39185F9464003849B8 /* RPCTransferAbort.cpp in Sources */,
+				EB27DF2F185F9464003849B8 /* RPCSyncTransfers.cpp in Sources */,
+				EB27DF0D185F9464003849B8 /* RPCProjectUpdate.cpp in Sources */,
+				EB27DEE9185F9464003849B8 /* RPCCreateAccount.cpp in Sources */,
+				EB27DF01185F9464003849B8 /* RPCProjectDontDetachWhenDone.cpp in Sources */,
+				EB27DEB5185F9464003849B8 /* bslClientEvents.cpp in Sources */,
+				EB27DEB6185F9464003849B8 /* ClientState.cpp in Sources */,
+				EB27DF2B185F9464003849B8 /* RPCSyncState.cpp in Sources */,
+				EB27DEE1185F9464003849B8 /* GarbageCollector.cpp in Sources */,
+				EB27DF0B185F9464003849B8 /* RPCProjectSuspend.cpp in Sources */,
+				EB27DECB185F9464003849B8 /* ClientStateProject.cpp in Sources */,
+				EB27DF37185F9464003849B8 /* RPCTaskInstanceSuspend.cpp in Sources */,
+				EB27DF2D185F9464003849B8 /* RPCSyncTaskInstances.cpp in Sources */,
+				EB27DF19185F9464003849B8 /* RPCSetModeOperation.cpp in Sources */,
+				EB27DF23185F9464003849B8 /* RPCSyncNotifications.cpp in Sources */,
+				EB27DED1185F9464003849B8 /* ClientStateProjectStatistic.cpp in Sources */,
+				EB27DEF3185F9464003849B8 /* RPCManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EB27DCAD185EBA4B003849B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EB27DCAE185EBA4B003849B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EB27DCB0185EBA4B003849B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB35B1B51860E83700B3C798 /* bslClientDebug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EB27DCB1185EBA4B003849B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB35B1B61860E85000B3C798 /* bslClientRelease.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB27DCA6185EBA4B003849B8 /* Build configuration list for PBXProject "bslclient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB27DCAD185EBA4B003849B8 /* Debug */,
+				EB27DCAE185EBA4B003849B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB27DCAF185EBA4B003849B8 /* Build configuration list for PBXNativeTarget "bslclient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB27DCB0185EBA4B003849B8 /* Debug */,
+				EB27DCB1185EBA4B003849B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB27DCA3185EBA4B003849B8 /* Project object */;
+}
